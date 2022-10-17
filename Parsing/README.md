@@ -120,3 +120,48 @@ conda activate intervene`
 `intervene venn --type list --save-overlaps -i *target*`
 
 4. Los archivos de resultados se guardan en la carpeta "Intervene_results"
+
+## Reorganizando la tabla de resultados de HMMER
+
+Hay un problema que nos evita tomar información de utilidad y ordenarla en otra tabla: las tablas de resultados de hmmsearch están separadas por varios espacios. Cosa que visualmente no hay gran problema pero para pedirle a bash que lo extraiga es... complicado.
+
+La solución que se me ocurrió en un momento de iluminación fue:
+
+### Solución 1
+
+#### Paso 1
+
+Reemplaza todos los espacios en blanco múltiples por solo uno. Seguiremos este [truco con python](https://stackoverflow.com/questions/37445285/how-to-best-replace-multiple-whitespaces-by-one-in-python) para sustituir multiples espacios en blanco por solo uno. Básicamente:
+
+`import re
+
+tab = open(r'/home/raulrosas/Documentos/IFC/Pruebas/tab_test_nol.tab', 'r')
+
+hmm_tab = tab.read()
+
+tab.close()
+
+hmm_tab = re.sub(' +', ' ',hmm_tab)
+
+hmm_tab # Aqui ya solo tiene un espacio que separa texto... progeso?
+
+save_tab = open('clean_tab.tab','w+')
+
+save_tab.writelines(hmm_tab)
+
+save_tab = save_tab.close()
+`
+
+#### Paso 2
+
+Ahora reemplazar ese espacio simple por tabs. Quise hacerlo con sed pero no me acuerdo muy bien como se hace, si me acuerdo lo pongo si no lo pongo como me salió con AWK:
+
+`awk -F'[[:blank:]]' -v OFS="\t" '{$1=$1; print}' input.txt > output.txt`
+
+#### Paso 3
+
+Ahora prueba cortar columnas especiales. Puede que para esto necesitemos quitar los "-" guiones intermedios sin quitar los guines importantes en los e-value. Pero no es necesario ya que podemos ya con este archivo cortar nuestras columnas de interés. Así que ¿qué te parece si enumeramos columnas?:
+
+`head -1 file.tab | sed 's/\t/\n/g' | cat -n > wowo.txt`
+
+Con eso solo restaría identificar qué columnas quieres... y qué son cada una claro. Eso lo puedes hacer a mano o que te enseñen una forma menos elaborada de hacer todo esto.
