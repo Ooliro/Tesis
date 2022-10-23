@@ -1,59 +1,58 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
+
+# Abre el archivo limpio de encabezados y colas innecesarios. 
+# Todos los archivos de salida de HMMER tienen "#" al inicio así que purga esos.
 
 import re
+import sys
 
-tab = open(r'/home/rolivares/Documentos/Tesis/lab/raw_res/noheadtail_specdomt.tab', 'r')
+infile = input("File's absolute path:") # Pregunta por la ubicación del archivo a convertir
+tab = open(infile, 'r')
 hmm_tab = tab.read()
 tab.close()
 
-# Abre el archivo limpio de encabezados y colas innecesarios. Todos los archivos de salida de HMMER tienen "#" al inicio así que purga esos.
 
-
-# In[ ]:
+# In[7]:
 
 
 hmm_tab = re.sub(' +', ' ',hmm_tab)
 
-hmm_tab 
-
 # Reemplaza varios espacios en blanco por solo uno.
 
 
-# In[ ]:
+# In[8]:
 
 
-save_tab = open('pre_tabbed.tab','w+')
+# Guarda esta primera tabla delimitada por espacios simples. No es necesario por ahora!
 
-save_tab.writelines(hmm_tab)
-
-save_tab = save_tab.close()
-
-# Guarda esta primera tabla delimitada por espacios simples
+#save_tab = open('pre_tabbed.tab','w+')
+#save_tab.writelines(hmm_tab)
+#save_tab = save_tab.close()
 
 
-# In[ ]:
+# In[9]:
 
-
-tab2 = open(r'/home/rolivares/Documentos/Tesis/lab/pre_tabbed.tab', 'r')
-noht_tab = tab2.read()
-tab2.close()
 
 # Abre esta primera tabla delimitada por espacios simples
 
+#tab2 = open(r'/home/rolivares/Documentos/Tesis/lab/pre_tabbed.tab', 'r')
+#noht_tab = tab2.read()
+#tab2.close()
 
-# In[ ]:
+
+# In[10]:
 
 
-final_tab= noht_tab.replace(' ', '\t')
+final_tab = hmm_tab.replace(' ', '\t')
 
 # Reemplaza los espacios simples por tabs.
 
 
-# In[ ]:
+# In[17]:
 
 
 save_tab = open('tabbed.tab','w+')
@@ -61,6 +60,8 @@ save_tab = open('tabbed.tab','w+')
 save_tab.writelines(final_tab)
 
 save_tab = save_tab.close()
+
+print("Done! Your tabbed.tab file is on the same directory as this python script")
 
 # Guarda esta segunda tabla delimitada por tabs.
 

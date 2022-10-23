@@ -10,4 +10,20 @@ Con estas tablas sin encabezados ni colas corre el script de python para tener t
 
 ## Paso 2 - Corre el script de python en la terminal
 
-...en eso estamos. 
+Puedes descargar el script de Python 3 "whtspc4tab.py" y ejecutarlo desde tu terminal de Linux de la siguiente manera:
+
+`$ ipython whtspc4tab.py`
+
+Obtendrás esta respuesta:
+
+`File's absolute path:`
+
+Donde debes especificar la ruta donde está guardado tu tabla a trabajar. Por ejemplo:
+
+`/home/usuario/Documentos/tabla_de_hmmer.tab` 
+
+En cuanto le proveas la dirección recibirás un mensaje de confirmación de que tu tabla está lista. La misma se guarda en el mismo directorio donde está el script de python que descargaste. Puedes constatar que la tabla esta separada por tabs y no por espacios con:
+
+`cat --show-tabs tabbed.tab | head`
+
+Y los tabs estarán representados con un `^`.
