@@ -1,5 +1,12 @@
 # Parseo de tablas de resultados de HMMER
 
+## Contenidos
+
+- Col_index.txt - Índice de columnas de las tablas de hmmsearch
+- Replace_whtspc4tab.ipynb - Script de seguimiento. Importante solo si quieres modificarlo de alguna manera.
+- whtspc4tab.py - Script importante
+- README.md - Instrucciones
+
 ## Paso 1 - Nada de encabezados o colas
 
 Quita las primeras 3 líneas de las tablas, así como las últimas 10. Toda línea sin información relevante lleva un "#" al inicio por lo que puedes quitarlas con:
