@@ -165,3 +165,8 @@ Ahora prueba cortar columnas especiales. Puede que para esto necesitemos quitar 
 `head -1 file.tab | sed 's/\t/\n/g' | cat -n > wowo.txt`
 
 Con eso solo restaría identificar qué columnas quieres... y qué son cada una claro. Eso lo puedes hacer a mano o que te enseñen una forma menos elaborada de hacer todo esto.
+
+### Script de Python: whtspc4tab.py
+
+En este mismo repositorio puedes encontrar la carpeta rm_whtspc. Contiene el script de python ejecutable desde terminal para sustituir los múltiples espacios en blanco por tabuladores. 
+	Aún así dejaré la primera solución aquí por si la necesitamos de referencia.
