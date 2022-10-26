@@ -1,5 +1,0 @@
-La finalidad de estos comandos es que con los archivos gtf que descargamos de la página del NCBI podamos sacar las secuencias repetidas de la base de datos original. El primer paso para esto es extraer de los archivos .gtf las secuencias codificantes (CDS), los trancriptomas y proteínas de todos los archivos. Para esto Carlos nos apoyo con un pequeño script modificado de R para que de todos los archivos extraiga y concatene los gene_id y orig_transcript. La cosa fue así:
-
-1. Descargar la base de datos .gtf del [NCBI](https://www.ncbi.nlm.nih.gov/assembly/?term=Eukaryota) y descomprimir todo. ADVERTENCIA esa cosa pesa aproximadamente 310 GB.
-2. Correr el script de R para extraer CDS y orig_transcript
-3.

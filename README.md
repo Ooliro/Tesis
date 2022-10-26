@@ -5,3 +5,4 @@ Carpetas, archivos, procedimientos importantes que es importante poder checar en
 ## Contenidos
 1. Parsing - Metodologías para parseo y manejo de datos orientado a HMMER
 2. Raw_results - Resultados directos de utilizar HMMER, con la herramienta hmmbuild y hmmsearch para obtener los HMM y tablas de resultados estándar y por dominio.
+3. gtffs - Listas de números de acceso, geneID y otras cosas para filtrar isoformas.
