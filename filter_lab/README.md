@@ -20,3 +20,12 @@ Comando de ejemplo:
 
 	A.a) maze_fields - "maze_tabbed.csv" pero solo con los campos 1,4,7,12,13 y 23
 	B.b) saple_fields - "saple_tabbed.csv" pero solo con los campos 1,4,7,12,13 y 23 
+
+### Archivo con columnas separadas adecuadamente
+
+	C) maze_hefi.txt (msaprobs)
+	D) saple_hefi.txt (pfam)
+	
+
+	
+	
