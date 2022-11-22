@@ -58,6 +58,11 @@ Comando de ejemplo:
 	
 - Archivos finales listos para examinar el flujo de trabajo:
 
+	`ipython Feene.py
+	Files Absolute Path: your/own/path/to/file.csv`
+	
+	En este punto tendrás un conteo de tus resultados antes y después de pasarlas por el filtro de duplicados tomando como referencia la última columna de nombres y genes... en teoría.
+	
 	`complete_dominion.csv`
 	
 	A estas alturas puedes cambiar el nombre para tener todo en orden, y mover el resto de archivos intermediarios a una nueva carpeta de seguimiento.
