@@ -63,6 +63,6 @@ Comando de ejemplo:
 	
 	En este punto tendrás un conteo de tus resultados antes y después de pasarlas por el filtro de duplicados tomando como referencia la última columna de nombres y genes... en teoría.
 	
-	`complete_dominion.csv`
+	`feene.csv`
 	
 	A estas alturas puedes cambiar el nombre para tener todo en orden, y mover el resto de archivos intermediarios a una nueva carpeta de seguimiento.
