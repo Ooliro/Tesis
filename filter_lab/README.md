@@ -26,6 +26,38 @@ Comando de ejemplo:
 	C) maze_hefi.txt (msaprobs)
 	D) saple_hefi.txt (pfam)
 	
+### Archivos finales listos para examinar y generar graficas
+	
+	E) maze_feene.csv
+	F) saple_feene.csv
+	
+## Comandos y scripts para seguir el flujo de trabajo
 
+- Archivos iniciales:
+  	
+	`hmmsearch --domtblout domt.tab --tblout simplt.tab hmm_file.hmm database.faa`
 	
+- Archivos consiguientes:
+
+	`egrep -v "^#" domt.tab > noheadtail.tab`
 	
+	`ipython whtspc4tab.py
+	Files Absolute path: your/own/path/to/file.tab`
+	
+- Archivos con campos específicos:
+
+	`cat domt.tab | cut -f1,4,7,12,13,23- > dominion_fields.csv`
+	
+- Archivos con columnas separadas adecuadamente:
+
+	`cut -f 6- dominion_fields.csv | sed 's/\t/ /g' | sed 's/,/ /g' > description.txt`
+	
+	`cut -f -5 dominion_fields.csv > data.txt`
+	
+	`paste data.txt description.txt > complete_dominion.csv`
+	
+- Archivos finales listos para examinar el flujo de trabajo:
+
+	`complete_dominion.csv`
+	
+	A estas alturas puedes cambiar el nombre para tener todo en orden, y mover el resto de archivos intermediarios a una nueva carpeta de seguimiento.
