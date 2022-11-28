@@ -16,10 +16,10 @@
 
 Comando de ejemplo: 
 
-`$cat saple_tabbed.csv | cut -f1,4,7,12,13,23- > saple_fields.csv`
+`$cat saple_tabbed.csv | cut -f1,3,4,7,12,13,23- > saple_fields.csv`
 
-	A.a) maze_fields - "maze_tabbed.csv" pero solo con los campos 1,4,7,12,13 y 23
-	B.b) saple_fields - "saple_tabbed.csv" pero solo con los campos 1,4,7,12,13 y 23 
+	A.a) maze_fields - "maze_tabbed.csv" pero solo con los campos 1,,3,4,7,12,13 y 23
+	B.b) saple_fields - "saple_tabbed.csv" pero solo con los campos 1,3,4,7,12,13 y 23 
 
 ### Archivo con columnas separadas adecuadamente
 
@@ -46,7 +46,7 @@ Comando de ejemplo:
 	
 - Archivos con campos específicos:
 
-	`cat domt.tab | cut -f1,4,7,12,13,23- > dominion_fields.csv`
+	`cat domt.tab | cut -f1,3,4,7,12,13,23- > dominion_fields.csv`
 	
 - Archivos con columnas separadas adecuadamente:
 
