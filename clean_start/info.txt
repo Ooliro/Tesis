@@ -1,0 +1,4 @@
+Volvi a hacer todo en base a la guía que tengo en el repositorio, porque necesitaba el 
+campo de la longitud del dominio y a ultimadas cuentas se me hacia más fácil asi. El 
+flujo lo voy a omitir, solo te dejo claro que los últimos con los que vas a trabajar 
+para sacar números de acceso son los que tienen "feene" en el nombre. 
