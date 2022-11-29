@@ -40,4 +40,4 @@ file2: Archivo que determinara el orden de las coincidencias halladas # hmm_maze
 
 ### Undergrad y Teacher
 
-**"Teacher" será usada para acomodar a Nexus con las longitudes de dominio obtenidas por hmmsearch (Nexus+tlen). Al mismo tiempo necesitamos otra tabla donde tengamos un solo representante por gen. Es decir, Nexus debe pasar por un filtrado para que cada genID que posea sea reducido a 1. **
+**"Teacher" será usada para acomodar a Nexus con las longitudes de dominio obtenidas por hmmsearch (Nexus+tlen). Al mismo tiempo necesitamos otra tabla donde tengamos un solo representante por gen. Es decir, Nexus debe pasar por un filtrado para que cada genID que posea sea reducido a 1.**
