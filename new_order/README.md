@@ -23,7 +23,7 @@ Listas temporales para quitar encabezados y colar, sustituir multiples espacios 
 5. SEFI_maze.csv
 6. SEFI_saple.csv
 
-Listas con los campos específicos (1,3,4,7,18,19,22,23) para una lista de la que podemos extraer información importante. **De aqui sacamos todo lo demás, así que si necesitas un punto de inicio para empezar a parsear de manera distinta los datos listos para trabajar, las tablas que necesitas son las que empiezan con HEFI**
+Listas con los campos específicos (1,3,4,7,18,19,22,23) para una lista de la que podemos extraer información importante. **De aqui sacamos todo lo demás, así que si necesitas un punto de inicio para empezar a parsear de manera distinta los datos listos para trabajar, las tablas que necesitas son las que empiezan con SEFI**
 
 ## Tercera parte: Placenta (se que es un nombre raro)
 
