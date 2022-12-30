@@ -84,7 +84,7 @@ Con estas tablas filtradas [Cordon] podemos sacar algunos datos de inteŕes. En 
 
 En cada oportunidad que tengas, ve cómo están distribuidas estas especies, cuántos genes están representados y demás características!
 
-    Para la segunda etapa incluiremos dos columnas más que nos ayudarán a sacar el máximo de información de nuestras listas:
+   Para la segunda etapa incluiremos dos columnas más que nos ayudarán a sacar el máximo de información de nuestras listas:
 
 - Longitud de secuencias de aminoacidos
 - Taxonomía
@@ -95,7 +95,7 @@ A partir de aqui talvez quieras considerar trabajar en Pyhton o R ya que si sigu
 
 Usaremos las columnas de las tablas originales de hmmer para sacar i) las longitudes totales de ese dominio y ii) los intervalos de inicio y fin de acuerdo al alineamiento para agregarlos a las tablas.
 
-    Técnicamente ya tenemos estas tablas, pero están en versión SEFI lo que significa que tenemos los datos de las tablas originales y no los del gtf. Así que tenemos que hacer un par de cosas para poder hacer coincidir estas tablas con las de PLAC. Mi primera solución es la que tenía planeada desde un inicio con PLAC_hefi_ddd.csv que eran los mismo elementos de la tabla de gtf pero con datos de hmmer. Esto para poder hacer un simple copiado y pegado de las columnas que nos interesan. Pero como ya viste perdí secuencias haciendo esta parte de hefi, no se si es error mío por usas las listas Hefi en lugar de SEFI, pero ya veremos.
+   Técnicamente ya tenemos estas tablas, pero están en versión SEFI lo que significa que tenemos los datos de las tablas originales y no los del gtf. Así que tenemos que hacer un par de cosas para poder hacer coincidir estas tablas con las de PLAC. Mi primera solución es la que tenía planeada desde un inicio con PLAC_hefi_ddd.csv que eran los mismo elementos de la tabla de gtf pero con datos de hmmer. Esto para poder hacer un simple copiado y pegado de las columnas que nos interesan. Pero como ya viste perdí secuencias haciendo esta parte de hefi, no se si es error mío por usas las listas Hefi en lugar de SEFI, pero ya veremos.
     
 La segunda solución es:
 
