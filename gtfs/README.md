@@ -1,6 +1,6 @@
 # ¿Cómo obtener la lista de gtf's desde el NCBI?
 
-Lo más fácil y rápido es ir al sitio del [NCBI](https://www.ncbi.nlm.nih.gov/assembly/) donde darás como argumento de búsqueda a grandes rasgos lo que vas a descargar, por ejemplo: _Vertebrata_, _Eukaryota_, etc. 
+Lo más fácil y rápido es ir al sitio del [NCBI](https://www.ncbi.nlm.nih.gov/assembly/) donde darás como argumento de búsqueda a grandes rasgos lo que vas a descargar, por ejemplo: _Vertebrata_, _Eukaryota_, etc. En este particular caso necesitas a _Metazoa_ como argumento de búsqueda!
 
 Verás que al hacer la búsqueda obtienes un botón de _Download  Assemblies_, seleccionalo y:
 
