@@ -39,6 +39,7 @@ c) Provee una lista final de los resultados de la tabla original con sus datos g
 ## Resultados obtenidos
 
 - all_fields.csv - Contiene los campos de interés de la tabla de HMMER, específicamente: 
+
 	+ Número de acceso
 	+ Longitud del dominio
 	+ Nombre del modelo/objetivo
@@ -46,3 +47,13 @@ c) Provee una lista final de los resultados de la tabla original con sus datos g
 	+ Inicio del dominio hallado
 	+ Termino del dominio hallado
 	+ Nombre de la proteína y especie
+	
+- gtf_ordered.csv - Esencialmente es la lista original de HMMER pero con la información de los gtf. Esta conserva el orden original por lo que puedes usarla sin muchas preocupaciones, pero ten en cuenta que perdemos algunas secuencias (8% aproximadamente) porque por alguna razón desconocida no todas las secuencias del refseq están anotados con gtf.
+
+- no_duplicates.csv - Lista final sin isoformas (filtrado por genID, columna 3) con información de gtf's. Tecnicamente sigue ordenada asi que checala!
+
+### Listas complementarias
+
+- ok.txt - Secuencias halladas en la correlación HMMER/GTF. Esto significa que cada secuencia que aparece en esta lista, tiene anotación dentro de los archivos GTF de Metazoa.
+
+- fail.txt - Secuencias no halladas en la correlación HMMER/GTF. Es decir, el complemento "negativo" donde tenemos a resultados de HMMER sin anotación en archivos GTF de Metazoa.
