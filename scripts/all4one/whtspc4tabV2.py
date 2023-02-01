@@ -29,6 +29,6 @@ save_tab.writelines(final_tab)
 
 save_tab = save_tab.close()
 
-print("Listo! busca tu nuevo archivo con el nombre de tabbed.tab")
+#print("Listo! busca tu nuevo archivo con el nombre de tabbed.tab")
 
 # Guarda esta segunda tabla delimitada por tabs.

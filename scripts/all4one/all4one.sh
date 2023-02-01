@@ -16,6 +16,8 @@ echo "
 Este script esta diseñado para trabajar con tablas de hits (--domtblout) por dominio de HMMER!
 ";
 
+mkdir resultados;
+
 egrep -v "^#" $1 > noheadtail.temp;
 
 
@@ -53,9 +55,15 @@ done
 
 ipython feene3.py gtf_ordered.csv
 
+mv all_fields.csv resultados/;
+mv gtf_ordered.csv resultados/;
+mv no_duplicates.csv resultados/;
+mv ok.txt resultados/;
+mv fail.txt resultados/;
+
 echo "
 Búsqueda finalizada
 
-Encontraras tus resultados en la tabla no_duplicates.csv
+Encontraras tus listas en la carpeta de resultados
 
 "

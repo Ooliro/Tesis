@@ -17,4 +17,4 @@ pure_data = data.drop_duplicates(subset=2,keep='first')
 pure_data.to_csv('no_duplicates.csv', index=False, header=False, sep='\t')
 
 data_final = len(pure_data)
-print("Tus resultados finales son:", data_final, "Están en el archivo no_duplicates.csv dentro de eeste mismo directorio!")
+print("Tus resultados finales son:", data_final)
