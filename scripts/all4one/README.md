@@ -57,3 +57,21 @@ c) Provee una lista final de los resultados de la tabla original con sus datos g
 - ok.txt - Secuencias halladas en la correlación HMMER/GTF. Esto significa que cada secuencia que aparece en esta lista, tiene anotación dentro de los archivos GTF de Metazoa.
 
 - fail.txt - Secuencias no halladas en la correlación HMMER/GTF. Es decir, el complemento "negativo" donde tenemos a resultados de HMMER sin anotación en archivos GTF de Metazoa.
+
+## Instrucciones para sacar graficas de frecuencias de genes
+
+`finderz.sh` es un script que necesita también de `whtspc4tabV2.py` para modificar la tabla de frecuencias que puedes sacar de tus tablas de `no_suplicates.csv`. Por ahora tienes que hacerlo manualmente porque no lo he agregado al script principal (no se si será de mucha ayuda aún), y se hace así:
+
+cut -f5 no_duplicates.csv | sort | uniq -c | sort -r > freq_hmmmodel.tab
+
+Con eso listo pasamos a la terminal:
+
+`bash finderz.sh freq_hmmmodel.tab genomes_names_ids.txt`
+
+Donde: 
+- `freq_hmmmodel.tab` es la tabla de frecuencias que sacaste con la línea de comando que mencioné antes. Puedes sustituir la parte de "hmmmodel" por el modelo específico del modelo que estes checando. 
+- `genomes_names_ids.txt` contiene el identificador del gen, taxID y nombre del organismo. Esta es una base de datos no tan pesada, asi que la dejare en el repositorio. 
+
+Con esto obtienes `new_freqs.csv` con la que puedes hacer gráficas más fácil de frecuencias de genes encontrados, aunque ten en cuenta que serán más resultados de los que originalmente obtuviste en `freq_hmmmodel.tab` ¿Por qué?
+
+Pasa que la base de datos que usas no viene filtrada para evitar duplicados. Aún así, _sabemos_ (gracias Carlos <3) que los duplicados no son muchos, son solo 5 los cuales ya tenemos identificados en una lista: `duplicados.csv`
