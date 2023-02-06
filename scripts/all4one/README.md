@@ -1,4 +1,4 @@
-# Parseador de tablas de HMMER: Miner
+# Parseador de tablas de HMMER: all4one
 
 ## Instrucciones
 
