@@ -1,0 +1,258 @@
+Nematoda    Strongyloides ratti
+Mollusca	Octopus sinensis
+Mollusca	Gastropoda	Gigantopelta aegis
+Mollusca	Gastropoda	Pomacea canaliculata
+Mollusca	Bivalvia	Pecten maximus
+Mollusca	Bivalvia	Crassostrea	Crassostrea gigas
+Mollusca	Bivalvia	Crassostrea	Crassostrea virginica
+Arthropoda	Lepeophtheirus salmonis
+Arthropoda	Daphnia magna
+Arthropoda	Penaeus monodon
+Arthropoda	Ixodidae	Dermacentor silvarum
+Arthropoda	Ixodidae	Rhipicephalus	Rhipicephalus sanguineus
+Arthropoda	Ixodidae	Rhipicephalus	Rhipicephalus microplus
+Arthropoda	Insecta	Chrysoperla carnea
+Arthropoda	Insecta	Coleoptera	Coccinella septempunctata
+Arthropoda	Insecta	Coleoptera	Tribolium castaneum
+Arthropoda	Insecta	Hemiptera	Nilaparvata lugens
+Arthropoda	Insecta	Hemiptera	Aphididae	Rhopalosiphum maidis
+Arthropoda	Insecta	Hemiptera	Aphididae	Acyrthosiphon pisum
+Arthropoda	Insecta	Lepidoptera	Aricia agestis
+Arthropoda	Insecta	Lepidoptera	Zerene cesonia
+Arthropoda	Insecta	Lepidoptera	Manduca sexta
+Arthropoda	Insecta	Lepidoptera	Trichoplusia ni
+Arthropoda	Insecta	Lepidoptera	Bombyx mori
+Arthropoda	Insecta	Lepidoptera	Nymphalidae	Danaus plexippus plexippus
+Arthropoda	Insecta	Lepidoptera	Nymphalidae	Pararge aegeria
+Arthropoda	Insecta	Hymenoptera	Belonocnema kinseyi
+Arthropoda	Insecta	Hymenoptera	Venturia canescens
+Arthropoda	Insecta	Hymenoptera	Vespula pensylvanica
+Arthropoda	Insecta	Hymenoptera	Nasonia vitripennis
+Arthropoda	Insecta	Hymenoptera	Braconidae	Aphidius gifuensis
+Arthropoda	Insecta	Hymenoptera	Braconidae	Cotesia glomerata
+Arthropoda	Insecta	Hymenoptera	Formicidae	Ooceraea biroi
+Arthropoda	Insecta	Hymenoptera	Formicidae	Monomorium pharaonis
+Arthropoda	Insecta	Hymenoptera	Formicidae	Solenopsis invicta
+Arthropoda	Insecta	Hymenoptera	Apidae	Apis mellifera
+Arthropoda	Insecta	Hymenoptera	Apidae	Bombus	Bombus pyrosoma
+Arthropoda	Insecta	Hymenoptera	Apidae	Bombus	Bombus terrestris
+Arthropoda	Insecta	Diptera	Hermetia illucens
+Arthropoda	Insecta	Diptera	Bactrocera tryoni
+Arthropoda	Insecta	Diptera	Bradysia coprophila
+Arthropoda	Insecta	Diptera	Culicidae	Culex quinquefasciatus
+Arthropoda	Insecta	Diptera	Culicidae	Aedes aegypti
+Arthropoda	Insecta	Diptera	Culicidae	Anopheles	Anopheles coluzzii
+Arthropoda	Insecta	Diptera	Culicidae	Anopheles	Anopheles gambiae str. PEST
+Arthropoda	Insecta	Diptera	Culicidae	Anopheles	Anopheles stephensi
+Arthropoda	Insecta	Diptera	Culicidae	Anopheles	Anopheles merus
+Arthropoda	Insecta	Diptera	Culicidae	Anopheles	Anopheles arabiensis
+Arthropoda	Insecta	Diptera	Culicidae	Anopheles	Anopheles albimanus
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila subpulchrella
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila santomea
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila busckii
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila suzukii
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila yakuba
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila teissieri
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila subobscura
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila simulans
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila sechellia
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila pseudoobscura
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila miranda
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila melanogaster
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila mauritiana
+Arthropoda	Insecta	Diptera	Drosophila	Drosophila ananassae
+Chordata	Polypterus senegalus
+Chordata	Protopterus annectens
+Chordata	Petromyzon marinus
+Chordata	Leptocardii	Amphioxiformes	Branchiostomatidae	Branchiostoma	Branchiostoma floridae
+Chordata	Ciona intestinalis
+Chordata	Chondrichthyes	Amblyraja radiata
+Chordata	Chondrichthyes	Chiloscyllium plagiosum
+Chordata	Chondrichthyes	Carcharodon carcharias
+Chordata	Anura	Rana temporaria
+Chordata	Anura	Bufo	Bufo gargarizans
+Chordata	Anura	Bufo	Bufo bufo
+Chordata	Anura	Xenopus	Xenopus tropicalis
+Chordata	Anura	Xenopus	Xenopus laevis
+Chordata	Squamata	Thamnophis elegans
+Chordata	Squamata	Anolis carolinensis
+Chordata	Squamata	Sceloporus undulatus
+Chordata	Squamata	Lacertidae	Lacerta agilis
+Chordata	Squamata	Lacertidae	Podarcis muralis
+Chordata	Squamata	Lacertidae	Zootoca vivipara
+Chordata	Testudines	Gopherus evgoodei
+Chordata	Testudines	Dermochelys coriacea
+Chordata	Testudines	Chelonia mydas
+Chordata	Testudines	Mauremys	Mauremys reevesii
+Chordata	Testudines	Mauremys	Mauremys mutica
+Chordata	Testudines	Emydidae	Trachemys scripta elegans
+Chordata	Testudines	Emydidae	Chrysemys picta bellii
+Chordata	Aves	Aquila chrysaetos chrysaetos
+Chordata	Aves	Calypte anna
+Chordata	Aves	Falco	Falco naumanni
+Chordata	Aves	Falco	Falco rusticolus
+Chordata	Aves	Psittaciformes	Strigops habroptila
+Chordata	Aves	Psittaciformes	Melopsittacus undulatus
+Chordata	Aves	Galliformes	Numida meleagris
+Chordata	Aves	Galliformes	Phasianidae	Coturnix japonica
+Chordata	Aves	Galliformes	Phasianidae	Meleagris gallopavo
+Chordata	Aves	Galliformes	Phasianidae	Gallus gallus
+Chordata	Aves	Anatidae	Aythya fuligula
+Chordata	Aves	Anatidae	Oxyura jamaicensis
+Chordata	Aves	Anatidae	Cygnus olor
+Chordata	Aves	Anatidae	Anas platyrhynchos
+Chordata	Aves	Passeriformes	Corvus moneduloides
+Chordata	Aves	Passeriformes	Motacilla alba alba
+Chordata	Aves	Passeriformes	Chiroxiphia lanceolata
+Chordata	Aves	Passeriformes	Catharus ustulatus
+Chordata	Aves	Passeriformes	Camarhynchus parvulus
+Chordata	Aves	Passeriformes	Molothrus ater
+Chordata	Aves	Passeriformes	Ficedula albicollis
+Chordata	Aves	Passeriformes	Parus major
+Chordata	Aves	Passeriformes	Estrildidae	Lonchura striata domestica
+Chordata	Aves	Passeriformes	Estrildidae	Taeniopygia guttata
+Chordata	Mammalia	Phyllostomus discolor
+Chordata	Mammalia	Dromiciops gliroides
+Chordata	Mammalia	Choloepus didactylus
+Chordata	Mammalia	Trichosurus vulpecula
+Chordata	Mammalia	Sarcophilus harrisii
+Chordata	Mammalia	Didelphidae	Gracilinanus agilis
+Chordata	Mammalia	Didelphidae	Monodelphis domestica
+Chordata	Mammalia	Lagomorpha	Oryctolagus cuniculus
+Chordata	Mammalia	Lagomorpha	Ochotona princeps
+Chordata	Mammalia	Equus	Equus caballus
+Chordata	Mammalia	Equus	Equus asinus
+Chordata	Mammalia	Monotremata	Tachyglossus aculeatus
+Chordata	Mammalia	Monotremata	Ornithorhynchus anatinus
+Chordata	Mammalia	Primates	Nomascus leucogenys
+Chordata	Mammalia	Primates	Microcebus murinus
+Chordata	Mammalia	Primates	Callithrix jacchus
+Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens
+Chordata	Mammalia	Primates	Hominidae	Pongo abelii
+Chordata	Mammalia	Primates	Hominidae	Pan troglodytes
+Chordata	Mammalia	Primates	Hominidae	Gorilla gorilla gorilla
+Chordata	Mammalia	Primates	Cercopithecidae	Piliocolobus tephrosceles
+Chordata	Mammalia	Primates	Cercopithecidae	Rhinopithecus roxellana
+Chordata	Mammalia	Primates	Cercopithecidae	Theropithecus gelada
+Chordata	Mammalia	Primates	Cercopithecidae	Macaca	Macaca mulatta
+Chordata	Mammalia	Primates	Cercopithecidae	Macaca	Macaca fascicularis
+Chordata	Mammalia	Rodentia	Ictidomys tridecemlineatus
+Chordata	Mammalia	Rodentia	Cricetidae	Arvicola amphibius
+Chordata	Mammalia	Rodentia	Cricetidae	Microtus ochrogaster
+Chordata	Mammalia	Rodentia	Cricetidae	Onychomys torridus
+Chordata	Mammalia	Rodentia	Cricetidae	Cricetulus griseus
+Chordata	Mammalia	Rodentia	Cricetidae	Peromyscus	Peromyscus maniculatus bairdii
+Chordata	Mammalia	Rodentia	Cricetidae	Peromyscus	Peromyscus leucopus
+Chordata	Mammalia	Rodentia	Muridae	Arvicanthis niloticus
+Chordata	Mammalia	Rodentia	Muridae	Mastomys coucha
+Chordata	Mammalia	Rodentia	Muridae	Rattus	Rattus rattus
+Chordata	Mammalia	Rodentia	Muridae	Rattus	Rattus norvegicus
+Chordata	Mammalia	Rodentia	Muridae	Mus	Mus pahari
+Chordata	Mammalia	Rodentia	Muridae	Mus	Mus musculus
+Chordata	Mammalia	Rodentia	Muridae	Mus	Mus caroli
+Chordata	Mammalia	Carnivora	Suricata suricatta
+Chordata	Mammalia	Carnivora	Neomonachus schauinslandi
+Chordata	Mammalia	Carnivora	Zalophus californianus
+Chordata	Mammalia	Carnivora	Ailuropoda melanoleuca
+Chordata	Mammalia	Carnivora	Mustelidae	Neogale vison
+Chordata	Mammalia	Carnivora	Mustelidae	Mustela erminea
+Chordata	Mammalia	Carnivora	Canidae	Vulpes lagopus
+Chordata	Mammalia	Carnivora	Canidae	Canis lupus	Canis lupus dingo
+Chordata	Mammalia	Carnivora	Canidae	Canis lupus	Canis lupus familiaris
+Chordata	Mammalia	Carnivora	Felidae	Lynx canadensis
+Chordata	Mammalia	Carnivora	Felidae	Prionailurus bengalensis
+Chordata	Mammalia	Carnivora	Felidae	Felis catus
+Chordata	Mammalia	Carnivora	Felidae	Panthera	Panthera tigris
+Chordata	Mammalia	Carnivora	Felidae	Panthera	Panthera leo
+Chordata	Mammalia	Artiodactyla	Phocoena sinus
+Chordata	Mammalia	Artiodactyla	Sus scrofa
+Chordata	Mammalia	Artiodactyla	Balaenoptera musculus
+Chordata	Mammalia	Artiodactyla	Physeter catodon
+Chordata	Mammalia	Artiodactyla	Tursiops truncatus
+Chordata	Mammalia	Artiodactyla	Cervus	Cervus canadensis
+Chordata	Mammalia	Artiodactyla	Cervus	Cervus elaphus
+Chordata	Mammalia	Artiodactyla	Camelus	Camelus ferus
+Chordata	Mammalia	Artiodactyla	Camelus	Camelus dromedarius
+Chordata	Mammalia	Artiodactyla	Bovidae	Bubalus bubalis
+Chordata	Mammalia	Artiodactyla	Bovidae	Ovis aries
+Chordata	Mammalia	Artiodactyla	Bovidae	Capra hircus
+Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos indicus x Bos taurus
+Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos indicus
+Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus
+Chordata	Actinopteri	Melanotaenia boesemani
+Chordata	Actinopteri	Toxotes jaculatrix
+Chordata	Actinopteri	Myripristis murdjan
+Chordata	Actinopteri	Periophthalmus magnuspinnatus
+Chordata	Actinopteri	Thalassophryne amazonica
+Chordata	Actinopteri	Sphaeramia orbicularis
+Chordata	Actinopteri	Pangasianodon hypophthalmus
+Chordata	Actinopteri	Larimichthys crocea
+Chordata	Actinopteri	Salarias fasciatus
+Chordata	Actinopteri	Syngnathus acus
+Chordata	Actinopteri	Betta splendens
+Chordata	Actinopteri	Siniperca chuatsi
+Chordata	Actinopteri	Megalops cyprinoides
+Chordata	Actinopteri	Scleropages formosus
+Chordata	Actinopteri	Chelmon rostratus
+Chordata	Actinopteri	Pygocentrus nattereri
+Chordata	Actinopteri	Chanos chanos
+Chordata	Actinopteri	Xiphias gladius
+Chordata	Actinopteri	Acanthopagrus latus
+Chordata	Actinopteri	Gadus morhua
+Chordata	Actinopteri	Esox lucius
+Chordata	Actinopteri	Electrophorus electricus
+Chordata	Actinopteri	Anguilla anguilla
+Chordata	Actinopteri	Lepisosteus oculatus
+Chordata	Actinopteri	Labridae	Notolabrus celidotus
+Chordata	Actinopteri	Labridae	Cheilinus undulatus
+Chordata	Actinopteri	Thunnus	Thunnus maccoyii
+Chordata	Actinopteri	Thunnus	Thunnus albacares
+Chordata	Actinopteri	Oryzias	Oryzias melastigma
+Chordata	Actinopteri	Oryzias	Oryzias latipes
+Chordata	Actinopteri	Clupeidae	Alosa sapidissima
+Chordata	Actinopteri	Clupeidae	Clupea harengus
+Chordata	Actinopteri	Acipenseriformes	Polyodon spathula
+Chordata	Actinopteri	Acipenseriformes	Acipenser ruthenus
+Chordata	Actinopteri	Cichlidae	Maylandia zebra
+Chordata	Actinopteri	Cichlidae	Archocentrus centrarchus
+Chordata	Actinopteri	Cichlidae	Oreochromis	Oreochromis aureus
+Chordata	Actinopteri	Cichlidae	Oreochromis	Oreochromis niloticus
+Chordata	Actinopteri	Cypriniformes	Danio rerio
+Chordata	Actinopteri	Cypriniformes	Cyprinidae	Puntigrus tetrazona
+Chordata	Actinopteri	Cypriniformes	Cyprinidae	Cyprinus carpio
+Chordata	Actinopteri	Cypriniformes	Cyprinidae	Carassius auratus
+Chordata	Actinopteri	Pleuronectiformes	Cynoglossus semilaevis
+Chordata	Actinopteri	Pleuronectiformes	Scophthalmus maximus
+Chordata	Actinopteri	Pleuronectiformes	Solea senegalensis
+Chordata	Actinopteri	Pleuronectiformes	Hippoglossus	Hippoglossus stenolepis
+Chordata	Actinopteri	Pleuronectiformes	Hippoglossus	Hippoglossus hippoglossus
+Chordata	Actinopteri	Cyprinodontiformes	Nothobranchius furzeri
+Chordata	Actinopteri	Cyprinodontiformes	Fundulus heteroclitus
+Chordata	Actinopteri	Cyprinodontiformes	Rivulidae	Nematolebias whitei
+Chordata	Actinopteri	Cyprinodontiformes	Rivulidae	Kryptolebias marmoratus
+Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Gambusia affinis
+Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Poecilia reticulata
+Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Xiphophorus	Xiphophorus couchianus
+Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Xiphophorus	Xiphophorus hellerii
+Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Xiphophorus	Xiphophorus maculatus
+Chordata	Actinopteri	Salmonidae	Coregonus clupeaformis
+Chordata	Actinopteri	Salmonidae	Salmo salar
+Chordata	Actinopteri	Salmonidae	Salvelinus	Salvelinus sp. IW2-2015
+Chordata	Actinopteri	Salmonidae	Salvelinus	Salvelinus namaycush
+Chordata	Actinopteri	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha
+Chordata	Actinopteri	Salmonidae	Oncorhynchus	Oncorhynchus nerka
+Chordata	Actinopteri	Salmonidae	Oncorhynchus	Oncorhynchus mykiss
+Chordata	Actinopteri	Salmonidae	Oncorhynchus	Oncorhynchus kisutch
+Chordata	Actinopteri	Salmonidae	Oncorhynchus	Oncorhynchus keta
+Chordata	Actinopteri	Perciformes	Gasterosteus aculeatus aculeatus
+Chordata	Actinopteri	Perciformes	Sebastes umbrosus
+Chordata	Actinopteri	Perciformes	Cottoperca gobio
+Chordata	Actinopteri	Perciformes	Pseudochaenichthys georgianus
+Chordata	Actinopteri	Perciformes	Cyclopterus lumpus
+Chordata	Actinopteri	Perciformes	Serranidae	Epinephelus lanceolatus
+Chordata	Actinopteri	Perciformes	Serranidae	Plectropomus leopardus
+Chordata	Actinopteri	Perciformes	Percidae	Sander lucioperca
+Chordata	Actinopteri	Perciformes	Percidae	Etheostoma	Etheostoma cragini
+Chordata	Actinopteri	Perciformes	Percidae	Etheostoma	Etheostoma spectabile
+Chordata	Actinopteri	Perciformes	Percidae	Perca	Perca fluviatilis
+Chordata	Actinopteri	Perciformes	Percidae	Perca	Perca flavescens
