@@ -1,0 +1,7 @@
+Esto es solo para obtener una tabla "procesable" en all40ne.
+
+Usas el script y la lista de genome_name_ids.txt para obtener una lista con solo la información que ocupamos
+
+Por ahora necesitas el segundo archivo en la misma carpeta del script, ten eso en cuenta!
+
+	$ ipython beta2_gtf.py
