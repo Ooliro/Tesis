@@ -14,7 +14,7 @@ El script usa un arbol en formato phylip y la paqueteria de [biopython](https://
 
 ## ¿Dónde obtengo mi árbol en formato phylip?
 
-La lista con la información que necesitas está en la sección de (CommonTree)[https://www.ncbi.nlm.nih.gov/Taxonomy/CommonTree/wwwcmt.cgi], en la parte de Taxonomy del NCBI, pero necesitamos unos pequeños archivos intermedios para llegar desde las especies que buscamos (frecuencias) hasta el árbol del que extraeremos los clados.
+La lista con la información que necesitas está en la sección de [CommonTree](https://www.ncbi.nlm.nih.gov/Taxonomy/CommonTree/wwwcmt.cgi), en la parte de Taxonomy del NCBI, pero necesitamos unos pequeños archivos intermedios para llegar desde las especies que buscamos (frecuencias) hasta el árbol del que extraeremos los clados.
 
 _Nota: Los archivos a utilizar vienen de all4one3_
 
@@ -29,6 +29,30 @@ _Nota: Los archivos a utilizar vienen de all4one3_
 
 ## ¿Cómo proceso este árbol para que tenga solo las dos columnas de spp y clado?
 
+### Notas
+- Utilizamos el script `clade_craft_WOK.ipynb` como base para debugear y ver más fácil qué hace cada cosa. 
+- La versión sin comentarios es `clade_craft_full.py`, pero tiene la desventaja de que si te llega a faltar alguna especie (KEY_ERROR) y la tienes que agregar manualmente a "tax_clades.tab" va a sobreescribir el archivo editado por una nueva lista SIN las claves que agregaste. **Sólo si el árbol viene completo es que puedes usar este script**.
 
+### Instrucciones
+
+1. Para la primera parte de esto ocupas `cld_craft_1.py` que toma como argumento el árbol (.phy) que descargaste del CommonTree del NCBI y lo convierte a una tabla con la que puedes trabajar sobre todas las ramas disponibles en tu árbol.
+
+`ipython cld_craft_1.py tree.phy`
+
+**Obtienes:**
+
+- branch_leaf.txt
+- tax_clades.tab
+
+2. Para la segunda parte puede que necesites correr `cld_craft_2.py` más de una vez junto con tu archivo de frecuencias. Si obtienes un **KEY_ERROR** de una especie en especial, tendrás que agregarla manualmente a "tax_clades", de preferencia al final de la misma para poder tener un control de las especies que tienes y las que no en tu árbol inicial.
+
+Si no tienes ese error, ya está tu tabla en "clades_n_freqs.tab" 
+¡Hurra!
+
+`ipython cld_craft_2.py freqs.py`
+
+**Obtienes:**
+
+- clades_n_freqs.tab
 
 

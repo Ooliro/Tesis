@@ -1,20 +1,18 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
+# coding: utf-8
 
 """This scritp extracts the paths from the leaves to the root in a ncbi taxonomy tree, narrow it to spp and clade, and finally append the clade column to an existing table"""
 
 # Argumentos de terminal:
-# arg1 = Arbol en formato phylip
-# arg2 = Archivo de frecuencias al que se le va a anexar la columna de clados
+#arg1 = Arbol en formato phylip
+#arg2 = Archivo de frecuencias al que se le va a anexar la columna de clados
 
 # Primera parte: Corta hojas y raices
-
 from Bio import Phylo
 import sys
 
 # Read files from bash
-
 arbol = open(sys.argv[1])
-
 
 # read tree
 tree = Phylo.read(arbol, 'newick')
@@ -30,25 +28,17 @@ for leaf in leaves:
     paths.append(path)
 
 # write to a file
-
 outfile_name = 'branch_leaf.txt'
-
 with open(outfile_name, 'w') as outf:
     for path in paths:
         names = [clade.name for clade in path]
         line = '\t'.join(names) + '\n'
         outf.write(line)
 
-print("Parte 1: Bien!")
-
 # Segunda parte: Limpia ramas para quedarte con clados y spp
-
 import pandas
-
 archivo=open('branch_leaf.txt')
-
 myclades = []
-
 for line in archivo:
     line = line.split("\t")
     if len(line) == 2:
@@ -63,12 +53,9 @@ for elemento in myclades:
     save_file.write(linea)
 save_file.close()
 
-print("Parte 2: Bien!")
-
 # Tercera parte: agrega la columa de clados al final de tu archivo objetivo
 
 # Carga archivos desde la linea de comandos
-
 countfile = sys.argv[2]  # Tabla de frecuencias con Spp
 
 ## Inicia el diccionario y acomoda las columnas
@@ -88,7 +75,7 @@ outfilename = "clades_n_freqs.tab"
 outfile = open(outfilename, "w")
 
 ## Con el diccionario, busca coincidencias dentro del archivo de frecuencias y agrega el clado al final
-with countfile as infile:
+with open(countfile) as infile:
     for line in infile:
         line = line.strip()
         if line == "":
@@ -102,4 +89,4 @@ with countfile as infile:
 
 outfile.close()
 
-print("Parte 3: Bien!")
+print("Listo!")
