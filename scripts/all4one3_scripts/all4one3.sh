@@ -31,8 +31,8 @@ cut -f1,3,4,7,18,19,23- tabbed.tab > dom_fields.temp;
 rm tabbed.tab;
 
 # Cortamos campos especificos y descripciones.
-cut -f 6- dom_fields.temp | sed 's/\t/ /g' | sed 's/,/ /g' > description.temp;
-cut -f -5 dom_fields.temp > data.temp;
+cut -f 7- dom_fields.temp | sed 's/\t/ /g' | sed 's/,/ /g' > description.temp;
+cut -f -6 dom_fields.temp > data.temp;
 paste data.temp description.temp > all_fields.csv;
 
 rm data.temp;
