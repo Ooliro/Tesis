@@ -66,7 +66,7 @@ Donde:
 - `new_ali.fasta` es el nombre de tu nuevo alineamiento
 - `sliced_db.fasta` que es el archivo FASTA con dominios recortados.
 
-**Nota Importante: Este proceso es demandante en cuanto a poder de computo, o lo haces en un servidor web como _Bioinformatics Toolkit_ o en una estación de trabajo con buenas especificaciones**
+**Nota Importante: Este proceso es demandante en cuanto a poder de computo, o lo haces en un servidor web como _Bio Tool Kit_ o en una estación de trabajo con buenas especificaciones**
 
 Y finalmente para armar el árbol filogenético:
 

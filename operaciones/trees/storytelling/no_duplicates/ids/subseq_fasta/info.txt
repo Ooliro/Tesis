@@ -1,0 +1,11 @@
+Subseucuencias FASTA
+
+Herramienta usada: seqtk
+
+Objetivo: Sacar las secuencias FASTA de la listas de hmmer sin duplicados
+
+Descripción: Use Seqtk sobre las bases de datos de refseq (cgch y scaffold) para quedarnos solo con las secuencias FASTA que aparecen en nuestras listas de no_duplicates. A nivel 
+cgch obtuve 4 y 7 secuencias extra sobre las originales sin duplicados (maze y saple, respectivamente), posiblemente por isoformas que encontró seqtk en la base de datos. Sin 
+embargo, a nivel scaffold no hubo secuencias extra.
+
+
