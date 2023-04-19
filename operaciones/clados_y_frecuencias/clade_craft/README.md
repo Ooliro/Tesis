@@ -24,7 +24,7 @@ _Nota: Los archivos a utilizar vienen de all4one3_
 
 2. Con tu archivo resultante nos vamos al CommonTree y en la parte superior verás un botón que dice "Examinar", seleccionalo y carga tu archivo `nombre_prron.txt`, luego presiona "Add from file". Te redireccionará a una lista parecida a un árbol donde ahora seleccionas el nodo de "Animals" y presionas "Choose", donde encontraras un árbol de relaciones filogenéticas de las especies que cargaste, que puedes comprobar con el número de nodos que te resume: deben ser los mismos que el número de especies que cargaste!
 
-3. Para descargarlo solo selecciona el formato en la parte superior de la pantalla (phylip tree) y guardalo.
+3. Para descargarlo de preferencia presiona también el botón de "Expandir" o "Expand all", luego selecciona el formato en la parte superior de la pantalla (phylip tree) y guardalo.
 
 
 ## ¿Cómo proceso este árbol para que tenga solo las dos columnas de spp y clado?
