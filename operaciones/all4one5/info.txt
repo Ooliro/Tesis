@@ -1,0 +1,9 @@
+Esto solo son resultados de prueba de HMMER con diferentes opciones de filtros.
+
+-E: In the per-target output, report target sequences with anE-value of<=<x>. The default is 10.0, meaning that onaverage, about 10 false positives will be reported per query,so you can see the top of the noise and decide for yourself if it’s really noise.
+
+-T: Instead of thresholding per-profile output on E-value, instead report target sequences with a bit score of>=<x>.
+
+--domE: In the per-domain output, for target sequences that have already satisfied the per-profile reporting threshold, report individual domains with a conditional E-value of<=<x>. The default is10.0. A conditional E-value means the expected number of additional false positive domains in the smaller search space of those comparisons that already satisfied theper-target reporting threshold (and thus must have at leastone homologous domain already).
+
+--domT: Instead of thresholding per-domain output on E-value, in-stead report domains with a bit score of>=<x>.
