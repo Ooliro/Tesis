@@ -1,0 +1,17 @@
+¿Qué hace gossip?
+
+Para poder sacar los rangos de dominio necesitamos la lista de all_fields. Cortamos los campos 1,5 y 6 y listo ¿cierto? Pues no precisamente, all_fields tiene todos los resultados de hmmer sin ningun tipo de filtrado, y como ya tenemos un filtrado previo con no_duplicates lo unico que necesitamos son los id's que usamos antes con `seqtk`, la lista de numeros de acceso! gossip.sh lo único que hace es buscar estas claves dentro de all_fields, cortar los campos necesarios y quitar duplicados. En teoría en esta operación no pierdes información de ningún tipo.
+
+¿Cómo se usa?
+
+Para sacar los rangos es importante ejectuar gossip.sh asi:
+
+     $ bash gossip.sh id.txt fields.txt
+
+Siendo:
+- id.txt - La lista de números de acceso que se saca del archivo de no_duplicates, es decir la primera columna.
+- fields.txt - La lista de campos all_fields que sale en las primeras etapas de all4one3
+
+Nota: all4one4 tiene un pequeño detalle que no corta bien los campos y asume como campo 6 a el final del dominio encontrado y la descripción... juntas. La solución temporal a esto 
+para no volver a correr todo esto está en scripts_temp/paste en la rama de pruebas del repositorio. Lo que hace es tomar la tabla cruda de HMMER y la corta bien para que todos los 
+campos estén bien separados. ESTAS TABLAS CORREGIDAS SON LAS QUE DEBES PASAR A GOSSIP.SH
