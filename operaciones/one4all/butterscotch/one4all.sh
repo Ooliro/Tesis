@@ -37,6 +37,7 @@ cut -f1,3,4,7,16-21,23 all_fields.tab > dom_fields.tab;
 # Borramos intermedios
 rm data.temp;
 rm description.temp;
+rm raw_fields.temp
 
 mkdir resultados;
 mkdir resultados/control_lists;
@@ -70,7 +71,7 @@ echo "
 Encontraras tus listas en la carpeta de resultados
 
 "
-mv good_values.tab resultados/;
+mv good_evalues.tab resultados/;
 mv dom_fields.tab resultados/;
 mv gtf_ordered.csv resultados/;
 mv no_duplicates.csv resultados/;
@@ -78,6 +79,7 @@ mv frequencies.csv resultados/;
 mv firstdom_only.tab resultados/;
 
 # Acomodamos controles
+mv raw_fields
 mv all_fields.tab resultados/control_lists;
 mv gtf_found.txt resultados/control_lists;
 mv gtf_notfound.txt resultados/control_lists;
