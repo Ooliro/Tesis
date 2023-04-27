@@ -79,6 +79,7 @@ mv frequencies.csv resultados/;
 mv firstdom_only.tab resultados/;
 
 # Acomodamos controles
+mv raw_fields resultados/control_lists;
 mv all_fields.tab resultados/control_lists;
 mv gtf_found.txt resultados/control_lists;
 mv gtf_notfound.txt resultados/control_lists;

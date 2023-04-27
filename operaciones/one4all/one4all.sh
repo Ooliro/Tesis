@@ -63,6 +63,9 @@ done
 
 ipython3 unduplicate_freq_count.py gtf_ordered.csv
 
+# Cortamos especies para clados [Lolipop]
+cut -f1 frequencies.csv | sort > spp.txt
+
 echo "
 ---------------------------
 ||| Búsqueda finalizada |||
@@ -71,6 +74,8 @@ echo "
 Encontraras tus listas en la carpeta de resultados
 
 "
+
+mv spp.txt resultados/;
 mv good_evalues.tab resultados/;
 mv dom_fields.tab resultados/;
 mv gtf_ordered.csv resultados/;
