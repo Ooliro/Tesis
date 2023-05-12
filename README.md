@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Puedes consultar la diapositiva de esta introducción [aqui](Tesis (Big Picture).pdf)
+Puedes consultar la diapositiva de esta introducción [aqui](https://github.com/Ooliro/Tesis/blob/7af6a9685647d66726cc32c3d18046062d49e18d/Tesis%20(Big%20Picture).pdf)
 
 Si vemos lado a lado a la Quitina (Ch) y Ácido Hialurónico (AH), notaras que comparten similitudes estructurales. No son idénticas, pero si las comparas al resto de miembros de los glucosaminoglicanos (GAG's) notarás que no solo la estructura es muy similar, también comparten la ubicación de sus proteínas sintasas como proteínas transmembranales.
 
