@@ -1,6 +1,7 @@
 # Catálogo de relaciones filogenéticas de quitina sintasa en animales
 
 ## Introducción
+![Tesis (Big Picture)](https://github.com/Ooliro/Tesis/assets/78200223/d6a7fc37-f1cd-4e6e-856d-4c42f8ca28c4)
 
 Puedes consultar la diapositiva de esta introducción [aqui](https://github.com/Ooliro/Tesis/blob/7af6a9685647d66726cc32c3d18046062d49e18d/Tesis%20(Big%20Picture).pdf)
 
