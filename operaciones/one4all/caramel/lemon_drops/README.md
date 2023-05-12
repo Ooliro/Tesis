@@ -10,6 +10,14 @@ Técnicamente no hay nada de malo en eso, de hecho es interesante lo conservadas
 
 ### CD-HIT
 
+CD-HIT stands for Cluster Database at High Identity with Tolerance. 
+
+The program (cd-hit) takes a fasta format sequence database as input and produces a set of 'non-redundant' (nr) representative sequences as output. In addition cd-hit outputs a cluster file, documenting the sequence 'groupies' for each nr sequence representative. The idea is to reduce the overall size of the database without removing any sequence information by only removing 'redundant' (or highly similar) sequences. This is why the resulting database is called non-redundant (nr). Essentially, cd-hit produces a set of closely related protein families from a given fasta sequence database.
+
+CD-HIT uses a 'longest sequence first' list removal algorithm to remove sequences above a certain identity threshold. Additionally the algorithm implements a very fast heuristic to find high identity segments between sequences, and so can avoid many costly full alignments.
+
+With recent developments, cd-hit package offers new programs for DNA sequence clustering and comparing two databases. It also has lots of new options for clustering control. 
+
 Lo instalé mediante [conda](https://anaconda.org/bioconda/cd-hit):
 
 `conda install -c bioconda cd-hit`
