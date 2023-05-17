@@ -30,3 +30,13 @@ El uso pensado:
 - -o output.fasta: Especifica el nombre del archivo que tendrá sólo las secuencias no redundantes
 - -c 0.9: Especifica el umbral de identidad. Por ejemplo, el 90% de identidad
 - -n 5: Especifica el largo de "palabras" mínima del alineamiento. Mínimo debe ser 5
+
+## Parte 2 - Etiquetas legibles
+
+Para esto solo ocupamos un "simple" script que cambia las etiquetas de las secuencias FASTA usadas para los árboles. Esto se planea hacer con un código con el que podamos distinguir:
+
+- Clado
+- Proteína identificada
+- Especie
+
+Por ahora tenemos el script `overfasta.py` (o `overfasta.sh`, el que quieras usar y sea más fácil de debugear) que toma dos archivos: un archivo FASTA a renombrar y una lista con la descripción a utilizar. La manera de correlacionarlas es mediante el número de acceso.
