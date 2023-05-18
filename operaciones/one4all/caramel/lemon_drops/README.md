@@ -40,3 +40,11 @@ Para esto solo ocupamos un "simple" script que cambia las etiquetas de las secue
 - Especie
 
 Por ahora tenemos el script `overfasta.py` (o `overfasta.sh`, el que quieras usar y sea más fácil de debugear) que toma dos archivos: un archivo FASTA a renombrar y una lista con la descripción a utilizar. La manera de correlacionarlas es mediante el número de acceso.
+
+## Código de etiquetas
+
+Utilizaremos algo parecido al sistema Kegg. Usaremos el script `tag_headers.py` (originalmente `parse_fasta.py`) para la generación de estas claves, pero debe ser ejectuado sobre las bases de datos originales para evitar errores de anotación. 
+
+Ya que como parte de "Caramel" sacamos una sub-base de datos directa del refseq, usaré esa base de datos para generar las etiquetas y el script de `overfasta.py` para cambiar las etiquetas de los archivos para alineamientos.
+
+Es importante conservar los dominios que recortaste, pero para eso tenemos los archivos BED, así que no te apures.
