@@ -48,3 +48,11 @@ Utilizaremos algo parecido al sistema Kegg. Usaremos el script `tag_headers.py` 
 Ya que como parte de "Caramel" sacamos una sub-base de datos directa del refseq, usaré esa base de datos para generar las etiquetas y el script de `overfasta.py` para cambiar las etiquetas de los archivos para alineamientos.
 
 Es importante conservar los dominios que recortaste, pero para eso tenemos los archivos BED, así que no te apures.
+
+### Retrasos
+
+Mi plan de usar overfasta no funcionó. Usar seqkit no funcionó. Preguntarle a chatgpt no funcionó.
+
+Esto esta recio pero tenemos el script para hacer las etiquetas en un código parecido a Kegg:
+
+`tag_fasta.py`
