@@ -56,3 +56,35 @@ Mi plan de usar overfasta no funcionó. Usar seqkit no funcionó. Preguntarle a 
 Esto esta recio pero tenemos el script para hacer las etiquetas en un código parecido a Kegg:
 
 `tag_fasta.py`
+
+
+## Solución final (por ahora)
+
+`taggin.py` tiene dos etapas principales:
+
+1. Armar la lista tipo Kegg en base a la base de datos (_cgch_ ó _scf_) con la que se trabajo y el modelo utilizado (_maze_ ó _saple_).
+2. Cambio de descripción en el archivo de _non redundants_. Este archivo es el que fue i) cortado por dominios reconocidos por hmemr y ii) limpiado de secuencias semejantes para evitar árboles demasiado grandes.
+
+El script toma 3 argumentos en el siguiente orden:
+
+- Sub-base de datos FASTA con los nombres completos de las secuencias (números de acceso, descripción de la proteína y nombre de la especie)
+
+- Archivo FASTA con dominios recortados y filtrado de secuencias semejantes. 
+
+- Archivo con claves tipo Kegg
+
+### Procesamiento
+
+A grandes rasgos, la primera parte de este script **crea las claves tipo Kegg** con los que reemplazaremos las descripciones originales de las secuencias filtradas. Hace esto tomando la sub-base de datos FASTA (directa desde el refseq y que fue creada con el objetivo de no necesitar el refseq necesariamente. Aclaro que cada sub-base de datos es específica a su tipo de base de datos y HMM utilizado) y siguiendo las siguientes reglas:
+
+-   Del nombre de la especie, toma la primera letra del genero, y las primeras dos letras del nombre específico.
+    + Si esta clave se repite por alguna razón, toma una tercera letra del nombre específico.
+
+- Asigna una inicial dependiendo de qué proteína fue identificada, ya sea: quitina (C), hialuronano (H) u otra (N).
+  + Dentro de la clasificación "N" se incluyen proteínas no clasificadas, de baja calidad o simplemente otra proteína diferente a las anteriormente descritas.
+  
+- Asigna un número dependiendo de su ocurrencia dentro de esta nueva base de datos. Es decir puede haber un número 30 si esa misma categoría ha aparecido antes. Esto sirve de recuento de proteínas halladas y talvez deba ser modificada después.
+
+La segunda parte implica usar estas claves tipo Kegg para buscar y **reemplazar los encabezados del archivo FASTA filtrado** con el objetivo de que sean del tamaño adecuado para el formato PHYLIP (menos de 10 caracteres). 
+
+El archivo resultante `modified.fasta` es el que tentativamente pasarás al programa de armado de árboles filogenéticos y, cuando estén hechos, puedan ser más fácilmente analizados dentro del árbol.
