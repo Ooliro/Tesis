@@ -1,0 +1,7 @@
+raxmlHPC-PTHREADS -T 20 -m PROTGAMMAAUTO -s aligned.phy -n AUTO -p 6112 -b 27 -# 100
+
+
+
+
+
+
