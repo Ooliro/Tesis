@@ -81,3 +81,20 @@ Así mismo, ¿qué tal un diagrama de flujo en forma de árbol?
 		- Subsecuencias
 			+ Rangos
 			+ Fasta subset
+			
+			
+## Road to Wrestlemania!
+
+Tengo un desorden aqui y olvidé hacer algunas modificaciones a los archivos iniciales, así que dejaré aqui el rumbo **tentativo** a tomar. Los cambios más grandes se harán probablemente sobre `pre_tree.sh`.
+
+1. `all_fields.csv` Estos archivos específicos a base de datos y HMM usado necesitan un primer filtro de e-values donde sólo nos quedemos con aquellos menores a 0.0001, osea:
+
+`awk '$7 < 0.001' input.txt > output.txt`
+
+2. `pre_tree.sh` Nos da archivos  necesarios para obtener una sub-base de datos derivada del refseq donde conservamos solo los dominios identificados para las secuencias de hmmersearch: `domdb.fasta`. Este lo filtraremos con _BED.diff_ que es un archivo específico para cada db y HMM que nos da el tamaño de cada dominio para conservar aquellas secuencias que tengan un dominio mayor a 200 a.a.
+
+	2.1. Cambiamos las etiquetas de los FASTA para que quepan dentro del formato Phyilip y sean más fáciles de identificar
+	
+3. Por último, usamos CD-HIT para quitar secuencias "idénticas"
+
+El archivo resultante de todos estos filtros podremos alinearlo con **msaprobs**, para luego visualizarlo y editarlo, de ser necesario, antes de pasarlo a **RaxML** para armar el árbol filogenético.
