@@ -7,6 +7,11 @@ Base de datos refseq: $3
 "
 
 echo "Tablas cargadas [OK] "
+#------------------------------------------------------------------------
+# Quitar secuencias cuyo valor de e-value es menor a 0.0001
+
+awk '$7 <0.0001' $2 > good_values.temp
+awk -F'\t' '($19 - $18 > 200)' good_values.temp > good_fields.tab
 # ------------------------------------------------------------------------
 # Recortar la base de datos refseq a solo secuencias halladas con hmmsearch
 cut -f4 $1 > acc.txt
@@ -24,7 +29,7 @@ echo "Sub-base de datos cortada [OK] "
 for S in $(cat acc.txt | awk '{print $1}');
 do
 	echo $S
-	grep $S $2 >> catched.temp && echo $S >> found.temp || echo $S >> lost.temp
+	grep $S good_fields.tab >> catched.temp && echo $S >> found.temp || echo $S >> lost.temp
 done
 
 # Con las coincidencias, usa solo el primer campo de números de acceso para eliminar duplicados
@@ -79,10 +84,10 @@ fi
 bedtools getfasta -fi subdb.fasta -bed $temp_file -fo domdb.fasta
 echo "Sub-base de datos cortada [OK] "
 # ------------------------------------------------------------------------
-
 # Limpia otros archivos
 rm acc.txt
 rm subdb.fasta.fai
+rm good_values.temp
 
 # Acomoda tus archivos
 mkdir bedrooms

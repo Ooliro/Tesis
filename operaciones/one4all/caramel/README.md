@@ -98,3 +98,8 @@ Tengo un desorden aqui y olvidé hacer algunas modificaciones a los archivos ini
 3. Por último, usamos CD-HIT para quitar secuencias "idénticas"
 
 El archivo resultante de todos estos filtros podremos alinearlo con **msaprobs**, para luego visualizarlo y editarlo, de ser necesario, antes de pasarlo a **RaxML** para armar el árbol filogenético.
+
+
+### pre_tree + taggin + cd-hit
+
+Los cambios ya fueron hechos y contenmplados dentro de pretree. Después de esto solo necesitas cambiar las etiquetas con `taggin.py` y quitar secuencias similares con `cd-hit`. Con este último archivo podrás pasar a alinearlo con _msaprobs_ y correrlo con rax
