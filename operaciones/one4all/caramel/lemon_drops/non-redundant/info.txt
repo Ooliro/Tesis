@@ -1,3 +1,0 @@
-Notas interesantes:
-
-Conforme aumentas el % de inclusión aumenta el número de secuencias. Eso significa que el porcentaje de inclusión busca del x% para abajo. Incluye a los qu están bajo el rango de ese similitud???

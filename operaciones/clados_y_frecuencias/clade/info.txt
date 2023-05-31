@@ -1,6 +1,0 @@
-"""Punto de inicio para agregar columna de Clados a nuestras listas de frecuencias"""
-
-Lo que encontraras aqui son el punto de inicio para el script originalmente llamado "poncho.py", el cual toma como entrada:
-
-· Lista de clados (Clado+Spp)
-· Lista con información de utilidad... ya se, no es muy descriptivo. Pongamoslo asi, el propósito inicial era agregar una columna de clado a la lista de frecuencias de cada especie (es decir, por TaxID ¿cuántas veces aparece un animal?)
