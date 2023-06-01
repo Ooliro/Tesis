@@ -1,0 +1,2440 @@
+>Cluster 0
+0	1229aa, > amiN2... *
+1	617aa, > amiC3... at 98.54%
+>Cluster 1
+0	1146aa, > nveN3... *
+>Cluster 2
+0	1103aa, > mamC6... *
+1	1100aa, > cidC4... at 95.09%
+>Cluster 3
+0	1097aa, > tfuC6... *
+>Cluster 4
+0	1094aa, > ccarC1... at 90.04%
+1	1091aa, > ccarC6... at 90.10%
+2	1093aa, > ptetC3... at 90.03%
+3	1096aa, > lroC2... *
+>Cluster 5
+0	1094aa, > cauC1... *
+1	1094aa, > cgiC4... at 99.91%
+>Cluster 6
+0	1094aa, > cauC11... *
+1	1092aa, > cgiC8... at 99.82%
+>Cluster 7
+0	1090aa, > dreN1... *
+>Cluster 8
+0	1089aa, > hhiC1... *
+>Cluster 9
+0	1086aa, > asaC1... at 99.63%
+1	1087aa, > aaloC5... *
+>Cluster 10
+0	1086aa, > hvuN1... *
+>Cluster 11
+0	1085aa, > masC1... *
+1	1082aa, > masC2... at 93.81%
+2	1070aa, > xteC1... at 92.24%
+3	1085aa, > xteC6... at 95.94%
+>Cluster 12
+0	1073aa, > xglC5... at 91.15%
+1	1082aa, > tjaC2... *
+>Cluster 13
+0	1079aa, > pnaC4... *
+>Cluster 14
+0	1016aa, > sinC1... at 90.65%
+1	985aa, > mphC1... at 92.59%
+2	1060aa, > obirC3... at 95.94%
+3	903aa, > nviC3... at 92.36%
+4	1055aa, > obicC3... at 94.50%
+5	1060aa, > vveC1... at 92.36%
+6	1076aa, > chisC3... *
+>Cluster 15
+0	1073aa, > sarC2... *
+>Cluster 16
+0	1073aa, > cgaC1... *
+>Cluster 17
+0	1071aa, > olaN3... *
+1	1067aa, > omeC3... at 92.50%
+>Cluster 18
+0	1070aa, > apoC2... *
+>Cluster 19
+0	1069aa, > ipuC1... *
+1	1068aa, > phyC4... at 92.13%
+2	1069aa, > ifuC2... at 99.35%
+>Cluster 20
+0	1069aa, > htrC2... *
+>Cluster 21
+0	1068aa, > gwiC2... *
+>Cluster 22
+0	1068aa, > smeC2... *
+>Cluster 23
+0	1065aa, > hstC1... at 92.58%
+1	1068aa, > pplC1... *
+>Cluster 24
+0	1066aa, > cgigC26... *
+1	1066aa, > cangC11... at 99.62%
+>Cluster 25
+0	1066aa, > ielC1... *
+>Cluster 26
+0	1054aa, > sauC6... at 96.87%
+1	1065aa, > alaC6... *
+>Cluster 27
+0	1065aa, > tmaC1... *
+1	1065aa, > talC4... at 99.62%
+>Cluster 28
+0	1058aa, > preN6... at 90.83%
+1	1064aa, > xmaN4... *
+2	1064aa, > xcoC2... at 99.53%
+3	1064aa, > xheC3... at 98.68%
+4	1060aa, > gafC4... at 95.09%
+>Cluster 29
+0	1064aa, > clumC6... *
+>Cluster 30
+0	1064aa, > smaC5... *
+>Cluster 31
+0	1064aa, > cunC1... *
+>Cluster 32
+0	1063aa, > schC4... at 91.63%
+1	1064aa, > mdolC1... *
+>Cluster 33
+0	1063aa, > amexC4... *
+>Cluster 34
+0	1063aa, > marN21... *
+>Cluster 35
+0	1054aa, > eluC4... at 90.32%
+1	1062aa, > ssaC4... *
+2	1057aa, > ssaC6... at 94.13%
+3	1059aa, > okiC3... at 98.21%
+4	1057aa, > okiC4... at 94.51%
+5	1059aa, > omyC2... at 98.11%
+6	1057aa, > omyC3... at 94.61%
+7	1060aa, > salN5... at 97.74%
+8	1056aa, > salN6... at 94.03%
+9	1060aa, > otsC2... at 98.11%
+10	1057aa, > otsC6... at 94.61%
+11	1057aa, > oneC2... at 94.51%
+12	1059aa, > oneC6... at 98.11%
+13	1057aa, > strC2... at 94.32%
+14	1059aa, > strC18... at 99.72%
+15	1057aa, > okeC2... at 94.61%
+16	1060aa, > okeC4... at 98.30%
+17	1060aa, > snaC2... at 97.83%
+18	1057aa, > snaC5... at 94.04%
+19	1059aa, > cclC4... at 95.00%
+20	1058aa, > cclC5... at 94.33%
+21	1057aa, > ogoC6... at 94.61%
+22	1059aa, > ogoC7... at 98.21%
+>Cluster 36
+0	1062aa, > marmC2... *
+>Cluster 37
+0	1062aa, > aceC1... *
+>Cluster 38
+0	1061aa, > lcrC2... *
+>Cluster 39
+0	1061aa, > oniC7... *
+1	1059aa, > mzeC4... at 97.73%
+2	1059aa, > acalC1... at 97.92%
+3	1061aa, > oauC1... at 99.72%
+>Cluster 40
+0	1060aa, > fheC2... *
+>Cluster 41
+0	1060aa, > bspC4... *
+>Cluster 42
+0	1060aa, > sorC1... *
+>Cluster 43
+0	1060aa, > pleoC1... *
+>Cluster 44
+0	1059aa, > gmoC5... *
+>Cluster 45
+0	1059aa, > hzoC2... *
+>Cluster 46
+0	1058aa, > aanC9... *
+>Cluster 47
+0	1058aa, > gacC8... *
+>Cluster 48
+0	1057aa, > pranC1... *
+>Cluster 49
+0	1057aa, > aruC7... *
+1	1042aa, > pspC8... at 94.34%
+>Cluster 50
+0	1057aa, > gmuC3... *
+>Cluster 51
+0	1056aa, > lcaC1... *
+>Cluster 52
+0	1056aa, > dclC4... *
+>Cluster 53
+0	1056aa, > sjaC1... *
+>Cluster 54
+0	1055aa, > kmaC4... *
+>Cluster 55
+0	1055aa, > ateC7... *
+>Cluster 56
+0	1054aa, > pflC3... *
+1	1049aa, > sluC7... at 94.85%
+2	1049aa, > espC8... at 94.09%
+3	1049aa, > ecrC3... at 93.52%
+4	1054aa, > pfluC1... at 97.82%
+>Cluster 57
+0	1053aa, > charC5... *
+>Cluster 58
+0	1052aa, > mboC1... *
+>Cluster 59
+0	1050aa, > aanC7... *
+>Cluster 60
+0	1049aa, > nfuN3... *
+>Cluster 61
+0	1049aa, > pcaC12... *
+>Cluster 62
+0	1036aa, > cgigN19... at 98.26%
+1	1049aa, > cangC8... *
+>Cluster 63
+0	1048aa, > sfoC4... *
+>Cluster 64
+0	1048aa, > efuC1... *
+1	1048aa, > emoC5... at 99.14%
+>Cluster 65
+0	1046aa, > enaC1... *
+>Cluster 66
+0	1046aa, > nceC1... *
+>Cluster 67
+0	1046aa, > pseC5... *
+1	1040aa, > ecalC7... at 95.48%
+>Cluster 68
+0	1044aa, > sfasC1... *
+>Cluster 69
+0	1044aa, > tamC5... *
+>Cluster 70
+0	1042aa, > pmagC6... *
+>Cluster 71
+0	1042aa, > pgeC1... *
+>Cluster 72
+0	1042aa, > mcyC8... *
+>Cluster 73
+0	1042aa, > sumC1... *
+>Cluster 74
+0	1041aa, > mmeC12... *
+>Cluster 75
+0	1037aa, > sseC3... *
+>Cluster 76
+0	1036aa, > cgoC6... *
+>Cluster 77
+0	1035aa, > mceC1... *
+>Cluster 78
+0	1034aa, > hvuN2... *
+>Cluster 79
+0	1034aa, > mmeN8... *
+>Cluster 80
+0	1016aa, > rmiC2... at 99.70%
+1	1032aa, > rsaC1... *
+2	1009aa, > rsaC2... at 99.90%
+3	1009aa, > dsiC2... at 96.83%
+>Cluster 81
+0	1015aa, > mphC3... at 91.13%
+1	1031aa, > sinC2... *
+>Cluster 82
+0	695aa, > aruC3... at 92.81%
+1	1030aa, > pspC6... *
+>Cluster 83
+0	1028aa, > bbrC4... *
+>Cluster 84
+0	1027aa, > obirC1... *
+>Cluster 85
+0	1027aa, > agiC1... *
+>Cluster 86
+0	1022aa, > dmagC4... at 91.78%
+1	1027aa, > dpuC3... *
+2	1021aa, > dpulC1... at 99.41%
+3	1018aa, > dpulC4... at 99.31%
+>Cluster 87
+0	1027aa, > chisC2... *
+>Cluster 88
+0	1027aa, > mmeN30... *
+>Cluster 89
+0	998aa, > cgigN8... at 96.09%
+1	1026aa, > cangN12... *
+>Cluster 90
+0	1019aa, > nlecC1... at 99.71%
+1	1019aa, > nfaC2... at 99.80%
+2	1025aa, > npiC2... *
+3	1015aa, > nvirC3... at 99.21%
+4	1012aa, > dsimC5... at 95.75%
+>Cluster 91
+0	999aa, > mdeC1... at 97.20%
+1	1007aa, > bteC1... at 91.16%
+2	1021aa, > amelC2... at 90.40%
+3	1021aa, > bkiC1... at 90.21%
+4	1003aa, > vcaC3... at 90.53%
+5	1002aa, > bpyC2... at 91.12%
+6	1022aa, > cglC1... *
+7	988aa, > bhuC1... at 90.99%
+8	1007aa, > bafC1... at 91.16%
+>Cluster 92
+0	1020aa, > aroC1... at 94.71%
+1	1013aa, > nlecC3... at 97.63%
+2	1013aa, > nfaC3... at 97.63%
+3	1013aa, > npiC3... at 97.63%
+4	1013aa, > nvirC1... at 97.63%
+5	1022aa, > dsimC3... *
+>Cluster 93
+0	1022aa, > marC24... *
+>Cluster 94
+0	1017aa, > marC36... *
+>Cluster 95
+0	1015aa, > ielC2... *
+>Cluster 96
+0	1012aa, > cviN7... *
+>Cluster 97
+0	1009aa, > pmaxN2... *
+>Cluster 98
+0	999aa, > harC1... at 98.40%
+1	1006aa, > bmoC1... at 93.64%
+2	1007aa, > prapC1... at 91.06%
+3	1004aa, > sliN1... at 98.41%
+4	1007aa, > banC2... at 92.45%
+5	1006aa, > tniC1... at 96.72%
+6	1005aa, > dplC1... at 93.03%
+7	1006aa, > mhyC1... at 92.25%
+8	1008aa, > mseC1... at 93.85%
+9	998aa, > pxyN2... at 93.79%
+10	997aa, > zceC1... at 91.78%
+11	1007aa, > paeC1... at 92.35%
+12	998aa, > aagC1... at 93.39%
+13	977aa, > mciC2... at 93.86%
+14	1004aa, > ccrC1... at 92.03%
+15	1007aa, > pbrC2... at 91.06%
+16	978aa, > pmacC2... at 94.38%
+17	1006aa, > mjuC1... at 92.74%
+18	997aa, > vcarC1... at 93.38%
+19	999aa, > hzeC1... at 98.40%
+20	1008aa, > pnapC2... at 90.97%
+21	997aa, > vatC1... at 93.38%
+22	1004aa, > lglC2... at 94.32%
+23	997aa, > pgoC1... at 93.28%
+24	997aa, > nioC2... at 93.38%
+25	1009aa, > sfrC1... *
+26	1001aa, > lsiC1... at 93.51%
+27	999aa, > pinC1... at 94.29%
+>Cluster 99
+0	1009aa, > mmeC26... *
+>Cluster 100
+0	1007aa, > bkiC3... *
+>Cluster 101
+0	1006aa, > cchC1... *
+>Cluster 102
+0	1005aa, > marN6... *
+1	1005aa, > marN7... at 99.60%
+>Cluster 103
+0	1003aa, > ielC3... *
+>Cluster 104
+0	1002aa, > dmagC3... *
+1	989aa, > dpuC1... at 98.58%
+2	988aa, > dpulC2... at 98.58%
+>Cluster 105
+0	1002aa, > bflC1... *
+>Cluster 106
+0	1001aa, > vpeC2... *
+1	999aa, > vcrC1... at 98.50%
+2	1001aa, > vvuC1... at 99.90%
+>Cluster 107
+0	995aa, > aaeN3... at 96.68%
+1	995aa, > aalC2... at 99.90%
+2	995aa, > astC2... at 98.29%
+3	970aa, > cquC1... at 95.57%
+4	995aa, > aarC2... at 98.29%
+5	995aa, > acoC2... at 98.39%
+6	995aa, > amerC1... at 98.39%
+7	995aa, > afunC2... at 98.49%
+8	1001aa, > adaC1... *
+9	995aa, > amaC2... at 98.49%
+10	1001aa, > aaqC2... at 100.00%
+11	975aa, > cpipC4... at 95.79%
+12	989aa, > acrC1... at 98.18%
+13	984aa, > amoC1... at 98.37%
+14	995aa, > amarC2... at 98.39%
+15	995aa, > anilC2... at 98.79%
+16	995aa, > agaN2... at 98.39%
+>Cluster 108
+0	981aa, > bdoC1... at 92.25%
+1	981aa, > dmeN2... at 98.57%
+2	980aa, > dpsC2... at 99.29%
+3	980aa, > danC2... at 98.57%
+4	985aa, > dwiC3... at 98.38%
+5	981aa, > dyaC1... at 98.47%
+6	981aa, > dsimC2... at 98.57%
+7	980aa, > dbiC2... at 98.47%
+8	994aa, > dmiC2... at 99.40%
+9	995aa, > dbuC2... at 96.38%
+10	981aa, > dseC2... at 98.57%
+11	981aa, > dmaC2... at 98.57%
+12	980aa, > dalC2... at 96.73%
+13	996aa, > dinC3... at 96.79%
+14	1000aa, > dsuC2... *
+15	981aa, > dsuzC2... at 98.57%
+16	981aa, > dsubC2... at 98.57%
+17	980aa, > tdaC4... at 92.86%
+18	984aa, > dsaC2... at 98.48%
+19	973aa, > btrC1... at 92.50%
+20	981aa, > dteC2... at 98.47%
+21	994aa, > lcuC2... at 92.86%
+22	973aa, > bneC3... at 92.60%
+23	999aa, > dguC1... at 96.20%
+>Cluster 109
+0	1000aa, > nluC1... *
+>Cluster 110
+0	1000aa, > hviC2... *
+>Cluster 111
+0	998aa, > apiC1... *
+1	998aa, > rmaC1... at 98.70%
+2	998aa, > agoC1... at 98.20%
+>Cluster 112
+0	998aa, > amiN1... *
+>Cluster 113
+0	998aa, > mmeN4... *
+>Cluster 114
+0	995aa, > pclC2... at 90.35%
+1	998aa, > cquaC1... *
+>Cluster 115
+0	991aa, > ptriC1... at 95.46%
+1	997aa, > esiC2... *
+>Cluster 116
+0	994aa, > hilC3... *
+>Cluster 117
+0	994aa, > marN1... *
+>Cluster 118
+0	993aa, > nviC2... *
+>Cluster 119
+0	991aa, > dpoC28... *
+>Cluster 120
+0	990aa, > pmoC1... *
+1	985aa, > pchC1... at 92.79%
+>Cluster 121
+0	990aa, > agiC2... *
+>Cluster 122
+0	989aa, > cbrN3... *
+1	977aa, > creN1... at 96.93%
+>Cluster 123
+0	988aa, > ccarC15... *
+>Cluster 124
+0	987aa, > tcaC1... *
+1	975aa, > atuC2... at 91.79%
+>Cluster 125
+0	977aa, > nlecC2... at 100.00%
+1	987aa, > nfaC1... *
+2	982aa, > npiC1... at 99.90%
+3	977aa, > nvirC2... at 99.80%
+4	977aa, > dsimC4... at 94.17%
+>Cluster 126
+0	987aa, > cangN13... *
+>Cluster 127
+0	934aa, > osiC3... at 98.50%
+1	987aa, > obiN12... *
+>Cluster 128
+0	986aa, > astC1... *
+1	980aa, > aarC1... at 98.78%
+2	980aa, > acoC1... at 98.78%
+3	986aa, > amerC2... at 98.68%
+4	980aa, > afunC1... at 98.16%
+5	978aa, > adaC2... at 93.76%
+6	982aa, > amaC1... at 99.39%
+7	980aa, > aaqC1... at 93.88%
+8	982aa, > acrC2... at 94.50%
+9	986aa, > amoC2... at 97.87%
+10	980aa, > amarC1... at 98.47%
+11	984aa, > anilC1... at 97.05%
+12	984aa, > agaN3... at 98.78%
+>Cluster 129
+0	985aa, > gaeN5... *
+>Cluster 130
+0	985aa, > marN2... *
+1	945aa, > marC3... at 98.73%
+2	854aa, > marC4... at 96.84%
+3	955aa, > marN5... at 97.28%
+>Cluster 131
+0	984aa, > lsaC3... *
+>Cluster 132
+0	983aa, > pmaxN8... *
+>Cluster 133
+0	983aa, > dpoC12... *
+>Cluster 134
+0	982aa, > cviN4... *
+>Cluster 135
+0	982aa, > samC3... *
+1	982aa, > spiC3... at 100.00%
+2	982aa, > scanC3... at 100.00%
+3	982aa, > sniC2... at 100.00%
+4	982aa, > sgrC1... at 99.90%
+5	982aa, > sserC2... at 100.00%
+>Cluster 136
+0	982aa, > dpoN16... *
+1	981aa, > dpoN19... at 93.88%
+2	461aa, > dpoC24... at 95.88%
+>Cluster 137
+0	954aa, > cgigC10... at 98.95%
+1	982aa, > cangC25... *
+>Cluster 138
+0	981aa, > pcaC3... *
+>Cluster 139
+0	981aa, > obicC1... *
+>Cluster 140
+0	981aa, > cgigN9... *
+>Cluster 141
+0	979aa, > csepC1... *
+1	972aa, > haxC1... at 98.25%
+>Cluster 142
+0	978aa, > aaeN1... *
+1	978aa, > cquC2... at 93.76%
+2	978aa, > cpipC3... at 93.87%
+>Cluster 143
+0	978aa, > amelC1... *
+>Cluster 144
+0	978aa, > bcoC4... *
+>Cluster 145
+0	977aa, > pmaxN7... *
+>Cluster 146
+0	976aa, > sraC2... *
+>Cluster 147
+0	976aa, > marC33... *
+>Cluster 148
+0	975aa, > dviC1... *
+>Cluster 149
+0	974aa, > agrC2... *
+>Cluster 150
+0	973aa, > cglC2... *
+>Cluster 151
+0	973aa, > mdeC2... *
+>Cluster 152
+0	972aa, > bcoC3... *
+>Cluster 153
+0	971aa, > pmaxN5... *
+>Cluster 154
+0	970aa, > mmeN17... *
+>Cluster 155
+0	969aa, > vcaC2... *
+>Cluster 156
+0	967aa, > cgigN18... *
+>Cluster 157
+0	965aa, > pvuN1... *
+>Cluster 158
+0	964aa, > cgigC7... *
+1	964aa, > cangC2... at 99.79%
+>Cluster 159
+0	964aa, > pcaC11... *
+>Cluster 160
+0	963aa, > pcaC6... *
+>Cluster 161
+0	963aa, > dpoC15... *
+>Cluster 162
+0	931aa, > obiC1... at 90.55%
+1	962aa, > osiC5... *
+>Cluster 163
+0	962aa, > sacC1... *
+>Cluster 164
+0	962aa, > gaeC16... *
+1	841aa, > gaeC18... at 91.56%
+>Cluster 165
+0	961aa, > pmaxC4... *
+>Cluster 166
+0	960aa, > cviN11... *
+>Cluster 167
+0	958aa, > atuC3... *
+>Cluster 168
+0	958aa, > pvuC6... *
+>Cluster 169
+0	957aa, > mmeN20... *
+>Cluster 170
+0	956aa, > pmaxC3... *
+>Cluster 171
+0	954aa, > mmeN16... *
+1	271aa, > mmeC25... at 90.41%
+2	485aa, > mmeC27... at 90.52%
+>Cluster 172
+0	953aa, > cviN14... *
+>Cluster 173
+0	953aa, > bmoC2... *
+>Cluster 174
+0	953aa, > mmeN3... *
+>Cluster 175
+0	952aa, > mseC2... *
+1	514aa, > mseC4... at 99.22%
+>Cluster 176
+0	791aa, > bteC2... at 96.71%
+1	951aa, > bpyC1... *
+2	947aa, > bhuC2... at 96.41%
+3	950aa, > bafC2... at 96.21%
+>Cluster 177
+0	923aa, > dpoC13... at 99.89%
+1	951aa, > dpoC14... *
+>Cluster 178
+0	948aa, > cviN5... *
+>Cluster 179
+0	947aa, > gaeC12... *
+>Cluster 180
+0	947aa, > gaeC22... *
+>Cluster 181
+0	945aa, > cviN12... *
+1	934aa, > cviN13... at 94.75%
+>Cluster 182
+0	945aa, > elaC1... *
+>Cluster 183
+0	945aa, > gaeC15... *
+>Cluster 184
+0	452aa, > gaeC13... at 96.90%
+1	944aa, > gaeC20... *
+>Cluster 185
+0	942aa, > samC2... at 98.30%
+1	942aa, > spiC2... at 98.30%
+2	942aa, > scanC2... at 98.41%
+3	943aa, > sniC3... at 97.24%
+4	944aa, > sgrC2... *
+5	942aa, > sserC3... at 98.73%
+>Cluster 186
+0	942aa, > dpoN17... *
+>Cluster 187
+0	942aa, > dpoC25... *
+1	942aa, > dpoC27... at 99.79%
+>Cluster 188
+0	941aa, > gaeC17... *
+>Cluster 189
+0	941aa, > pvuC4... *
+>Cluster 190
+0	939aa, > tcaC2... *
+>Cluster 191
+0	937aa, > pmaxC6... *
+>Cluster 192
+0	930aa, > prapC2... at 98.60%
+1	936aa, > pbrC1... *
+2	930aa, > pnapC1... at 97.63%
+>Cluster 193
+0	933aa, > harC2... *
+1	915aa, > hzeC2... at 100.00%
+>Cluster 194
+0	932aa, > cgigC1... *
+1	932aa, > cangC18... at 99.57%
+>Cluster 195
+0	932aa, > osiC15... *
+>Cluster 196
+0	932aa, > mmeC6... *
+>Cluster 197
+0	931aa, > cgigC13... *
+1	928aa, > cangC23... at 95.15%
+>Cluster 198
+0	930aa, > dsiC1... *
+>Cluster 199
+0	930aa, > mmeC2... *
+>Cluster 200
+0	930aa, > agrC3... *
+>Cluster 201
+0	929aa, > lsiC2... *
+>Cluster 202
+0	923aa, > cviN18... *
+1	923aa, > cviN19... at 99.46%
+>Cluster 203
+0	921aa, > osiC11... *
+>Cluster 204
+0	921aa, > dpoC1... *
+>Cluster 205
+0	918aa, > obiC4... at 95.21%
+1	919aa, > osiC4... *
+>Cluster 206
+0	919aa, > cgigC11... *
+1	919aa, > cangC26... at 98.91%
+>Cluster 207
+0	917aa, > marC40... *
+>Cluster 208
+0	916aa, > pcaC2... *
+>Cluster 209
+0	915aa, > dpoC11... *
+>Cluster 210
+0	912aa, > osiC1... *
+>Cluster 211
+0	905aa, > gaeC8... *
+>Cluster 212
+0	904aa, > gaeC10... *
+>Cluster 213
+0	903aa, > pmaxC12... *
+>Cluster 214
+0	899aa, > pmaxC13... *
+>Cluster 215
+0	898aa, > cviN3... *
+>Cluster 216
+0	898aa, > cangC21... *
+>Cluster 217
+0	895aa, > cviN1... *
+>Cluster 218
+0	895aa, > gaeC9... *
+>Cluster 219
+0	895aa, > dpoC10... *
+>Cluster 220
+0	894aa, > pcaN7... *
+>Cluster 221
+0	894aa, > pannC2... *
+>Cluster 222
+0	893aa, > cgigC25... *
+1	893aa, > cangC19... at 99.33%
+>Cluster 223
+0	891aa, > mmeC1... *
+>Cluster 224
+0	887aa, > pinC2... *
+>Cluster 225
+0	886aa, > cgigC24... *
+1	880aa, > cangC20... at 98.07%
+>Cluster 226
+0	884aa, > pmaxN10... *
+>Cluster 227
+0	883aa, > tniC2... *
+>Cluster 228
+0	883aa, > mmeC15... *
+>Cluster 229
+0	880aa, > dwiC1... *
+>Cluster 230
+0	880aa, > cgaC2... *
+>Cluster 231
+0	879aa, > pmacC1... *
+>Cluster 232
+0	879aa, > ipuC2... *
+1	844aa, > ipuC3... at 92.77%
+2	774aa, > ifuC3... at 92.64%
+3	866aa, > ifuC4... at 98.27%
+>Cluster 233
+0	878aa, > banC1... at 92.03%
+1	879aa, > mhyC2... *
+2	878aa, > paeC2... at 91.34%
+3	879aa, > mjuC2... at 94.88%
+>Cluster 234
+0	878aa, > vcarC2... *
+1	875aa, > vatC2... at 97.71%
+2	877aa, > nioC3... at 94.87%
+>Cluster 235
+0	877aa, > mciC1... *
+>Cluster 236
+0	876aa, > aagC2... *
+>Cluster 237
+0	876aa, > amexC5... *
+>Cluster 238
+0	876aa, > pgoC2... *
+>Cluster 239
+0	876aa, > dviC3... *
+>Cluster 240
+0	803aa, > otsC4... at 93.52%
+1	875aa, > strC12... *
+2	319aa, > strC13... at 95.92%
+3	861aa, > strC14... at 97.44%
+4	800aa, > okeC1... at 92.62%
+5	703aa, > omyC8... at 93.03%
+6	484aa, > ssaC7... at 96.69%
+7	741aa, > ssaC9... at 97.57%
+8	785aa, > ssaC10... at 97.20%
+9	315aa, > ssaC11... at 97.46%
+10	798aa, > ogoC8... at 92.48%
+>Cluster 241
+0	875aa, > aanC6... *
+>Cluster 242
+0	875aa, > mcyC7... *
+>Cluster 243
+0	875aa, > pxyC1... *
+>Cluster 244
+0	873aa, > zceC2... at 96.56%
+1	874aa, > ccrC2... *
+>Cluster 245
+0	874aa, > lcuC3... *
+>Cluster 246
+0	874aa, > pvuC3... *
+>Cluster 247
+0	874aa, > mmeC29... *
+>Cluster 248
+0	873aa, > cgigC20... *
+1	873aa, > cangC10... at 99.20%
+>Cluster 249
+0	873aa, > cgaC4... *
+>Cluster 250
+0	872aa, > cgigN2... *
+1	871aa, > cviN8... at 94.14%
+2	860aa, > cgigC22... at 92.56%
+3	872aa, > cangN17... at 100.00%
+>Cluster 251
+0	872aa, > pcaN5... *
+>Cluster 252
+0	872aa, > smeC3... *
+>Cluster 253
+0	872aa, > lglC1... *
+>Cluster 254
+0	871aa, > eluC7... *
+>Cluster 255
+0	871aa, > dplC2... *
+>Cluster 256
+0	870aa, > sliN2... *
+1	870aa, > sfrC2... at 94.94%
+>Cluster 257
+0	870aa, > phyC6... *
+>Cluster 258
+0	870aa, > cgaC3... *
+>Cluster 259
+0	849aa, > dinC2... at 94.70%
+1	869aa, > dalC4... *
+>Cluster 260
+0	869aa, > mmeC13... *
+>Cluster 261
+0	868aa, > phyC5... *
+>Cluster 262
+0	868aa, > tdaC2... *
+>Cluster 263
+0	868aa, > dpoN26... *
+>Cluster 264
+0	672aa, > rmiC1... at 90.18%
+1	867aa, > rsaC3... *
+>Cluster 265
+0	867aa, > marN16... *
+1	866aa, > marN17... at 100.00%
+>Cluster 266
+0	866aa, > mmeN28... *
+>Cluster 267
+0	861aa, > cchC9... *
+>Cluster 268
+0	861aa, > pmaxN11... *
+>Cluster 269
+0	860aa, > cgigC23... *
+1	860aa, > cangC15... at 93.49%
+>Cluster 270
+0	860aa, > mmeC5... *
+>Cluster 271
+0	808aa, > cplC3... at 93.44%
+1	859aa, > rtyC3... *
+>Cluster 272
+0	480aa, > marC8... at 90.42%
+1	859aa, > marC11... *
+2	585aa, > marC18... at 90.09%
+3	859aa, > marC26... at 99.77%
+4	480aa, > marC39... at 90.42%
+>Cluster 273
+0	858aa, > bdoC2... *
+1	833aa, > btrC3... at 98.92%
+2	853aa, > bneC2... at 99.06%
+>Cluster 274
+0	858aa, > cgigC3... *
+1	853aa, > cangC7... at 98.12%
+>Cluster 275
+0	845aa, > dmeC1... at 91.83%
+1	853aa, > dpsC1... at 99.30%
+2	845aa, > dsimC1... at 92.19%
+3	849aa, > dsuzC1... at 92.93%
+4	849aa, > dbiC1... at 92.70%
+5	858aa, > dmiC1... *
+6	845aa, > dseC1... at 92.19%
+7	849aa, > dmaC1... at 92.11%
+8	858aa, > dsuC1... at 96.27%
+9	852aa, > dsubC1... at 93.31%
+10	845aa, > dyaC2... at 91.60%
+11	845aa, > dsaC1... at 91.72%
+12	845aa, > dteC1... at 91.72%
+13	845aa, > dguC2... at 91.12%
+>Cluster 276
+0	858aa, > cgigN17... *
+1	851aa, > cangN9... at 99.53%
+>Cluster 277
+0	858aa, > ccaC4... *
+>Cluster 278
+0	834aa, > obiC2... at 97.84%
+1	856aa, > osiC14... *
+>Cluster 279
+0	855aa, > hilC1... *
+>Cluster 280
+0	855aa, > gaeC19... *
+>Cluster 281
+0	520aa, > marC9... at 96.92%
+1	855aa, > marC14... *
+2	853aa, > marC22... at 99.65%
+>Cluster 282
+0	855aa, > marC15... *
+1	854aa, > marC23... at 99.18%
+>Cluster 283
+0	854aa, > gmoC1... *
+>Cluster 284
+0	283aa, > marC25... at 96.82%
+1	853aa, > marC34... *
+2	582aa, > marC38... at 91.24%
+>Cluster 285
+0	852aa, > pseC4... *
+1	690aa, > ecalC6... at 94.49%
+>Cluster 286
+0	849aa, > danC1... *
+>Cluster 287
+0	848aa, > dbuC1... *
+>Cluster 288
+0	848aa, > cgigC21... *
+1	830aa, > cangC14... at 98.31%
+>Cluster 289
+0	847aa, > masC8... *
+>Cluster 290
+0	675aa, > cauC3... at 94.37%
+1	677aa, > cauC5... at 94.68%
+2	846aa, > cauC7... *
+3	827aa, > cauC8... at 92.62%
+4	494aa, > cgiC2... at 91.09%
+5	592aa, > cgiC3... at 99.49%
+>Cluster 291
+0	845aa, > sraC1... *
+>Cluster 292
+0	845aa, > pcaC1... *
+>Cluster 293
+0	845aa, > htrC1... *
+>Cluster 294
+0	816aa, > marC20... at 98.77%
+1	845aa, > marC35... *
+>Cluster 295
+0	844aa, > pleoC5... *
+>Cluster 296
+0	843aa, > marmC4... *
+>Cluster 297
+0	843aa, > cunC5... *
+>Cluster 298
+0	776aa, > ccarC4... at 90.72%
+1	843aa, > mamC4... *
+2	843aa, > mamC5... at 98.10%
+>Cluster 299
+0	842aa, > obiN3... *
+>Cluster 300
+0	841aa, > schC2... *
+>Cluster 301
+0	839aa, > mmeC10... *
+>Cluster 302
+0	835aa, > oniC4... *
+1	276aa, > oniC5... at 97.46%
+2	455aa, > oauC5... at 96.04%
+3	740aa, > oauC6... at 97.30%
+>Cluster 303
+0	834aa, > dmagC1... *
+>Cluster 304
+0	834aa, > clumC3... *
+>Cluster 305
+0	833aa, > aanC5... *
+>Cluster 306
+0	833aa, > csepC2... *
+1	824aa, > haxC2... at 90.78%
+>Cluster 307
+0	832aa, > mdolC9... *
+>Cluster 308
+0	832aa, > obiC7... *
+>Cluster 309
+0	831aa, > dpoC8... *
+>Cluster 310
+0	830aa, > eelC4... *
+>Cluster 311
+0	826aa, > sfaC2... *
+>Cluster 312
+0	825aa, > dpoC7... *
+>Cluster 313
+0	824aa, > lsaC2... *
+>Cluster 314
+0	821aa, > xlaC1... *
+>Cluster 315
+0	820aa, > lcrC6... *
+>Cluster 316
+0	820aa, > aanC8... *
+>Cluster 317
+0	820aa, > smaC1... *
+>Cluster 318
+0	820aa, > mcyC2... *
+>Cluster 319
+0	818aa, > nceC6... *
+>Cluster 320
+0	814aa, > tmaC5... at 92.87%
+1	817aa, > tmaC6... *
+2	815aa, > tmaC7... at 95.95%
+3	611aa, > talC1... at 92.96%
+4	642aa, > talC2... at 97.98%
+5	483aa, > talC3... at 94.82%
+>Cluster 321
+0	816aa, > gaeC14... *
+>Cluster 322
+0	813aa, > cunC6... *
+>Cluster 323
+0	812aa, > cchC6... *
+>Cluster 324
+0	811aa, > croC4... *
+>Cluster 325
+0	810aa, > ppeC1... *
+>Cluster 326
+0	808aa, > pvuC10... *
+>Cluster 327
+0	804aa, > amexC2... *
+>Cluster 328
+0	804aa, > sfoC3... *
+>Cluster 329
+0	804aa, > marC13... *
+1	804aa, > marC19... at 100.00%
+2	804aa, > marC32... at 98.76%
+>Cluster 330
+0	803aa, > gwiC1... *
+1	803aa, > gwiC4... at 99.75%
+>Cluster 331
+0	802aa, > lroC6... *
+1	799aa, > cgiC7... at 90.61%
+>Cluster 332
+0	633aa, > gacC5... at 94.94%
+1	800aa, > gacC6... at 96.75%
+2	801aa, > gacC7... *
+>Cluster 333
+0	783aa, > phyC7... at 91.06%
+1	783aa, > phyC8... at 90.29%
+2	801aa, > cgaC7... *
+>Cluster 334
+0	799aa, > smeC1... *
+>Cluster 335
+0	798aa, > ateC1... *
+>Cluster 336
+0	798aa, > tjaC5... *
+>Cluster 337
+0	796aa, > ateC2... *
+>Cluster 338
+0	794aa, > mmeC11... *
+>Cluster 339
+0	793aa, > eluC5... *
+>Cluster 340
+0	793aa, > tfuC7... *
+>Cluster 341
+0	792aa, > araC4... *
+>Cluster 342
+0	789aa, > ptetC1... *
+>Cluster 343
+0	788aa, > bbrC5... *
+1	594aa, > bbrC6... at 98.99%
+>Cluster 344
+0	787aa, > cchC7... *
+>Cluster 345
+0	786aa, > cchC8... *
+>Cluster 346
+0	783aa, > tfuC5... *
+>Cluster 347
+0	778aa, > tfuC4... at 93.70%
+1	783aa, > tfuC8... *
+>Cluster 348
+0	782aa, > pranC2... *
+>Cluster 349
+0	759aa, > aceC4... at 93.94%
+1	781aa, > aceC5... *
+>Cluster 350
+0	781aa, > cgigC14... *
+1	779aa, > cangC24... at 99.74%
+>Cluster 351
+0	781aa, > xglC3... *
+>Cluster 352
+0	726aa, > ifuC9... at 97.52%
+1	781aa, > ipuC8... *
+>Cluster 353
+0	780aa, > hhiC4... *
+>Cluster 354
+0	779aa, > asaC2... *
+1	779aa, > aaloC4... at 99.61%
+>Cluster 355
+0	776aa, > ptetC2... *
+>Cluster 356
+0	774aa, > mdolC6... *
+>Cluster 357
+0	773aa, > sjaC5... *
+>Cluster 358
+0	759aa, > xmaN6... at 96.84%
+1	763aa, > xcoC5... at 90.83%
+2	772aa, > xcoC6... *
+3	771aa, > xheC4... at 98.05%
+4	764aa, > xheC6... at 91.75%
+5	628aa, > gafC6... at 95.70%
+>Cluster 359
+0	771aa, > dpoC18... *
+>Cluster 360
+0	765aa, > fheC7... *
+1	630aa, > fheC8... at 96.03%
+>Cluster 361
+0	763aa, > cviN2... *
+>Cluster 362
+0	763aa, > marmC5... *
+>Cluster 363
+0	763aa, > mboC5... *
+1	589aa, > mboC7... at 94.57%
+2	606aa, > mboC8... at 92.90%
+>Cluster 364
+0	763aa, > gafC5... *
+>Cluster 365
+0	763aa, > mceC5... *
+>Cluster 366
+0	762aa, > ateC3... *
+1	749aa, > ateC8... at 93.99%
+>Cluster 367
+0	759aa, > sauC3... at 93.41%
+1	762aa, > sauC4... *
+2	760aa, > alaC3... at 93.03%
+>Cluster 368
+0	304aa, > pmarC9... at 95.72%
+1	762aa, > pmarC13... *
+>Cluster 369
+0	762aa, > lcaC5... *
+1	733aa, > lcaC6... at 91.95%
+>Cluster 370
+0	761aa, > oniC6... *
+1	759aa, > oauC4... at 100.00%
+>Cluster 371
+0	761aa, > smaC2... *
+>Cluster 372
+0	761aa, > schC1... *
+>Cluster 373
+0	302aa, > elaC3... at 97.68%
+1	761aa, > efuC5... *
+2	636aa, > emoC1... at 98.43%
+>Cluster 374
+0	760aa, > bflN13... *
+>Cluster 375
+0	759aa, > cgoC3... *
+>Cluster 376
+0	759aa, > pleoC6... *
+>Cluster 377
+0	754aa, > hstC5... at 90.98%
+1	759aa, > pplC5... *
+>Cluster 378
+0	759aa, > mmeC9... *
+1	693aa, > mmeC14... at 95.53%
+>Cluster 379
+0	755aa, > bspC6... at 94.70%
+1	757aa, > bspC7... *
+>Cluster 380
+0	755aa, > sarC5... *
+>Cluster 381
+0	754aa, > sumC6... *
+>Cluster 382
+0	752aa, > gaeN11... *
+>Cluster 383
+0	739aa, > bboC6... at 90.39%
+1	752aa, > bboC8... *
+>Cluster 384
+0	751aa, > scanC5... *
+1	744aa, > scanC7... at 93.15%
+>Cluster 385
+0	746aa, > espC4... at 98.26%
+1	750aa, > espC5... *
+2	745aa, > ecrC5... at 92.89%
+>Cluster 386
+0	750aa, > mdolC7... *
+>Cluster 387
+0	512aa, > pflC5... at 95.31%
+1	736aa, > sluC2... at 91.85%
+2	567aa, > sluC4... at 92.06%
+3	749aa, > pfluC5... *
+>Cluster 388
+0	749aa, > mdolC8... *
+>Cluster 389
+0	748aa, > sumC5... *
+>Cluster 390
+0	748aa, > xlaC2... *
+>Cluster 391
+0	746aa, > cseC5... *
+>Cluster 392
+0	744aa, > xtrC5... *
+>Cluster 393
+0	744aa, > sseC9... *
+>Cluster 394
+0	742aa, > sorC3... *
+>Cluster 395
+0	740aa, > dpuC2... *
+1	739aa, > dpulC3... at 93.50%
+>Cluster 396
+0	740aa, > bboC5... *
+>Cluster 397
+0	736aa, > xmaN5... *
+1	736aa, > xheC7... at 98.91%
+2	687aa, > gafC7... at 92.72%
+>Cluster 398
+0	732aa, > ecalC3... at 94.67%
+1	735aa, > pseC3... *
+>Cluster 399
+0	734aa, > cbrN1... *
+>Cluster 400
+0	734aa, > ecalC4... *
+1	721aa, > pseC2... at 96.53%
+>Cluster 401
+0	734aa, > sfasC6... *
+>Cluster 402
+0	733aa, > pcaN4... *
+>Cluster 403
+0	729aa, > bboC7... *
+>Cluster 404
+0	728aa, > apoC8... *
+>Cluster 405
+0	514aa, > elaC5... at 98.25%
+1	727aa, > efuC6... *
+2	539aa, > emoC2... at 97.77%
+>Cluster 406
+0	726aa, > gmuN5... *
+1	725aa, > gmuC6... at 94.76%
+>Cluster 407
+0	725aa, > araC2... *
+>Cluster 408
+0	719aa, > enaC4... *
+>Cluster 409
+0	717aa, > pmarC7... *
+>Cluster 410
+0	715aa, > gaeN21... *
+>Cluster 411
+0	707aa, > kmaC8... *
+>Cluster 412
+0	702aa, > eluC10... *
+>Cluster 413
+0	697aa, > xmaN7... *
+>Cluster 414
+0	692aa, > mmeC22... *
+>Cluster 415
+0	690aa, > sluC5... *
+>Cluster 416
+0	689aa, > kmaC9... *
+>Cluster 417
+0	688aa, > cgigC12... *
+>Cluster 418
+0	685aa, > locN4... *
+>Cluster 419
+0	679aa, > lcaC7... *
+>Cluster 420
+0	678aa, > clumC4... *
+>Cluster 421
+0	677aa, > nwhC4... *
+>Cluster 422
+0	648aa, > sauC5... at 93.52%
+1	674aa, > alaC4... *
+>Cluster 423
+0	669aa, > cinC1... *
+>Cluster 424
+0	668aa, > kmaN7... *
+>Cluster 425
+0	668aa, > sfasC5... *
+>Cluster 426
+0	668aa, > sseC7... *
+>Cluster 427
+0	665aa, > oneC3... at 95.19%
+1	667aa, > okiC6... *
+2	655aa, > snaC1... at 90.99%
+>Cluster 428
+0	664aa, > eluC9... *
+>Cluster 429
+0	663aa, > cviN26... *
+1	426aa, > cviC27... at 92.49%
+2	338aa, > cviC28... at 94.38%
+>Cluster 430
+0	663aa, > pmarC14... *
+>Cluster 431
+0	657aa, > bflN7... *
+>Cluster 432
+0	634aa, > pflC6... at 94.48%
+1	647aa, > pfluC6... *
+>Cluster 433
+0	641aa, > gmuC4... *
+>Cluster 434
+0	633aa, > xglC4... *
+>Cluster 435
+0	571aa, > mmurC5... at 94.92%
+1	628aa, > mmurC6... *
+>Cluster 436
+0	628aa, > marC12... *
+>Cluster 437
+0	627aa, > nveN2... *
+>Cluster 438
+0	624aa, > cgoC2... *
+>Cluster 439
+0	624aa, > dpoN5... *
+>Cluster 440
+0	622aa, > bflC4... *
+>Cluster 441
+0	622aa, > pvuC2... *
+>Cluster 442
+0	621aa, > pvuC5... *
+>Cluster 443
+0	610aa, > dpoN20... at 90.98%
+1	612aa, > dpoC21... *
+>Cluster 444
+0	609aa, > cviC17... *
+>Cluster 445
+0	609aa, > cgigN15... *
+>Cluster 446
+0	608aa, > lroC1... *
+>Cluster 447
+0	603aa, > cviC15... *
+>Cluster 448
+0	592aa, > bboH1... *
+>Cluster 449
+0	388aa, > bbufH2... at 98.97%
+1	589aa, > bgaH2... *
+2	368aa, > sboH2... at 91.30%
+>Cluster 450
+0	585aa, > pvuC13... *
+>Cluster 451
+0	575aa, > eluC8... *
+>Cluster 452
+0	570aa, > charC4... *
+>Cluster 453
+0	565aa, > pannH4... *
+>Cluster 454
+0	559aa, > cseH2... *
+1	473aa, > elaH7... at 91.33%
+2	473aa, > efuH3... at 91.54%
+3	542aa, > emoH3... at 90.41%
+>Cluster 455
+0	554aa, > aruH10... at 91.88%
+1	554aa, > aruH12... at 91.88%
+2	559aa, > pspH2... *
+>Cluster 456
+0	558aa, > fheN6... *
+>Cluster 457
+0	546aa, > acaH2... at 92.67%
+1	540aa, > pmuH3... at 91.67%
+2	544aa, > telH2... at 90.07%
+3	541aa, > lagH3... at 90.76%
+4	544aa, > zviH2... at 91.18%
+5	544aa, > sunH1... at 91.54%
+6	558aa, > stoH1... *
+7	545aa, > hcaH3... at 91.74%
+8	541aa, > praH2... at 91.31%
+>Cluster 458
+0	557aa, > dreH4... *
+1	548aa, > cauH9... at 90.51%
+2	548aa, > cauH10... at 90.33%
+3	532aa, > cauH13... at 92.67%
+4	543aa, > ccarH3... at 93.92%
+5	532aa, > ccarH8... at 93.61%
+6	557aa, > ptetH5... at 91.38%
+7	539aa, > mamH2... at 91.47%
+8	542aa, > lroH4... at 91.70%
+9	540aa, > cidH1... at 91.67%
+10	532aa, > cgiH6... at 92.86%
+11	548aa, > cgiH9... at 90.33%
+>Cluster 459
+0	556aa, > pranH3... *
+>Cluster 460
+0	556aa, > xtrH6... *
+>Cluster 461
+0	546aa, > lcaH3... at 90.48%
+1	550aa, > enaH3... at 91.27%
+2	474aa, > hhiH6... at 97.26%
+3	474aa, > hstH3... at 97.26%
+4	555aa, > smaH4... at 91.17%
+5	549aa, > xglH1... at 90.16%
+6	547aa, > tjaH4... at 90.68%
+7	543aa, > pleoH3... at 90.24%
+8	477aa, > schH5... at 91.19%
+9	556aa, > pplH4... *
+>Cluster 462
+0	544aa, > xmaH2... at 91.73%
+1	547aa, > preH5... at 91.77%
+2	555aa, > fheH3... *
+3	544aa, > xcoH1... at 91.91%
+4	544aa, > xheH1... at 91.36%
+5	555aa, > fheH4... at 99.82%
+6	542aa, > gafH1... at 91.70%
+7	544aa, > gmuH2... at 91.36%
+>Cluster 463
+0	555aa, > bbrH7... *
+1	339aa, > bbrH8... at 94.10%
+>Cluster 464
+0	554aa, > truH2... *
+>Cluster 465
+0	553aa, > eluH3... at 92.77%
+1	548aa, > ssaH3... at 97.26%
+2	539aa, > ssaH5... at 97.96%
+3	554aa, > okiH5... *
+4	553aa, > omyH4... at 98.19%
+5	553aa, > omyH6... at 99.64%
+6	544aa, > salH3... at 97.79%
+7	554aa, > salH7... at 98.74%
+8	554aa, > otsH1... at 99.46%
+9	552aa, > oneH5... at 99.64%
+10	542aa, > strH3... at 97.97%
+11	542aa, > strH4... at 97.97%
+12	542aa, > strH5... at 97.97%
+13	542aa, > strH6... at 97.79%
+14	542aa, > strH7... at 97.79%
+15	542aa, > strH8... at 97.79%
+16	542aa, > strH9... at 97.97%
+17	542aa, > strH10... at 97.79%
+18	540aa, > strH11... at 97.96%
+19	541aa, > strH15... at 98.89%
+20	546aa, > mmurH8... at 91.76%
+21	552aa, > okiH7... at 98.01%
+22	554aa, > snaH3... at 97.83%
+23	554aa, > snaH7... at 99.28%
+24	554aa, > cclH2... at 98.56%
+25	553aa, > cclH8... at 98.55%
+26	552aa, > otsH8... at 98.37%
+27	554aa, > ogoH2... at 99.28%
+28	552aa, > ogoH3... at 98.01%
+29	554aa, > okeH6... at 99.64%
+30	535aa, > okeH7... at 98.69%
+>Cluster 466
+0	552aa, > rbiH2... at 92.21%
+1	551aa, > muniH3... at 94.92%
+2	554aa, > gseH4... *
+>Cluster 467
+0	554aa, > nceH3... *
+>Cluster 468
+0	321aa, > espC2... at 96.88%
+1	554aa, > ecrC7... *
+>Cluster 469
+0	546aa, > dreH2... at 91.21%
+1	553aa, > ipuH7... at 96.75%
+2	546aa, > pnaH1... at 92.86%
+3	547aa, > lcaH2... at 90.13%
+4	546aa, > sfoH5... at 91.39%
+5	310aa, > salH2... at 91.29%
+6	546aa, > cauH2... at 91.76%
+7	544aa, > cauH12... at 91.18%
+8	546aa, > marmH3... at 90.29%
+9	552aa, > phyH3... at 96.38%
+10	546aa, > eelH1... at 93.41%
+11	552aa, > tfuH1... at 95.83%
+12	546aa, > cchH2... at 91.21%
+13	545aa, > pmagH5... at 90.28%
+14	545aa, > aanH10... at 90.46%
+15	546aa, > mcyH6... at 90.48%
+16	546aa, > ccarH2... at 91.21%
+17	546aa, > ccarH7... at 92.12%
+18	546aa, > ptetH4... at 92.31%
+19	546aa, > schH6... at 90.29%
+20	554aa, > smeH4... *
+21	554aa, > mamH1... at 90.61%
+22	546aa, > amexH6... at 93.04%
+23	546aa, > lroH3... at 92.12%
+24	546aa, > masH4... at 90.29%
+25	546aa, > masH6... at 90.48%
+26	546aa, > cidH2... at 91.21%
+27	546aa, > xteH5... at 90.48%
+28	546aa, > cgiH5... at 91.21%
+29	546aa, > cgiH10... at 91.58%
+30	546aa, > sjaH3... at 90.11%
+31	553aa, > cgaH6... at 96.56%
+32	553aa, > ifuH11... at 97.11%
+>Cluster 470
+0	553aa, > tamH2... *
+>Cluster 471
+0	544aa, > htrH4... at 95.22%
+1	542aa, > htrH5... at 93.91%
+2	553aa, > htrH6... *
+>Cluster 472
+0	552aa, > nfuH1... *
+>Cluster 473
+0	552aa, > eelH2... *
+>Cluster 474
+0	552aa, > lcrH4... *
+1	552aa, > lcrH5... at 98.73%
+>Cluster 475
+0	544aa, > oniH1... at 91.54%
+1	547aa, > truH1... at 90.13%
+2	546aa, > olaH2... at 91.21%
+3	546aa, > mzeH3... at 91.76%
+4	547aa, > xmaH3... at 90.13%
+5	547aa, > cseH3... at 91.22%
+6	547aa, > preH4... at 90.68%
+7	547aa, > lcrH1... at 91.04%
+8	546aa, > eluH1... at 93.22%
+9	545aa, > charH2... at 90.28%
+10	547aa, > nfuH2... at 90.31%
+11	547aa, > apoH1... at 91.59%
+12	546aa, > omeH1... at 91.39%
+13	548aa, > otsH3... at 99.82%
+14	544aa, > acalH4... at 91.54%
+15	547aa, > ateH6... at 91.77%
+16	547aa, > xcoH3... at 90.13%
+17	547aa, > pranH4... at 91.96%
+18	547aa, > gwiH6... at 90.49%
+19	547aa, > pflH2... at 91.22%
+20	546aa, > dclH3... at 90.29%
+21	545aa, > bspH2... at 91.01%
+22	546aa, > cgoH5... at 90.66%
+23	547aa, > enaH2... at 91.96%
+24	548aa, > strH16... at 99.45%
+25	547aa, > mmurH7... at 92.32%
+26	547aa, > sfasH3... at 91.59%
+27	547aa, > sorH4... at 91.22%
+28	545aa, > gmoH4... at 91.56%
+29	547aa, > aceH6... at 90.86%
+30	547aa, > sluH1... at 91.22%
+31	544aa, > oauH2... at 91.36%
+32	548aa, > okiH8... at 99.64%
+33	548aa, > okiH9... at 99.64%
+34	547aa, > espH7... at 90.49%
+35	547aa, > elaH6... at 91.96%
+36	547aa, > pgeH3... at 90.86%
+37	335aa, > tamH1... at 91.34%
+38	547aa, > tamH3... at 90.68%
+39	546aa, > clumH1... at 90.29%
+40	547aa, > hhiH5... at 90.68%
+41	546aa, > nceH4... at 90.48%
+42	547aa, > ecrH1... at 90.49%
+43	547aa, > hstH4... at 90.68%
+44	548aa, > fheH5... at 90.51%
+45	552aa, > omyH7... *
+46	547aa, > sumH3... at 90.49%
+47	548aa, > snaH4... at 98.91%
+48	548aa, > snaH6... at 98.91%
+49	547aa, > pfluH2... at 91.22%
+50	546aa, > xglH2... at 91.94%
+51	547aa, > tjaH3... at 91.96%
+52	547aa, > cunH3... at 91.59%
+53	546aa, > cclH3... at 95.42%
+54	546aa, > cclH7... at 95.60%
+55	547aa, > croH3... at 91.04%
+56	546aa, > tmaH4... at 92.31%
+57	547aa, > pleoH2... at 91.04%
+58	547aa, > sseH4... at 91.22%
+59	547aa, > gafH2... at 90.13%
+60	546aa, > talH7... at 92.31%
+61	548aa, > ssaH12... at 99.45%
+62	548aa, > ssaH13... at 99.45%
+63	546aa, > mdolH5... at 91.39%
+64	548aa, > ogoH4... at 99.64%
+65	547aa, > sarH4... at 91.04%
+66	547aa, > mceH3... at 91.59%
+67	547aa, > efuH4... at 91.96%
+68	547aa, > emoH4... at 92.14%
+69	548aa, > okeH8... at 99.82%
+70	547aa, > pplH3... at 90.49%
+>Cluster 476
+0	545aa, > aruH9... at 92.29%
+1	545aa, > aruH15... at 92.84%
+2	552aa, > pspH3... *
+>Cluster 477
+0	547aa, > ecaH1... at 99.27%
+1	537aa, > xtrH1... at 90.50%
+2	547aa, > hsaH6... at 99.09%
+3	547aa, > mmuH3... at 98.72%
+4	547aa, > rnoH1... at 98.17%
+5	547aa, > btaH1... at 100.00%
+6	546aa, > ggaH2... at 94.69%
+7	547aa, > sscH3... at 99.27%
+8	547aa, > mmulH1... at 99.09%
+9	547aa, > mdoH2... at 94.15%
+10	547aa, > tguH1... at 94.70%
+11	547aa, > cjacH1... at 99.09%
+12	546aa, > mgaH1... at 94.51%
+13	547aa, > nleH1... at 99.09%
+14	547aa, > sharH1... at 93.97%
+15	547aa, > ppaH3... at 99.09%
+16	547aa, > fcaH1... at 99.63%
+17	547aa, > oarH1... at 100.00%
+18	547aa, > oorH1... at 99.82%
+19	547aa, > ttrH1... at 99.82%
+20	547aa, > oprH1... at 98.17%
+21	547aa, > jjaH1... at 98.72%
+22	546aa, > aplH1... at 94.69%
+23	547aa, > falH1... at 94.88%
+24	546aa, > munH1... at 95.42%
+25	547aa, > cpiH1... at 95.80%
+26	547aa, > itrH1... at 98.90%
+27	547aa, > mocH1... at 98.72%
+28	547aa, > mfaH1... at 99.09%
+29	547aa, > chiH1... at 100.00%
+30	547aa, > pmanH2... at 98.72%
+31	547aa, > cmyH2... at 95.61%
+32	547aa, > ptiH1... at 99.63%
+33	547aa, > acaH1... at 95.06%
+34	547aa, > canH1... at 95.43%
+35	547aa, > rroH3... at 99.09%
+36	547aa, > ccoH1... at 94.88%
+37	547aa, > cdrH2... at 99.45%
+38	547aa, > mmurH2... at 98.72%
+39	547aa, > easH1... at 99.27%
+40	547aa, > ajuH1... at 99.45%
+41	547aa, > pmaH1... at 94.88%
+42	546aa, > cjaH1... at 94.69%
+43	547aa, > ameH1... at 99.63%
+44	547aa, > binH2... at 100.00%
+45	547aa, > mcaH1... at 98.72%
+46	547aa, > mpaH1... at 98.54%
+47	546aa, > nmeH1... at 94.69%
+48	547aa, > lstH2... at 94.70%
+49	547aa, > nscH2... at 99.27%
+50	547aa, > pteH3... at 99.09%
+51	547aa, > pabH3... at 99.09%
+52	547aa, > ptrH3... at 99.09%
+53	551aa, > bbuH2... *
+54	533aa, > bbuH4... at 93.81%
+55	547aa, > tgeH3... at 99.09%
+56	547aa, > cgrH2... at 98.72%
+57	547aa, > bindH4... at 100.00%
+58	547aa, > zcaH1... at 99.45%
+59	547aa, > pmuH1... at 94.88%
+60	547aa, > pleH3... at 98.72%
+61	547aa, > oanH2... at 96.89%
+62	547aa, > rbiH3... at 92.69%
+63	547aa, > ssuH1... at 98.72%
+64	546aa, > achH1... at 95.24%
+65	546aa, > muniH4... at 92.31%
+66	547aa, > scaH2... at 94.88%
+67	547aa, > lcanH3... at 99.63%
+68	546aa, > shaH1... at 95.42%
+69	547aa, > gevH2... at 95.61%
+70	547aa, > cpaH1... at 94.88%
+71	547aa, > ggoH3... at 99.09%
+72	547aa, > mcoH3... at 98.72%
+73	308aa, > panH3... at 99.03%
+74	242aa, > panH4... at 97.93%
+75	547aa, > cmoH2... at 94.88%
+76	549aa, > afuH1... at 94.72%
+77	547aa, > telH1... at 94.52%
+78	547aa, > merH1... at 99.27%
+79	547aa, > cfeH2... at 99.45%
+80	547aa, > psiH1... at 99.82%
+81	547aa, > claH1... at 94.88%
+82	547aa, > rraH2... at 98.35%
+83	547aa, > cusH1... at 94.88%
+84	547aa, > rfeH1... at 98.54%
+85	547aa, > lagH1... at 94.88%
+86	546aa, > gseH2... at 91.76%
+87	547aa, > aniH2... at 98.72%
+88	547aa, > tscH2... at 95.80%
+89	547aa, > ppaH4... at 98.35%
+90	547aa, > zviH3... at 94.70%
+91	546aa, > ojaH2... at 94.69%
+92	546aa, > catH1... at 94.69%
+93	547aa, > pdiH3... at 98.72%
+94	547aa, > otoH3... at 98.54%
+95	547aa, > matH2... at 94.88%
+96	547aa, > tvuH1... at 93.97%
+97	547aa, > bmuH2... at 99.82%
+98	546aa, > fruH1... at 95.05%
+99	547aa, > cdiH1... at 99.09%
+100	547aa, > malH1... at 94.88%
+101	547aa, > aamH2... at 98.54%
+102	547aa, > cluH1... at 99.63%
+103	547aa, > tacH1... at 96.89%
+104	550aa, > mreH3... at 95.82%
+105	547aa, > hruH1... at 94.88%
+106	547aa, > rteH4... at 90.31%
+107	543aa, > bbufH3... at 90.79%
+108	546aa, > colH1... at 94.69%
+109	546aa, > fnaH1... at 95.05%
+110	547aa, > vlaH2... at 99.63%
+111	534aa, > oarH5... at 93.82%
+112	547aa, > sunH2... at 94.88%
+113	547aa, > pleoH9... at 99.63%
+114	546aa, > ccanH3... at 93.77%
+115	547aa, > ccanH5... at 100.00%
+116	240aa, > dcoH5... at 93.75%
+117	547aa, > pbeH3... at 99.63%
+118	547aa, > celH2... at 100.00%
+119	546aa, > celH3... at 93.96%
+120	547aa, > dglH1... at 93.97%
+121	547aa, > nvisH1... at 99.27%
+122	543aa, > bgaH3... at 90.42%
+123	547aa, > gagH1... at 93.97%
+124	547aa, > mmutH3... at 95.80%
+125	547aa, > lgeH3... at 99.45%
+126	547aa, > lcatH3... at 98.90%
+127	547aa, > mmelH3... at 99.27%
+128	547aa, > equH1... at 99.27%
+129	547aa, > scarH3... at 99.27%
+130	547aa, > lluH3... at 99.27%
+131	547aa, > pafH2... at 99.27%
+132	547aa, > pviH3... at 99.63%
+133	547aa, > chaH1... at 94.88%
+134	547aa, > ploH2... at 99.09%
+135	547aa, > stoH3... at 95.06%
+136	547aa, > ccarH12... at 95.43%
+137	546aa, > lmuH1... at 94.69%
+138	547aa, > clupH3... at 99.63%
+139	547aa, > punH3... at 99.63%
+140	547aa, > setH1... at 99.27%
+141	546aa, > ageH2... at 95.42%
+142	547aa, > emaH1... at 99.09%
+143	547aa, > mthH3... at 99.09%
+144	546aa, > gcaH1... at 95.42%
+145	547aa, > gflH3... at 95.61%
+146	547aa, > arusH3... at 98.35%
+147	546aa, > aapH1... at 95.42%
+148	551aa, > ocuH3... at 98.55%
+149	547aa, > aflH1... at 93.78%
+150	547aa, > asyH1... at 98.72%
+151	543aa, > btaxH1... at 92.82%
+152	547aa, > btaxH3... at 99.82%
+153	546aa, > hhaH1... at 95.79%
+154	547aa, > hcaH1... at 94.88%
+155	547aa, > praH1... at 94.88%
+156	547aa, > ncoH1... at 98.72%
+157	546aa, > bboH9... at 91.39%
+>Cluster 478
+0	551aa, > bspH1... *
+>Cluster 479
+0	550aa, > ecalH5... *
+>Cluster 480
+0	550aa, > cchH3... *
+1	515aa, > cchH5... at 90.10%
+>Cluster 481
+0	550aa, > mcyH1... *
+>Cluster 482
+0	550aa, > cunH2... *
+>Cluster 483
+0	549aa, > olaH1... *
+1	548aa, > omeH2... at 96.53%
+>Cluster 484
+0	549aa, > kmaH5... *
+1	545aa, > nwhH1... at 94.86%
+>Cluster 485
+0	549aa, > sseH5... *
+>Cluster 486
+0	548aa, > pmagH4... *
+>Cluster 487
+0	548aa, > mdolH3... *
+1	548aa, > mdolH4... at 100.00%
+>Cluster 488
+0	547aa, > kmaH2... *
+1	546aa, > sauH1... at 94.51%
+2	547aa, > xheH2... at 93.78%
+3	547aa, > smaH3... at 93.05%
+4	545aa, > alaH1... at 94.50%
+5	546aa, > sacH3... at 93.41%
+6	547aa, > nwhH2... at 96.71%
+7	547aa, > gacH3... at 92.69%
+8	547aa, > mboH3... at 93.97%
+9	546aa, > htrH7... at 91.94%
+10	546aa, > gmuH1... at 93.04%
+11	546aa, > hzoH3... at 93.96%
+>Cluster 489
+0	547aa, > sauH2... *
+1	546aa, > alaH2... at 96.89%
+2	542aa, > pfluH3... at 90.04%
+>Cluster 490
+0	547aa, > pannH1... *
+>Cluster 491
+0	547aa, > sboH3... *
+>Cluster 492
+0	475aa, > oniH3... at 97.68%
+1	546aa, > mzeH1... *
+2	546aa, > acalH3... at 99.63%
+3	541aa, > aceH7... at 92.98%
+4	475aa, > oauH7... at 97.26%
+>Cluster 493
+0	546aa, > locH1... *
+1	546aa, > ecalH2... at 91.58%
+2	546aa, > aruH1... at 93.22%
+3	546aa, > aruH2... at 93.96%
+4	546aa, > pseH1... at 91.58%
+5	546aa, > pspH4... at 93.77%
+6	546aa, > pspH5... at 93.41%
+>Cluster 494
+0	545aa, > btaH2... at 95.05%
+1	546aa, > oarH2... *
+2	546aa, > chiH2... at 96.34%
+3	545aa, > binH1... at 94.50%
+4	542aa, > bbuH1... at 95.20%
+5	545aa, > bindH3... at 94.68%
+6	546aa, > ccanH4... at 94.32%
+7	546aa, > celH1... at 94.51%
+8	546aa, > btaxH2... at 95.97%
+>Cluster 495
+0	340aa, > dreH3... at 93.82%
+1	354aa, > oniH2... at 97.46%
+2	350aa, > mzeH2... at 97.43%
+3	342aa, > xmaH1... at 97.08%
+4	359aa, > amexH1... at 95.82%
+5	340aa, > cseH1... at 96.18%
+6	342aa, > preH1... at 96.78%
+7	341aa, > eluH2... at 95.01%
+8	341aa, > charH3... at 93.55%
+9	341aa, > fheH1... at 96.48%
+10	348aa, > ssaH1... at 95.11%
+11	341aa, > nfuH4... at 96.48%
+12	348aa, > kmaH6... at 96.55%
+13	359aa, > ipuH4... at 94.43%
+14	360aa, > pnaH2... at 95.00%
+15	546aa, > lcaH4... *
+16	363aa, > sfoH2... at 93.66%
+17	348aa, > okiH1... at 95.11%
+18	348aa, > omyH1... at 95.11%
+19	341aa, > apoH3... at 97.07%
+20	341aa, > olaH4... at 96.19%
+21	348aa, > salH4... at 94.54%
+22	359aa, > acalH2... at 97.49%
+23	340aa, > cauH6... at 94.41%
+24	348aa, > cauH14... at 94.25%
+25	540aa, > marmH6... at 96.48%
+26	540aa, > ateH4... at 95.74%
+27	358aa, > phyH2... at 94.69%
+28	360aa, > eelH3... at 94.17%
+29	359aa, > tfuH3... at 94.43%
+30	341aa, > lcrH3... at 97.95%
+31	342aa, > xcoH4... at 97.08%
+32	340aa, > pranH5... at 97.06%
+33	540aa, > gwiH3... at 96.11%
+34	341aa, > pflH4... at 96.19%
+35	350aa, > dclH1... at 94.00%
+36	341aa, > bspH3... at 96.77%
+37	341aa, > bspH5... at 96.77%
+38	350aa, > cgoH1... at 97.71%
+39	343aa, > enaH5... at 97.38%
+40	348aa, > oneH4... at 95.11%
+41	348aa, > strH17... at 95.11%
+42	351aa, > truH3... at 91.45%
+43	341aa, > mmurH4... at 97.36%
+44	341aa, > sfasH2... at 96.48%
+45	540aa, > sorH2... at 96.11%
+46	341aa, > gmoH2... at 95.31%
+47	350aa, > sauH7... at 97.43%
+48	349aa, > aceH2... at 96.56%
+49	349aa, > aceH3... at 96.56%
+50	350aa, > cchH10... at 96.00%
+51	535aa, > oauH3... at 95.33%
+52	540aa, > espH9... at 96.30%
+53	342aa, > xheH5... at 97.08%
+54	341aa, > elaH2... at 97.95%
+55	341aa, > pmagH1... at 96.48%
+56	341aa, > pgeH2... at 96.19%
+57	340aa, > tamH4... at 95.88%
+58	341aa, > clumH2... at 97.95%
+59	541aa, > hhiH2... at 97.23%
+60	540aa, > nceH2... at 95.93%
+61	541aa, > ecrH4... at 95.75%
+62	541aa, > hstH2... at 97.41%
+63	341aa, > smaH6... at 97.65%
+64	341aa, > sluH9... at 96.19%
+65	341aa, > omeH5... at 95.89%
+66	349aa, > alaH7... at 97.71%
+67	540aa, > sacH2... at 92.04%
+68	341aa, > nwhH3... at 96.48%
+69	540aa, > sumH2... at 96.30%
+70	347aa, > snaH9... at 95.10%
+71	540aa, > pfluH4... at 95.56%
+72	541aa, > xglH6... at 96.67%
+73	341aa, > gacH1... at 96.77%
+74	359aa, > gacH4... at 96.38%
+75	540aa, > tjaH1... at 98.70%
+76	341aa, > cunH4... at 97.65%
+77	360aa, > cclH1... at 94.72%
+78	341aa, > croH1... at 97.36%
+79	342aa, > mboH4... at 96.78%
+80	341aa, > asaH7... at 95.31%
+81	348aa, > otsH7... at 95.11%
+82	542aa, > tmaH2... at 96.49%
+83	341aa, > pleoH4... at 97.65%
+84	341aa, > ccarH5... at 94.13%
+85	340aa, > ccarH9... at 94.41%
+86	341aa, > ptetH6... at 94.43%
+87	541aa, > sseH1... at 95.19%
+88	243aa, > sseH2... at 93.00%
+89	317aa, > sseH6... at 96.21%
+90	347aa, > gafH3... at 97.12%
+91	541aa, > schH3... at 96.30%
+92	540aa, > talH5... at 96.48%
+93	540aa, > mdolH2... at 96.48%
+94	348aa, > ogoH5... at 94.83%
+95	341aa, > sarH1... at 96.77%
+96	358aa, > smeH7... at 93.58%
+97	361aa, > htrH3... at 95.01%
+98	341aa, > gmuH7... at 97.07%
+99	341aa, > mceH2... at 96.77%
+100	341aa, > mamH3... at 95.31%
+101	341aa, > aaloH1... at 95.31%
+102	349aa, > bbrH1... at 92.84%
+103	341aa, > efuH2... at 97.95%
+104	341aa, > emoH6... at 97.95%
+105	341aa, > lroH7... at 95.01%
+106	359aa, > masH3... at 94.99%
+107	358aa, > masH7... at 94.69%
+108	341aa, > cidH3... at 95.01%
+109	537aa, > hzoH1... at 91.62%
+110	358aa, > xteH2... at 95.53%
+111	355aa, > xteH7... at 94.37%
+112	348aa, > okeH5... at 95.11%
+113	340aa, > cgiH1... at 94.71%
+114	540aa, > sjaH2... at 95.93%
+115	541aa, > pplH2... at 97.04%
+116	360aa, > cgaH8... at 94.72%
+117	359aa, > ifuH10... at 94.43%
+>Cluster 496
+0	472aa, > sscH2... at 95.55%
+1	469aa, > hsaH5... at 97.65%
+2	466aa, > mmuH2... at 96.57%
+3	533aa, > rnoH3... at 96.06%
+4	538aa, > ppaH1... at 96.28%
+5	473aa, > oorH2... at 94.71%
+6	537aa, > mfaH2... at 96.09%
+7	538aa, > rroH2... at 95.91%
+8	465aa, > fcaH2... at 95.48%
+9	474aa, > mmurH3... at 96.84%
+10	473aa, > oprH3... at 95.56%
+11	473aa, > mmulH2... at 96.83%
+12	538aa, > ptrH2... at 96.47%
+13	474aa, > chiH4... at 95.78%
+14	538aa, > ggoH2... at 96.65%
+15	332aa, > binH3... at 95.18%
+16	463aa, > mpaH2... at 97.19%
+17	535aa, > nscH1... at 94.77%
+18	538aa, > pteH1... at 96.10%
+19	474aa, > ecaH3... at 95.15%
+20	539aa, > pabH2... at 96.29%
+21	474aa, > btaH4... at 95.78%
+22	474aa, > bbuH3... at 95.36%
+23	542aa, > tgeH1... at 95.94%
+24	546aa, > mocH2... *
+25	463aa, > ajuH2... at 95.68%
+26	525aa, > cgrH1... at 96.38%
+27	474aa, > bindH1... at 95.78%
+28	462aa, > zcaH2... at 95.45%
+29	474aa, > oarH3... at 95.57%
+30	541aa, > pdiH1... at 92.98%
+31	534aa, > pleH2... at 97.19%
+32	466aa, > mcaH2... at 97.21%
+33	425aa, > ssuH2... at 92.47%
+34	262aa, > lcanH2... at 98.09%
+35	538aa, > nleH3... at 96.47%
+36	531aa, > mcoH2... at 95.86%
+37	472aa, > cdrH3... at 94.70%
+38	538aa, > panH2... at 96.10%
+39	464aa, > merH2... at 95.47%
+40	476aa, > cfeH4... at 95.38%
+41	473aa, > psiH3... at 94.93%
+42	531aa, > rraH3... at 96.61%
+43	539aa, > rfeH2... at 94.43%
+44	473aa, > ttrH3... at 94.71%
+45	465aa, > aniH1... at 97.20%
+46	528aa, > ameH3... at 94.51%
+47	539aa, > cjacH3... at 96.66%
+48	462aa, > clupH2... at 95.89%
+49	531aa, > otoH1... at 97.55%
+50	469aa, > cdiH3... at 95.74%
+51	462aa, > cluH3... at 95.89%
+52	290aa, > itrH3... at 95.17%
+53	528aa, > vlaH1... at 95.08%
+54	537aa, > aamH3... at 98.88%
+55	532aa, > pmanH3... at 96.99%
+56	473aa, > pleoH8... at 95.14%
+57	465aa, > ptiH3... at 95.48%
+58	474aa, > ccanH1... at 95.78%
+59	465aa, > pbeH2... at 95.48%
+60	474aa, > celH5... at 95.78%
+61	464aa, > nvisH3... at 95.69%
+62	473aa, > easH2... at 94.71%
+63	450aa, > jjaH3... at 95.56%
+64	465aa, > lgeH1... at 95.48%
+65	538aa, > lcatH1... at 96.47%
+66	464aa, > mmelH1... at 95.69%
+67	474aa, > equH3... at 94.94%
+68	537aa, > scarH2... at 95.90%
+69	464aa, > lluH1... at 95.69%
+70	446aa, > pafH3... at 96.19%
+71	465aa, > pviH2... at 95.48%
+72	534aa, > ploH3... at 90.64%
+73	465aa, > punH1... at 95.27%
+74	442aa, > setH3... at 91.18%
+75	472aa, > emaH3... at 95.34%
+76	511aa, > mthH1... at 96.48%
+77	462aa, > arusH1... at 94.37%
+78	320aa, > arusH2... at 93.12%
+79	474aa, > ocuH2... at 96.41%
+80	528aa, > asyH3... at 96.78%
+81	474aa, > btaxH5... at 95.57%
+82	542aa, > ncoH4... at 94.46%
+>Cluster 497
+0	546aa, > sfasH4... *
+>Cluster 498
+0	546aa, > bflH20... *
+>Cluster 499
+0	546aa, > bmuH1... *
+>Cluster 500
+0	546aa, > asaH3... *
+>Cluster 501
+0	478aa, > gevH1... at 96.86%
+1	477aa, > cmyH3... at 94.55%
+2	291aa, > cmyH4... at 91.75%
+3	477aa, > cmyH5... at 94.13%
+4	477aa, > dcoH2... at 94.55%
+5	477aa, > dcoH3... at 94.34%
+6	478aa, > mreH2... at 98.33%
+7	475aa, > cpiH3... at 95.58%
+8	546aa, > mmutH2... *
+9	477aa, > ccarH10... at 94.34%
+10	475aa, > ccarH11... at 94.53%
+11	477aa, > gflH2... at 96.44%
+>Cluster 502
+0	546aa, > mceH4... *
+>Cluster 503
+0	546aa, > bbrH9... *
+>Cluster 504
+0	546aa, > xteH4... *
+>Cluster 505
+0	545aa, > sscH4... *
+1	545aa, > pafH1... at 97.06%
+>Cluster 506
+0	545aa, > ateH5... *
+>Cluster 507
+0	545aa, > sacH4... *
+1	540aa, > hzoH4... at 90.37%
+>Cluster 508
+0	543aa, > araH1... at 93.55%
+1	545aa, > scanH8... *
+2	545aa, > ccaH2... at 98.17%
+3	545aa, > cplH2... at 98.72%
+4	545aa, > sfaH1... at 98.53%
+5	545aa, > rtyH2... at 98.72%
+6	545aa, > ppeH2... at 95.05%
+>Cluster 509
+0	542aa, > pflH1... at 92.07%
+1	542aa, > sluH6... at 91.88%
+2	541aa, > espH6... at 91.87%
+3	365aa, > pgeH4... at 91.23%
+4	542aa, > ecrH2... at 91.51%
+5	545aa, > croH2... *
+6	545aa, > tmaH3... at 91.56%
+7	545aa, > talH6... at 91.56%
+8	541aa, > sjaH4... at 90.76%
+>Cluster 510
+0	545aa, > sarH3... *
+>Cluster 511
+0	544aa, > apoH4... *
+>Cluster 512
+0	544aa, > gwiH5... *
+>Cluster 513
+0	544aa, > telH3... *
+1	544aa, > telH5... at 98.16%
+>Cluster 514
+0	544aa, > aanH1... *
+1	544aa, > aanH2... at 98.90%
+2	544aa, > aanH3... at 98.90%
+>Cluster 515
+0	544aa, > mboH2... *
+>Cluster 516
+0	543aa, > marmH1... *
+1	543aa, > marmH7... at 99.82%
+>Cluster 517
+0	543aa, > rbiH1... *
+>Cluster 518
+0	543aa, > aruC6... *
+>Cluster 519
+0	540aa, > mcyH4... at 99.26%
+1	543aa, > mcyH5... *
+>Cluster 520
+0	542aa, > muniH2... *
+1	542aa, > gseH1... at 92.07%
+>Cluster 521
+0	532aa, > amexH3... at 92.11%
+1	541aa, > pnaH3... *
+>Cluster 522
+0	541aa, > cgoH4... *
+>Cluster 523
+0	541aa, > clumH5... *
+>Cluster 524
+0	537aa, > sscH1... at 98.88%
+1	537aa, > hsaH4... at 98.51%
+2	538aa, > mmuH1... at 97.03%
+3	538aa, > rnoH2... at 97.40%
+4	537aa, > ptrH1... at 98.51%
+5	531aa, > mdoH1... at 94.92%
+6	337aa, > oanH1... at 91.39%
+7	537aa, > pabH1... at 98.51%
+8	537aa, > ppaH2... at 98.51%
+9	537aa, > oprH2... at 97.58%
+10	537aa, > jjaH2... at 98.14%
+11	532aa, > pmanH1... at 98.12%
+12	534aa, > cmyH1... at 90.26%
+13	537aa, > ptiH2... at 99.44%
+14	537aa, > rroH1... at 98.14%
+15	537aa, > cdrH1... at 98.88%
+16	537aa, > mmurH1... at 99.07%
+17	537aa, > mfaH3... at 98.32%
+18	536aa, > ocuH1... at 99.07%
+19	537aa, > chiH3... at 99.07%
+20	537aa, > ggoH1... at 98.51%
+21	537aa, > ttrH2... at 98.88%
+22	540aa, > binH4... at 98.89%
+23	540aa, > itrH2... at 97.78%
+24	537aa, > panH1... at 98.32%
+25	537aa, > pteH2... at 98.14%
+26	537aa, > fcaH3... at 99.26%
+27	537aa, > ecaH2... at 98.70%
+28	540aa, > btaH3... at 98.89%
+29	537aa, > tgeH2... at 97.95%
+30	537aa, > clupH1... at 99.81%
+31	538aa, > mocH3... at 97.03%
+32	537aa, > ajuH3... at 99.26%
+33	540aa, > bindH2... at 98.89%
+34	538aa, > zcaH3... at 99.07%
+35	537aa, > oarH4... at 99.07%
+36	537aa, > mmulH3... at 98.32%
+37	539aa, > pleH1... at 97.59%
+38	538aa, > mcaH3... at 97.03%
+39	538aa, > mpaH3... at 97.21%
+40	537aa, > ssuH3... at 99.26%
+41	537aa, > lcanH1... at 99.26%
+42	537aa, > nleH2... at 98.32%
+43	538aa, > mcoH1... at 97.40%
+44	531aa, > sharH2... at 95.10%
+45	540aa, > merH3... at 98.70%
+46	538aa, > cfeH3... at 98.88%
+47	537aa, > psiH2... at 98.88%
+48	538aa, > rraH1... at 97.40%
+49	539aa, > rfeH3... at 98.14%
+50	537aa, > oorH3... at 98.88%
+51	538aa, > aniH3... at 97.03%
+52	541aa, > ameH2... *
+53	538aa, > cjacH2... at 97.58%
+54	536aa, > cgrH3... at 97.20%
+55	541aa, > pdiH2... at 97.97%
+56	532aa, > otoH2... at 98.31%
+57	531aa, > tvuH3... at 95.10%
+58	537aa, > bmuH3... at 99.07%
+59	538aa, > cdiH2... at 97.40%
+60	538aa, > aamH1... at 97.21%
+61	537aa, > cluH2... at 99.81%
+62	357aa, > tacH2... at 98.04%
+63	537aa, > vlaH3... at 99.81%
+64	537aa, > pleoH7... at 99.44%
+65	540aa, > ccanH2... at 98.89%
+66	537aa, > pbeH1... at 99.26%
+67	537aa, > celH4... at 98.70%
+68	531aa, > dglH2... at 95.10%
+69	539aa, > nvisH2... at 98.70%
+70	531aa, > gagH2... at 94.92%
+71	537aa, > easH3... at 98.32%
+72	538aa, > nscH3... at 99.26%
+73	540aa, > bbuH5... at 98.89%
+74	537aa, > lgeH2... at 99.07%
+75	537aa, > lcatH2... at 98.70%
+76	539aa, > mmelH2... at 98.52%
+77	537aa, > equH2... at 98.51%
+78	537aa, > scarH1... at 98.32%
+79	539aa, > lluH2... at 98.33%
+80	537aa, > pafH4... at 98.70%
+81	537aa, > pviH1... at 99.26%
+82	537aa, > ploH1... at 97.95%
+83	358aa, > stoH4... at 90.22%
+84	537aa, > punH2... at 99.26%
+85	537aa, > setH2... at 98.14%
+86	537aa, > emaH2... at 97.39%
+87	537aa, > mthH2... at 98.32%
+88	538aa, > arusH4... at 97.40%
+89	531aa, > aflH2... at 94.92%
+90	538aa, > asyH2... at 97.40%
+91	537aa, > btaxH4... at 99.07%
+92	537aa, > btaxH6... at 99.07%
+93	452aa, > ncoH2... at 96.24%
+94	537aa, > ncoH3... at 98.70%
+>Cluster 525
+0	540aa, > sfoH1... *
+>Cluster 526
+0	540aa, > sumH4... *
+>Cluster 527
+0	540aa, > gacH2... *
+>Cluster 528
+0	539aa, > pmarH6... *
+>Cluster 529
+0	534aa, > charH1... at 91.01%
+1	539aa, > asaH6... *
+2	535aa, > aaloH2... at 99.81%
+>Cluster 530
+0	474aa, > mdoH3... at 94.09%
+1	474aa, > sharH3... at 95.78%
+2	511aa, > tvuH2... at 95.30%
+3	446aa, > dglH3... at 93.95%
+4	539aa, > gagH3... *
+5	476aa, > aflH3... at 95.59%
+>Cluster 531
+0	539aa, > masH5... *
+1	533aa, > xteH3... at 97.56%
+>Cluster 532
+0	537aa, > rbiH4... at 93.48%
+1	538aa, > muniH1... *
+2	537aa, > gseH3... at 97.39%
+>Cluster 533
+0	538aa, > bflH21... *
+>Cluster 534
+0	535aa, > cpiH2... at 98.88%
+1	534aa, > gevH3... at 99.44%
+2	534aa, > dcoH1... at 98.13%
+3	537aa, > mreH1... *
+4	534aa, > mmutH1... at 99.63%
+5	534aa, > ccarH13... at 97.94%
+6	534aa, > gflH1... at 99.44%
+>Cluster 535
+0	535aa, > ecalH1... at 98.50%
+1	536aa, > pseH6... *
+>Cluster 536
+0	536aa, > pannH5... *
+>Cluster 537
+0	535aa, > acaH3... *
+>Cluster 538
+0	523aa, > ipuH5... at 93.69%
+1	526aa, > ipuH6... at 91.83%
+2	535aa, > phyH1... *
+3	521aa, > tfuH2... at 91.55%
+4	366aa, > smeH5... at 91.26%
+5	528aa, > cgaH5... at 90.15%
+6	523aa, > ifuH6... at 93.88%
+7	523aa, > ifuH7... at 93.31%
+8	523aa, > ifuH8... at 93.69%
+>Cluster 539
+0	535aa, > pmarH11... *
+>Cluster 540
+0	531aa, > falH2... at 94.16%
+1	534aa, > mgaH2... at 98.50%
+2	531aa, > pmaH2... at 93.79%
+3	534aa, > cjaH2... at 97.75%
+4	533aa, > nmeH2... at 98.31%
+5	531aa, > lstH1... at 93.97%
+6	533aa, > aplH2... at 96.81%
+7	533aa, > achH2... at 95.87%
+8	531aa, > scaH1... at 94.16%
+9	533aa, > tguH2... at 94.18%
+10	531aa, > canH2... at 94.54%
+11	531aa, > cpaH2... at 93.79%
+12	531aa, > cmoH1... at 94.35%
+13	533aa, > afuH2... at 96.62%
+14	531aa, > claH2... at 94.54%
+15	533aa, > cusH2... at 93.62%
+16	531aa, > munH2... at 94.92%
+17	533aa, > ojaH1... at 96.44%
+18	533aa, > catH2... at 96.44%
+19	531aa, > matH1... at 94.16%
+20	533aa, > fruH2... at 95.12%
+21	531aa, > malH2... at 94.16%
+22	531aa, > ccoH2... at 94.16%
+23	531aa, > hruH2... at 94.35%
+24	533aa, > colH2... at 96.25%
+25	533aa, > fnaH2... at 95.12%
+26	535aa, > ggaH3... *
+27	531aa, > chaH2... at 93.97%
+28	534aa, > lmuH2... at 98.69%
+29	533aa, > ageH1... at 95.87%
+30	533aa, > gcaH2... at 96.06%
+31	531aa, > aapH2... at 93.41%
+32	533aa, > hhaH2... at 96.06%
+>Cluster 541
+0	530aa, > rtyH1... at 97.55%
+1	529aa, > scanH6... at 93.38%
+2	530aa, > ccaH3... at 95.09%
+3	535aa, > cplH4... *
+4	530aa, > sfaH3... at 97.36%
+>Cluster 542
+0	534aa, > bflC17... *
+>Cluster 543
+0	530aa, > pmuH2... at 93.21%
+1	528aa, > telH4... at 90.72%
+2	530aa, > lagH2... at 93.02%
+3	530aa, > zviH1... at 92.64%
+4	532aa, > sunH3... at 90.79%
+5	534aa, > hcaH4... *
+6	530aa, > praH3... at 93.21%
+>Cluster 544
+0	533aa, > dclH2... *
+>Cluster 545
+0	533aa, > aruH8... *
+1	532aa, > aruH11... at 96.99%
+2	532aa, > pspH1... at 95.11%
+3	360aa, > pspH9... at 95.56%
+>Cluster 546
+0	532aa, > gmoH3... *
+>Cluster 547
+0	531aa, > bboH2... at 96.80%
+1	532aa, > bboH3... *
+>Cluster 548
+0	531aa, > xtrH2... *
+>Cluster 549
+0	531aa, > sboH4... *
+1	531aa, > sboH5... at 99.06%
+2	530aa, > sboH6... at 99.25%
+>Cluster 550
+0	530aa, > xtrH3... *
+1	360aa, > rteH2... at 93.89%
+2	360aa, > bbufH1... at 93.61%
+3	359aa, > bgaH1... at 93.87%
+4	360aa, > sboH1... at 94.44%
+5	361aa, > bboH4... at 94.18%
+>Cluster 551
+0	530aa, > locH2... *
+1	341aa, > ssaH2... at 91.50%
+2	341aa, > okiH2... at 91.50%
+3	339aa, > omyH5... at 91.74%
+4	341aa, > salH1... at 90.62%
+5	341aa, > otsH5... at 91.50%
+6	341aa, > oneH1... at 90.91%
+7	341aa, > strH1... at 91.50%
+8	338aa, > okeH3... at 91.42%
+9	341aa, > snaH8... at 91.20%
+10	341aa, > cclH6... at 91.20%
+11	341aa, > ogoH1... at 90.62%
+>Cluster 552
+0	530aa, > nveN1... *
+>Cluster 553
+0	530aa, > marC31... *
+>Cluster 554
+0	528aa, > araH5... *
+1	528aa, > ppeH3... at 92.23%
+>Cluster 555
+0	527aa, > araC3... *
+>Cluster 556
+0	527aa, > pannH6... *
+>Cluster 557
+0	521aa, > pmarH5... *
+>Cluster 558
+0	519aa, > pvuC11... *
+>Cluster 559
+0	514aa, > gaeC2... *
+>Cluster 560
+0	511aa, > eluC6... *
+>Cluster 561
+0	506aa, > cchH4... *
+>Cluster 562
+0	506aa, > marC27... *
+>Cluster 563
+0	505aa, > omeC4... *
+>Cluster 564
+0	494aa, > apoC5... *
+1	465aa, > apoC6... at 92.04%
+>Cluster 565
+0	262aa, > asaC4... at 95.80%
+1	488aa, > aaloC3... *
+>Cluster 566
+0	483aa, > bflH18... *
+>Cluster 567
+0	483aa, > lroC5... *
+>Cluster 568
+0	481aa, > scanH4... *
+1	477aa, > ccaH1... at 90.99%
+>Cluster 569
+0	481aa, > ppeH4... *
+>Cluster 570
+0	480aa, > araH6... *
+>Cluster 571
+0	480aa, > bflH19... *
+>Cluster 572
+0	476aa, > oanH3... *
+1	476aa, > tacH3... at 98.74%
+>Cluster 573
+0	475aa, > sorH5... *
+>Cluster 574
+0	467aa, > cplH1... *
+1	267aa, > sfaH4... at 97.75%
+2	263aa, > rtyH4... at 98.10%
+>Cluster 575
+0	462aa, > pcaN9... *
+>Cluster 576
+0	460aa, > osiN13... *
+1	460aa, > obiN9... at 96.74%
+>Cluster 577
+0	459aa, > bflN10... *
+>Cluster 578
+0	456aa, > pmaxN14... *
+>Cluster 579
+0	454aa, > pvuN7... *
+>Cluster 580
+0	451aa, > osiN12... *
+>Cluster 581
+0	448aa, > cangN3... *
+>Cluster 582
+0	444aa, > obiC11... *
+>Cluster 583
+0	443aa, > obiC6... *
+1	443aa, > osiC2... at 95.94%
+>Cluster 584
+0	442aa, > pcaN8... *
+>Cluster 585
+0	436aa, > aruC5... *
+1	432aa, > aruC16... at 99.07%
+>Cluster 586
+0	435aa, > bcoC2... *
+>Cluster 587
+0	430aa, > hcaH2... *
+>Cluster 588
+0	430aa, > mmeC23... *
+>Cluster 589
+0	422aa, > apoC7... *
+>Cluster 590
+0	421aa, > pmagC3... *
+>Cluster 591
+0	414aa, > gaeN7... *
+>Cluster 592
+0	411aa, > pmarN8... *
+>Cluster 593
+0	403aa, > mmeN24... *
+>Cluster 594
+0	401aa, > cangC22... *
+>Cluster 595
+0	392aa, > dpoN23... *
+>Cluster 596
+0	390aa, > rteH1... *
+>Cluster 597
+0	389aa, > dmagC2... *
+>Cluster 598
+0	385aa, > eluC11... *
+>Cluster 599
+0	379aa, > gaeC6... *
+>Cluster 600
+0	366aa, > pvuC12... *
+>Cluster 601
+0	360aa, > cviN9... *
+>Cluster 602
+0	358aa, > aanH4... *
+>Cluster 603
+0	358aa, > mcyH3... *
+>Cluster 604
+0	347aa, > cviN20... *
+>Cluster 605
+0	334aa, > pmarH4... *
+>Cluster 606
+0	330aa, > bflH3... *
+>Cluster 607
+0	328aa, > pannH3... *
+>Cluster 608
+0	326aa, > dpoC6... *
+>Cluster 609
+0	318aa, > cviN16... *
+>Cluster 610
+0	315aa, > nceC5... *
+>Cluster 611
+0	309aa, > gaeC1... *
+>Cluster 612
+0	294aa, > xtrH4... *
+>Cluster 613
+0	292aa, > cclC9... *
+>Cluster 614
+0	208aa, > tscH1... at 91.35%
+1	290aa, > dcoH4... *
+>Cluster 615
+0	289aa, > bflN22... *
+>Cluster 616
+0	285aa, > stoH2... *
+>Cluster 617
+0	282aa, > bflN11... *
+>Cluster 618
+0	273aa, > bflC8... *
+>Cluster 619
+0	271aa, > bflN15... *
+>Cluster 620
+0	267aa, > cangN4... *
+>Cluster 621
+0	259aa, > bflN9... *
+>Cluster 622
+0	257aa, > osiN6... *
+>Cluster 623
+0	255aa, > bflN12... *
+>Cluster 624
+0	255aa, > bflN16... *
+>Cluster 625
+0	253aa, > cviN6... *
+>Cluster 626
+0	252aa, > pspN7... *
+>Cluster 627
+0	242aa, > bflC5... *
+>Cluster 628
+0	239aa, > gaeC4... *
+>Cluster 629
+0	231aa, > cgigN4... at 99.13%
+1	239aa, > cangN6... *
+>Cluster 630
+0	235aa, > bflN2... *
+>Cluster 631
+0	228aa, > preN2... *
+>Cluster 632
+0	224aa, > cgigN16... *
+>Cluster 633
+0	221aa, > locN3... *
+>Cluster 634
+0	218aa, > pvuN9... *
+>Cluster 635
+0	214aa, > bflN14... *
+>Cluster 636
+0	209aa, > pvuC8... *
+>Cluster 637
+0	208aa, > osiN7... *
+>Cluster 638
+0	202aa, > obiN10... *
+>Cluster 639
+0	201aa, > pmarC12... *
