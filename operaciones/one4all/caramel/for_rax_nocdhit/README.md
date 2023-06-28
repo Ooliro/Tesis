@@ -31,6 +31,19 @@ Donde:
 
 - `-b` Opción para calcular las replicas de boostrap, el árbol ML y árbol consenso
 
+### Visualizando y maquillando (en el buen sentido) el árbol
+
+El árbol es, frecuentemente, demasiado grande para visualizarlo con herramientas como figtree o jalview. Por lo que estaremos utilizando [ITOL](https://itol.embl.de/) porque aparentemente es de los pocos visualizadores de árboles que pueden abrir los arboles creados con iqtree, sobre todo porque el más grande de los 4 consta de aproximadamente 1,800 secuencias (eso son 1,800 ramas!).
+
+Otra ventaja de usar ITOL es que podemos colorear nuestras ramas por grupos, y lo único que necesitamos es un archivo de anotación tipo BED. Esto es:
+
+- Código/Nombre de la rama
+- Subgrupo al que pertenece
+
+Este **archivo de anotación** nos sirve para poder analizar la distribución de especies en el árbol más fácil y rápido. Pero este hay que crearlo utilizando otros archivos que ya tenemos: tag.BED (caramel), subdb.fa (caramel) y model_cc.csv (lolipop).
+
+
+
 ## Solución 2 - Aumentar el porcentaje de inclusión en CD-HIT a 95%
 
 Podemos reducir un poco los tiempos de cáculo resultado de la solución 1 sin perder el objetivo de quitar redundancias simplemente aumentando el rango a incluir con CD-HIT. Esto es:
