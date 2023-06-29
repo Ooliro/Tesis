@@ -2,15 +2,20 @@
 # coding: utf-8
 
 # Archivos a usar 
-
-# tags = "/home/raul/Documentos/IFC/repo/operaciones/one4all/caramel/for_rax_nocdhit/scfs_pretree/tag.BED"
-# subdb = "/home/raul/Documentos/IFC/repo/operaciones/one4all/caramel/for_rax_nocdhit/scfs_pretree/subdb.fasta"
-# clades = "/home/raul/Documentos/IFC/repo/operaciones/one4all/lolipop/freqs/the_clades/scfs_cc.csv"
-
-tags = "scfs_pretree/tag.BED"
-subdb = "scfs_pretree/subdb.fasta"
-clades = "../../lolipop/freqs/the_clades/scfs_cc.csv"
-
+#-----------------------------------------------------------------------------
+tags = "/home/raulrosas/Documentos/IFC/repo/operaciones/one4all/caramel/for_rax_nocdhit/scfs_pretree/tag.BED"
+subdb = "/home/raulrosas/Documentos/IFC/repo/operaciones/one4all/caramel/for_rax_nocdhit/scfs_pretree/subdb.fasta"
+clades = "/home/raulrosas/Documentos/IFC/repo/operaciones/one4all/lolipop/freqs/the_clades/scfs_cc.csv"
+#-----------------------------------------------------------------------------
+#tags = "scfs_pretree/tag.BED"
+#subdb = "scfs_pretree/subdb.fasta"
+#clades = "../../lolipop/freqs/the_clades/scfs_cc.csv"
+#-----------------------------------------------------------------------------
+#import sys
+#tags = sys.argv[1]
+#subdb = sys.argv[2]
+#clades = sys.argv[3]
+#-----------------------------------------------------------------------------
 
 tags_dict = {}
 

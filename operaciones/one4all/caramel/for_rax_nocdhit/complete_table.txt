@@ -304,6 +304,8 @@ nnoH2	XP_010022550	Nestor notabilis	Aves
 focC1	XP_052122679	Frankliniella occidentalis	Insecta
 scaN1	XP_009663850	Struthio camelus australis	Aves
 scaH2	XP_009681103	Struthio camelus australis	Aves
+ppuH1	XP_009902740	Picoides pubescens	Aves
+ppuH2	XP_009904076	Picoides pubescens	Aves
 aplC1	XP_018319481	Agrilus planipennis	Insecta
 aplN2	XP_025830087	Agrilus planipennis	Insecta
 aplC3	XP_025834377	Agrilus planipennis	Insecta
@@ -450,6 +452,10 @@ nveN1	XP_017770728	Nicrophorus vespilloides	Insecta
 nveN2	XP_017775954	Nicrophorus vespilloides	Insecta
 dalC1	XP_015109350	Diachasma alloeum	Insecta
 dalC2	XP_015109436	Diachasma alloeum	Insecta
+epaN1	XP_020898978	Exaiptasia pallida	Cnidaria
+epaN2	XP_020899147	Exaiptasia pallida	Cnidaria
+epaN3	XP_020901183	Exaiptasia pallida	Cnidaria
+epaN4	XP_028515089	Exaiptasia pallida	Cnidaria
 cpuH1	XP_014797694	Calidris pugnax	Aves
 cpuH2	XP_014820669	Calidris pugnax	Aves
 acerC1	XP_016906997	Apis cerana	Insecta
@@ -814,6 +820,10 @@ gmeH1	XP_030703714	Globicephala melas	Mammalia
 gmeN2	XP_030714875	Globicephala melas	Mammalia
 gmeH3	XP_030719394	Globicephala melas	Mammalia
 gmeH4	XP_030731562	Globicephala melas	Mammalia
+pcalH1	XP_052568797	Peromyscus californicus insignis	Mammalia
+pcalN2	XP_052572669	Peromyscus californicus insignis	Mammalia
+pcalH3	XP_052583022	Peromyscus californicus insignis	Mammalia
+pcalH4	XP_052603792	Peromyscus californicus insignis	Mammalia
 ppyC1	XP_031342927	Photinus pyralis	Insecta
 ppyC2	XP_031352114	Photinus pyralis	Insecta
 cnaC1	XP_031626226	Contarinia nasturtii	Insecta
@@ -1001,16 +1011,55 @@ curoH1	XP_042677554	Centrocercus urophasianus	Aves
 curoH2	XP_042695832	Centrocercus urophasianus	Aves
 lleH1	XP_042725300	Lagopus leucura	Aves
 lleH2	XP_042741877	Lagopus leucura	Aves
+lboC1	XP_051174601	Leptopilina boulardi	Insecta
+lboC2	XP_051174656	Leptopilina boulardi	Insecta
+lboC3	XP_051174687	Leptopilina boulardi	Insecta
 dpoC1	XP_019756067	Dendroctonus ponderosae	Insecta
 dpoC2	XP_048522963	Dendroctonus ponderosae	Insecta
 mmonH1	XP_046290361	Marmota monax	Mammalia
 mmonN2	XP_046307612	Marmota monax	Mammalia
 mmonH3	XP_046320713	Marmota monax	Mammalia
 mmonH4	XP_046322024	Marmota monax	Mammalia
+ajamH1	XP_036986855	Artibeus jamaicensis	Mammalia
+ajamN2	XP_037008553	Artibeus jamaicensis	Mammalia
+ajamH3	XP_037018605	Artibeus jamaicensis	Mammalia
+ajamH4	XP_037022647	Artibeus jamaicensis	Mammalia
 manN1	XP_045738883	Mirounga angustirostris	Mammalia
 manH2	XP_045746795	Mirounga angustirostris	Mammalia
 manH3	XP_045747972	Mirounga angustirostris	Mammalia
 manH4	XP_045751926	Mirounga angustirostris	Mammalia
+mcaC1	XP_052065198	Mytilus californianus	Bivalvia
+mcaN2	XP_052072199	Mytilus californianus	Bivalvia
+mcaN3	XP_052072416	Mytilus californianus	Bivalvia
+mcaC4	XP_052079428	Mytilus californianus	Bivalvia
+mcaC5	XP_052079429	Mytilus californianus	Bivalvia
+mcaC6	XP_052079431	Mytilus californianus	Bivalvia
+mcaC7	XP_052079458	Mytilus californianus	Bivalvia
+mcaC8	XP_052079460	Mytilus californianus	Bivalvia
+mcaC9	XP_052079567	Mytilus californianus	Bivalvia
+mcaC10	XP_052079667	Mytilus californianus	Bivalvia
+mcaC11	XP_052079732	Mytilus californianus	Bivalvia
+mcaC12	XP_052080715	Mytilus californianus	Bivalvia
+mcaC13	XP_052081155	Mytilus californianus	Bivalvia
+mcaC14	XP_052081156	Mytilus californianus	Bivalvia
+mcaC15	XP_052081157	Mytilus californianus	Bivalvia
+mcaN16	XP_052083990	Mytilus californianus	Bivalvia
+mcaC17	XP_052089240	Mytilus californianus	Bivalvia
+mcaN18	XP_052090802	Mytilus californianus	Bivalvia
+mcaN19	XP_052090867	Mytilus californianus	Bivalvia
+mcaN20	XP_052094690	Mytilus californianus	Bivalvia
+mcaC21	XP_052094821	Mytilus californianus	Bivalvia
+mcaC22	XP_052095529	Mytilus californianus	Bivalvia
+mcaC23	XP_052097276	Mytilus californianus	Bivalvia
+mcaN24	XP_052098286	Mytilus californianus	Bivalvia
+mcaC25	XP_052098287	Mytilus californianus	Bivalvia
+mcaC26	XP_052098293	Mytilus californianus	Bivalvia
+mcaC27	XP_052098850	Mytilus californianus	Bivalvia
+mcaC28	XP_052098914	Mytilus californianus	Bivalvia
+mcaC29	XP_052098915	Mytilus californianus	Bivalvia
+mcaC30	XP_052100165	Mytilus californianus	Bivalvia
+mcaC31	XP_052101070	Mytilus californianus	Bivalvia
+mcaC32	XP_052104971	Mytilus californianus	Bivalvia
 xspN1	XP_046857125	Xenia sp. Carnegie-2017	Anthozoa
 lruN1	XP_046923853	Lynx rufus	Mammalia
 lruH2	XP_046929762	Lynx rufus	Mammalia
@@ -1066,6 +1115,8 @@ sscH2	XP_049580178	Syngnathus scovelli	Actinopteri
 sscH3	XP_049586221	Syngnathus scovelli	Actinopteri
 sscH4	XP_049587229	Syngnathus scovelli	Actinopteri
 dviC1	XP_050537393	Daktulosphaira vitifoliae	Insecta
+tpalH1	XP_052541815	Tympanuchus pallidicinctus	Aves
+tpalH2	XP_052559946	Tympanuchus pallidicinctus	Aves
 pvitH1	XP_020643994	Pogona vitticeps	Lepidosauria
 pvitH2	XP_020652171	Pogona vitticeps	Lepidosauria
 pvitH3	XP_020663105	Pogona vitticeps	Lepidosauria
@@ -1127,3 +1178,11 @@ cmacC4	XP_036439405	Colossoma macropomum	Actinopteri
 cmacC5	XP_036440672	Colossoma macropomum	Actinopteri
 cmacH6	XP_036440841	Colossoma macropomum	Actinopteri
 cmacH7	XP_036452222	Colossoma macropomum	Actinopteri
+dlaC1	XP_051236401	Dicentrarchus labrax	Actinopteri
+dlaH2	XP_051239188	Dicentrarchus labrax	Actinopteri
+dlaC3	XP_051245639	Dicentrarchus labrax	Actinopteri
+dlaC4	XP_051245640	Dicentrarchus labrax	Actinopteri
+dlaC5	XP_051245642	Dicentrarchus labrax	Actinopteri
+dlaC6	XP_051245670	Dicentrarchus labrax	Actinopteri
+dlaH7	XP_051261534	Dicentrarchus labrax	Actinopteri
+dlaH8	XP_051263402	Dicentrarchus labrax	Actinopteri
