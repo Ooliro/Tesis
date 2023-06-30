@@ -1,0 +1,555 @@
+
+RAxML can't, parse the alignment file as phylip file 
+it will now try to parse it as FASTA file
+
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dpsC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dwiC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dyaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dsuzC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dbiC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dseC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dmaC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dmiC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dsuC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dsubC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dsimC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dsaC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and danC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dmeN2 and dguC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences apiC1 and rmaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences apiC1 and agoC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cgigC1 and cangC15 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cgigN2 and cangN14 are exactly identical
+
+
+IMPORTANT WARNING: Sequences mphC1 and chisC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ssaC4 and strC19 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ssaC6 and omyC3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ssaC6 and salN6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ssaC6 and otsC6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ssaC6 and oneC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ssaC6 and strC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ssaC6 and okiC9 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ssaC6 and okeC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ssaC6 and snaC5 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ssaC6 and ogoC6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences nlecC1 and nfaC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences nlecC1 and npiC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences nlecC1 and nvirC3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences nlecC2 and nfaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences nlecC2 and npiC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences nlecC2 and nvirC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences nlecC3 and nfaC3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences nlecC3 and npiC3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences nlecC3 and nvirC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences nlecC3 and dsimC3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dsimC1 and dbiC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dsimC1 and dseC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dsimC1 and dmaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dsuzC1 and dsubC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ipuC1 and ifuC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences oniC5 and oauC4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences oniC6 and oauC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences okiC3 and omyC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences okiC3 and otsC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences okiC3 and oneC6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences okiC3 and okeC4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences okiC3 and snaC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences okiC3 and ogoC7 are exactly identical
+
+
+IMPORTANT WARNING: Sequences harC2 and hzeC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aaeN2 and cquC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aaeN2 and cpipC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aaeN2 and acrC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences prapC2 and pbrC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences prapC2 and pnapC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cviN15 and cviN16 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cviC19 and cviC20 are exactly identical
+
+
+IMPORTANT WARNING: Sequences mzeC4 and acalC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences xmaN4 and xcoC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences xmaN4 and gafC4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences xmaN6 and xcoC6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences xmaN6 and xheC4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences xmaN7 and xheC6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences otsC4 and oneC3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences otsC4 and okiC5 are exactly identical
+
+
+IMPORTANT WARNING: Sequences otsC4 and okeC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences otsC4 and omyC8 are exactly identical
+
+
+IMPORTANT WARNING: Sequences otsC4 and ogoC8 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cauC2 and ccarC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cauC2 and cgiC4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cauC4 and cauC6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cauC8 and cgiC3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cauC9 and cgiC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences amelC2 and obicC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences phyC4 and tfuC6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences gwiC1 and gwiC4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences pflC3 and pfluC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences eluC8 and eluC9 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bspC6 and bspC7 are exactly identical
+
+
+IMPORTANT WARNING: Sequences strC13 and ssaC8 are exactly identical
+
+
+IMPORTANT WARNING: Sequences sauC6 and alaC5 are exactly identical
+
+
+IMPORTANT WARNING: Sequences espC6 and ecrC3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aruC4 and aruC13 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aruH9 and aruH11 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cgigC7 and cangC22 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cgigC10 and cangC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cgigC11 and cangC20 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cgigC12 and cangC21 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cgigN17 and cangC6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cgigC18 and cangC8 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cgigC23 and cangC16 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cgigC24 and cangC9 are exactly identical
+
+
+IMPORTANT WARNING: Sequences hhiC1 and hstC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aalC1 and adaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aalC1 and aaqC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences astC1 and aarC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences astC1 and acoC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences astC1 and amerC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences astC1 and amaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences astC1 and amarC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences astC1 and agaN2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences astC2 and aarC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences astC2 and acoC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences astC2 and amerC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences astC2 and amaC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences astC2 and agaN1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences rmiC2 and rsaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences rmiC2 and rsaC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cquC2 and cpipC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences btrC1 and bneC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences btrC2 and bdoC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences btrC2 and bneC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cclC4 and cclC5 are exactly identical
+
+
+IMPORTANT WARNING: Sequences asaC1 and aaloC5 are exactly identical
+
+
+IMPORTANT WARNING: Sequences asaC2 and aaloC4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences tmaC1 and talC4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences tmaC7 and talC3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bpyC2 and vpeC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bpyC2 and vcrC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bpyC2 and vveC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bpyC2 and bteC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bpyC2 and bhuC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bpyC2 and bafC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bpyC2 and vvuC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dpuC1 and dpulC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dpuC3 and dpulC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dpuC3 and dpulC4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences samC1 and spiC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences samC1 and scanC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences samC1 and sgrC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences samC1 and sserC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences samC2 and spiC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences samC2 and scanC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences samC2 and sniC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences samC2 and sserC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences afunC2 and amoC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences afunC2 and amarC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences afunC2 and anilC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences lcaC5 and lcaC6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences masC2 and xteC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dpoC10 and dpoC11 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dpoC20 and dpoC22 are exactly identical
+
+
+IMPORTANT WARNING: Sequences marC5 and marN6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences marN7 and marN8 are exactly identical
+
+
+IMPORTANT WARNING: Sequences marC9 and marC37 are exactly identical
+
+
+IMPORTANT WARNING: Sequences marC13 and marC19 are exactly identical
+
+
+IMPORTANT WARNING: Sequences marC13 and marC30 are exactly identical
+
+
+IMPORTANT WARNING: Sequences marN16 and marN17 are exactly identical
+
+
+IMPORTANT WARNING: Sequences marC20 and marC33 are exactly identical
+
+
+IMPORTANT WARNING: Sequences amoC2 and anilC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences mmeC9 and mmeC14 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ifuC8 and ipuC8 are exactly identical
+
+IMPORTANT WARNING
+Found 155 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+An alignment file with sequence duplicates removed has already
+been printed to file cgchs_10gap.fa.reduced
+
+This is the RAxML Master Pthread
+
+This is RAxML Worker Pthread Number: 1
+
+This is RAxML Worker Pthread Number: 2
+
+This is RAxML Worker Pthread Number: 4
+
+This is RAxML Worker Pthread Number: 3
+
+This is RAxML Worker Pthread Number: 5
+
+This is RAxML Worker Pthread Number: 6
+
+This is RAxML Worker Pthread Number: 7
+
+This is RAxML Worker Pthread Number: 8
+
+This is RAxML Worker Pthread Number: 10
+
+This is RAxML Worker Pthread Number: 11
+
+This is RAxML Worker Pthread Number: 9
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 200 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.27%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 100 non-parametric bootstrap inferences
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 200
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: AUTO
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS -T 12 -m PROTGAMMAAUTO -s cgchs_10gap.fa -n AUTO -p 6112 -b 27 -# 100 
+
+
+Automatic protein model assignment algorithm using ML criterion:
+
+	Partition: 0 best-scoring AA model: LG likelihood -39091.351356 with fixed base frequencies
+
+
+Automatic protein model assignment algorithm using ML criterion:
+

@@ -1,0 +1,248 @@
+
+
+IMPORTANT WARNING: Sequences mdoN1 and scalN1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences pfoN1 and pmeN6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences pfoN1 and plaN2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aecN1 and pbaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aecN1 and vemN1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aecN1 and aceN1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aecN1 and acoN1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aecN1 and tzeN1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aecN1 and tseN2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aecN1 and tcoN1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aecN1 and tcuC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences aecN1 and nfuC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences zcuC2 and ccaN2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and mroN1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and oabN1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and aflC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and dquN2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and pdoN1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and acerC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and emeN2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and hlaN2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and hsaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and adoC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and bimC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and bvaC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and bbifC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and mgeC3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and bvoC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and pfuC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences wauN1 and alaC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ccaN1 and blaN2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ccaN1 and bolC3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ppoN2 and pxuN1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences lanN4 and lanN20 are exactly identical
+
+
+IMPORTANT WARNING: Sequences lanN6 and lanN22 are exactly identical
+
+
+IMPORTANT WARNING: Sequences lanN18 and lanN26 are exactly identical
+
+
+IMPORTANT WARNING: Sequences lanN21 and lanN24 are exactly identical
+
+
+IMPORTANT WARNING: Sequences hbuC4 and sdiC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences pmeN1 and plaN4 are exactly identical
+
+
+IMPORTANT WARNING: Sequences plaC3 and pfoC6 are exactly identical
+
+
+IMPORTANT WARNING: Sequences sgrN5 and sanN10 are exactly identical
+
+
+IMPORTANT WARNING: Sequences sgrN5 and srhN5 are exactly identical
+
+
+IMPORTANT WARNING: Sequences sanN8 and srhN8 are exactly identical
+
+
+IMPORTANT WARNING: Sequences rzeN1 and rpoC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences rzeN2 and rpoC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences darN1 and dnaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences darN2 and dnaC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences dpoC1 and sorC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences mpeN1 and msaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences vdeN1 and vjaN1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences vdeN2 and vjaN2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences cscN2 and cscN3 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bimC1 and bvaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bimC1 and bbifC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences bimC1 and bvoC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences adoC1 and alaC1 are exactly identical
+
+
+IMPORTANT WARNING: Sequences tbeC4 and tbeC5 are exactly identical
+
+
+IMPORTANT WARNING: Sequences ppolC1 and ppolC2 are exactly identical
+
+
+IMPORTANT WARNING: Sequences hrufC5 and hrufC12 are exactly identical
+
+
+IMPORTANT WARNING: Sequences hrufC7 and hruC9 are exactly identical
+
+
+IMPORTANT WARNING: Sequences hruN8 and hrufN19 are exactly identical
+
+IMPORTANT WARNING
+Found 61 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file scfs_10gap.fa.reduced
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 200 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 0.21%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 100 non-parametric bootstrap inferences
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 200
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: AUTO
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS -T 12 -m PROTGAMMAAUTO -s scfs_10gap.fa -n AUTO -p 6112 -b 27 -# 100 
+
+
+Automatic protein model assignment algorithm using ML criterion:
+
+	Partition: 0 best-scoring AA model: LG likelihood -40377.562840 with fixed base frequencies
+
+
+Automatic protein model assignment algorithm using ML criterion:
+
+	Partition: 0 best-scoring AA model: LG likelihood -40289.431642 with fixed base frequencies
+
+
