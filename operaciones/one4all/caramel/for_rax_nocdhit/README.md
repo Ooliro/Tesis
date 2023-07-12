@@ -31,19 +31,23 @@ Donde:
 
 - `-b` Opción para calcular las replicas de boostrap, el árbol ML y árbol consenso
 
-### Visualizando y maquillando (en el buen sentido) el árbol
+## Visualizando y maquillando (en el buen sentido) el árbol
 
-El árbol es, frecuentemente, demasiado grande para visualizarlo con herramientas como figtree o jalview. Por lo que estaremos utilizando [ITOL](https://itol.embl.de/) porque aparentemente es de los pocos visualizadores de árboles que pueden abrir los arboles creados con iqtree, sobre todo porque el más grande de los 4 consta de aproximadamente 1,800 secuencias (eso son 1,800 ramas!).
-
-Otra ventaja de usar ITOL es que podemos colorear nuestras ramas por grupos, y lo único que necesitamos es un archivo de anotación tipo BED. Esto es:
+### ITOL (Interactive Tree Of Life)
+Con [ITOL](https://itol.embl.de/) que podemos colorear nuestras ramas por grupos, y lo único que necesitamos es un archivo de anotación tipo BED. Esto es:
 
 - Código/Nombre de la rama
 - Subgrupo al que pertenece
 
 Este **archivo de anotación** nos sirve para poder analizar la distribución de especies en el árbol más fácil y rápido. Pero este hay que crearlo utilizando otros archivos que ya tenemos: tag.BED (caramel), subdb.fa (caramel) y model_cc.csv (lolipop).
 
+Una de las ventajas de ITOL es que las ramas, colores, gradientes y estilos se pueden cambiar. La desventaja de esto es que los archivos de anotación que no son gratis (la versión paga de ITOL hace mucho más fácil colorear el árbol) son un poco complicados de hacer. Tienen plantillas para cada cosa que quieras hacer, lo que se convierte en muchas plantillas y muchas variables que te dejan colorear a tu gusto, todo disponible en su [página](https://itol.embl.de/help.cgi#intro) con instrucciones y todo.
 
+### Evolview
 
+[Evolview](https://www.evolgenius.info/evolview/#/) es otro de los visualizadores de árboles que pueden manejar nuestros árboles. Tiene funciones similares a ITOL, pero con archivos de anotación mucho más sencillos. Tiene un nivel de personalización menor a ITOL pero es lo suficientemente útil para lo que queremos, con instrucciones más sencillas y una interfaz decente para trabajar.
+
+### Claves y tablas de traducción del código
 ## Solución 2 - Aumentar el porcentaje de inclusión en CD-HIT a 95%
 
 Podemos reducir un poco los tiempos de cáculo resultado de la solución 1 sin perder el objetivo de quitar redundancias simplemente aumentando el rango a incluir con CD-HIT. Esto es:
