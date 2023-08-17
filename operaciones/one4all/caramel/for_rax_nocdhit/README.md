@@ -47,10 +47,6 @@ Una de las ventajas de ITOL es que las ramas, colores, gradientes y estilos se p
 
 [Evolview](https://www.evolgenius.info/evolview/#/) es otro de los visualizadores de árboles que pueden manejar nuestros árboles. Tiene funciones similares a ITOL, pero con archivos de anotación mucho más sencillos. Tiene un nivel de personalización menor a ITOL pero es lo suficientemente útil para lo que queremos, con instrucciones más sencillas y una interfaz decente para trabajar.
 
-### Claves y tablas de traducción del código
-## Solución 2 - Aumentar el porcentaje de inclusión en CD-HIT a 95%
+### Modificaciones post armado de árboles
 
-Podemos reducir un poco los tiempos de cáculo resultado de la solución 1 sin perder el objetivo de quitar redundancias simplemente aumentando el rango a incluir con CD-HIT. Esto es:
-
-`cd-hit -i input.fasta -o output.fasta -c 0.95 -n 5`
-
+El script `pos_tree.sh` lo que hace es armar un archivo de anotación que tiene dos columnas: código y clado. Esto con el fin de tener una lista de correlación directa para el árbol con su clado. Lo mismo para poder colorearlos, con esta tabla podemos asignar un color por clado y generar nuestro nuevo archivo de anotación para colores.
