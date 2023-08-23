@@ -30,4 +30,12 @@ yay!
 
 Esto es suficientemente obvio, a cada clado que tengas le asignarás un color en formato HEX.
 
+Ahora cómo dividimos estos colores? Un árbol con hasta 28 colores puede ser algo difícil de leer, incluso con colores vistosos. Así que tenemos alguna sugerencias para probar, aparte del árbol con todos los colores necesarios:
+
+1. Cordados + Todo lo demas
+2. Cordados + Protostomos + Todo lo demas
+3. Amphioxus + Artrópodos + Vertebrados + NADA (sin colorear lo demás)
+4. Quitina + Hialuronano Sintasas
+
+**Nota: Recuerda que estos árboles deben ayudar a explicar la distribución de las sintasas, sin necesidad de un árbol enraizado. Por lo que tal vez tener una gráfica lado a lado de 3. y 4. podría ser una gran diapositiva para ejemplificar los resultados a los que se llegaron.**
 
