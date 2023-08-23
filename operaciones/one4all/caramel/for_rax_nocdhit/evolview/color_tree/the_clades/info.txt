@@ -1,0 +1,5 @@
+¿QUÉ HACEN ESTAS LISTAS "REPETIDAS" AQUI?
+
+Estas listas de clados están modificadas para hacer completar las especies que no tenían un clado asignado detectadas por clean_pos_tree.py y son únicamente con el propósito de usarlas para armar las listas de anotación para árboles filogenéticos y por esto están en esta carpeta.
+
+Las líneas extra van de 10 a 54 especies extra, dependiendo del modelo y base de datos.
