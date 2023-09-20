@@ -39,3 +39,37 @@ Ahora cómo dividimos estos colores? Un árbol con hasta 28 colores puede ser al
 
 **Nota: Recuerda que estos árboles deben ayudar a explicar la distribución de las sintasas, sin necesidad de un árbol enraizado. Por lo que tal vez tener una gráfica lado a lado de 3. y 4. podría ser una gran diapositiva para ejemplificar los resultados a los que se llegaron.**
 
+### Crea tu lista con colores: chromation.py V1
+
+Como prueba de concepto para tener una lista base lista para adaptar al visualizador de árboles que prefieras tenemos al script `chromation.py` que toma el archivo resultado de `pos_tree.py` llamado, temporalmente, "itool_annotation.txt" que tiene un formato de COD:CLADO.
+
+La principal tarea de `chromation.py` es dar a cada clado un color y anexarlo en forma de una tercera columna. Esto lo hace gracias a un diccionario que debes preparar deacuerdo a cuantos clados tengas por modelo a colorear (si tienes 23 en cgchm o menos en scfs). Los colores se manejan en formato HEX y por ahora sólo son al azar, el punto es que el diccionario mencionado tenga el formato:
+
+"Mammalia": "#FF5733"
+"Actinopteri": "#47D147"
+    etc...
+    
+Este diccionario tienes que modificarlo dentro del script en sí. Y al menos en las pequeñas pruebas hechas con esta primera versión, funciona perfectamente. Obtenemos una lista que denominaremos como *"color_ann.txt"* que tiene un formato así:
+
+hsaH3   Mammalia    #FF5733 
+apeC2   Actinopteri    #47D147
+    etc...
+ 
+ Pero para **evolview** solo ocupamos la primera y tercera columna, asi que solo con cortarlos desde la terminal y pasarlos como archivo de anotación bajo el formato "leaf BK colors" tenemos el resultado que buscabamos: las etiquetas del árbol coloreadas, y visiblemente distintivas para ubicar clados. Excepto que sólo es eso, colores. No hay nomenclatura aún!
+ 
+### Crea tu lista de colores: chromation.py V2
+ 
+_Por términos de "no me confundas, perro" llamaremos a este nuevo script `chromationV2.py` y tendrá los cambios a continuación mencionados.__
+ 
+Como dije antes, el diccionario es lo que hace la magia en general, precisamente porque la tercera columna es "mutable". Es decir, podemos cambiarlo a lo que queramos y esto se va a pasar a la lista final "color_ann.txt" tal y como esté en el diccionario, por lo que podemos modificar el formato de la lista final con pocos pasos y tener un resultado más visiblemente bonito. Para esto nos ayudaremos de los estilos de Evolview para no sólo darles color a las ramas, sino también para poner el clado afuerita de donde estén. La idea es que a diferencia de la V1, esta vez el diccionario tenga un formato así:
+ 
+"Mammalia": "bkcolor=#FF5733, text=Mamíferos, fontsize=16"
+"Actinopteri": "bkcolor=#47D147, text= Peces, fontsize=16"
+    etc...
+ 
+De nuevo, sólo ocupamos la primera y tercera columna, pero con la diferencia que esta vez el archivo de anotación nuevo necesita de este encabezado especial que puedes modificar en la parte de `style` y elegir entre los estilos de coloreado 3,4 o 5.
+ 
+`!grouplabel style=5, color=pink, show=1, marginPCT=0.05, fontsize=14, fontcolor=white, fontitalic=0, textalign=middle, textorientation=horizontal, linewidth=2`
+`!op	0.8`
+
+Estos son los parámetros para poder tener anotación fuera de las ramas. Naturalmente puedes modificar muchas cosas, desde el estilo, color y tamaño de letra hasta el grosor de la misma, cámbialo como te convenga!
