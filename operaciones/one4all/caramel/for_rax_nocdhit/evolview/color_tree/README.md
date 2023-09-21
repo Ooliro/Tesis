@@ -90,3 +90,14 @@ _Este script lo denominaremos como chromation2_1.py_
 
 - En la versión 3 tampoco podemos visualizar el árbol en forma circular o sin raíz.
 
+### Comentarios finales 21/Sep/2023
+
+Por ahora este método funciona para colorear en Evolview, con un archivo de anotación final que sirve y (si la versión actual funcionara bien) puede ayudarnos a exportar los árboles en el fomrato que queramos, pero por ahora utilizaremos ITOL porque con Evolview hay muchos problemas. Además, 23 clados son demasiado para visualizar en un solo árbol y varios son redundantes, por lo que debemos reducirlos a al menos: *Cordados, artropodos y moluscos*, y cualquier otro clado mayor que no abarque los anteriores.
+
+Traducir los archivos de anotación a ITOL no debería ser tan difícil, en teoría `chromationV2_1.py` necesita solo de unos poco cambios para tener un archivo de anotación compatible con ITOL, asi que sólo queda hacer eso para tener árboles bonitos para mostrar.
+
+Sin embargo, para tener más de un árbol en el que hablemos de cuan alejados están Quitina y Hialuronano necesitamos un árbol nuevo con sólo las secuencias identificadas de Hialuronano **con una raíz de la secuencia de quitina más cercana a Hialuronano**, esto para darnos una idea de:
+
+1. Qué grupo filogenético es el más cercano
+2. Cuán lejos está este grupo filogenético
+3. Cómo se vería este árbol dado el hipotético escenario de que quitina fuera el antecesor de Hialuronano
