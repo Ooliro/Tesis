@@ -103,3 +103,22 @@ Sin embargo, para tener más de un árbol en el que hablemos de cuan alejados es
 1. Qué grupo filogenético es el más cercano
 2. Cuán lejos está este grupo filogenético
 3. Cómo se vería este árbol dado el hipotético escenario de que quitina fuera el antecesor de Hialuronano
+
+
+## Cuarto paso que no creí necesitar: Traducción de anotación a ITOL
+
+Los archivos de anotación de ITOL son diferentes. Nada especialmente complicado pero hay un detalle: **los archivos de anotación no pueden tener secuencias "vacias".** Es decir, cuando yo intento usar `chromationITOL.py` con las modificaciones necesarias para tener el archivo de anotación y darle colorsitos, ocurre un error porque hay secuencias que no están en el árbol, no puede asignar colores a ramas que no existen. 
+
+Tenemos el error de que algunas ramas "desaparecen" del árbol porque IQTree *elimina secuencias idénticas*. ¿Recuerdas que RAXML se quejaba de lo mismo? Al nosotros usar un alineamiento sin preprocesamiento con CD-HIT para eliminar secuencias idénticas tenemos un alineamientos con más de una secuencia "idéntica", aunque sabemos que ese supuesto duplicado sólo es la misma proteína pero en otro animal. Según la documentación, conserva como máximo 2 secuencias idénticas y el resto las descarta, otorgando un archivo de secuencias unicas con terminación ".fa.uniqueseq.phy" donde te da las secunecias que si forman parte del árbol.
+
+Este error no salía con Evolview, pero como está super inestable haremos esta mini-traducción a ITOL con sólo las secuencias únicas detectadas por IQTree. Esta traducción son dos partes:
+1. Filtrado de secuencias obtenidas en el pre-annotation (itool_annotation.txt salido de `pos_tree.py`) con base al archivo de secuencias únicas "uniqueseq.phy" para crear un nuevo archivo con **sólo las secuencias presentes en el árbol**.
+2. Coloreado con `chromationITOL.py` para tener los archivos de anotación esta vez con el formato para ITOL y sólo con las secuencias presentes.
+
+Para esto ya tenemos un antecedente, esencialmente el mismo proceso que hicimos para filtrar secuencias de HMMER contra los GTF: 
+
+Si el COD de pre-annotation está en uniqueseq.phy| Escribe la línea de pre-annotation a | [Nuevo archivo]
+
+Luego:
+
+[Nuevo archivo] es procesado por `chromationITOL.py` para nuestro archivo de anotación para ITOL con sólo las secuencias presentes en el árbol.
