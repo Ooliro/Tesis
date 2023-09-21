@@ -73,3 +73,20 @@ De nuevo, sólo ocupamos la primera y tercera columna, pero con la diferencia qu
 `!op	0.8`
 
 Estos son los parámetros para poder tener anotación fuera de las ramas. Naturalmente puedes modificar muchas cosas, desde el estilo, color y tamaño de letra hasta el grosor de la misma, cámbialo como te convenga!
+
+#### Corrección de errores
+
+_Este script lo denominaremos como chromation2_1.py_
+
+- Funciona a medias, tenía unos errores de redacción y daba resultados raros. Como nota importante recalco que _!grouplabel_ y los parámetros deben estar separados por un *tabulador*, de otro modo habrá errores al cargarlo en Evolview, y eso incluye al segundo parámetro de opacidad. 
+
+- Por ahora *tienes que editar la ruta absoluta de los archivos a usar* dentro del script, ten eso en cuenta.
+
+- Ahora crea dos archivos de salida: `color_ann` y `second_colorann`. El primero es el archivo que tiene tres columnas de COD,Clado y colores. El segundo archivo tiene sólo COD y color, junto con el encabezado que mencioné antes para poder ser reconocido como coloreado de grupos. **El segundo archivo es el que utilizamos para colorear en evolview.**
+
+- Hay que modificar el color de algunas letras para poder ver claramente qué tiene escrito, en algunos casos se pierde.
+
+- La versión en la que estuve probando estos scripts en **Evolview Ver. 3** porque la edición actual tiene muchos problemas. De primera, no puedo ni entrar a visualizar ni siquierea árboles de demostración. La versión 3 funciona para visualizar, pero para exportar o convertir el árbol en imágen o PDF no funciona. Mi solución para esto sigue en proceso, pero por ahora la opción que veo es hostear evolview en un cliente local... osea instalarlo en mi computadora pero no se aún.
+
+- En la versión 3 tampoco podemos visualizar el árbol en forma circular o sin raíz.
+
