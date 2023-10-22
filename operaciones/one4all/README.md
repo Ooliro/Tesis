@@ -12,3 +12,8 @@ Pondré aqui los scripts que necesitas para tres partes esenciales del trabajo:
   
 - Caramel (Sin script general - Abril 2023)
   + Listas para armar árboles filogenéticos
+
+- Jellybeans
+  + Secuencias semilla para HMM de sólo Hialuronano
+  + Alineamiento y subsecuente Modelo Oculto de Markov de las secuencias semilla
+  + Tablas de hits por dominios de HMMER resultado de la comparación del HMM de hialuronano con la base de datos completa del NCBI.
