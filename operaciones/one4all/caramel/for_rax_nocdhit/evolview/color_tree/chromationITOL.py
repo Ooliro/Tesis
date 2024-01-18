@@ -1,23 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Arguments
-# First: pre_annotation file (itool_annotation.txt)
+# Enter this as well while executing the pyhton script: pre_annotation file (itool_annotation.txt)
 
 # Important imports
-import sys
+#import sys
 #from pathlib import Path
 
 # Input file name
-#input_file = "/home/raulrosas/Documentos/IFC/lab/color_tree/cgchm_pretree/itool_annotation.txt"
-input_file = sys.argv[1]
-
+#input_file = sys.argv[1]
+input_file = "/home/raul/Documentos/IFC/repo/operaciones/one4all/caramel/for_rax_nocdhit/evolview/color_tree/cgchm_pretree/itool_annotation.txt"
+print("Archivo utilizado:", input_file)
 # Output file name
-#output_file = "/home/raulrosas/Documentos/IFC/lab/color_tree/cgchm_pretree/color_ann.txt"
-#output_dir= Path()  
-#output_file = output_dir + "/color_ann.txt"
-output_file = "color_ann.txt"
+output_file = "ITOL_color_ann.txt"
+
 # Create a dictionary to map values in the second column to the corresponding third column values
+# Here we also add the color code for ITOL as needed
 column_mapping = {
     "Mammalia": "label_background,#FF5733",
     "Actinopteri": "label_background,#47D147",
@@ -44,7 +42,6 @@ column_mapping = {
     "Testudines": "label_background,#33FFD6"
     # Add morre if needed
 }
-
 
 #Open the input and output files
 with open(input_file, "r") as infile, open(output_file, "w") as outfile:
