@@ -122,8 +122,3 @@ Si el COD de pre-annotation está en uniqueseq.phy| Escribe la línea de pre-ann
 Luego:
 
 [Nuevo archivo] es procesado por `chromationITOL.py` para nuestro archivo de anotación para ITOL con sólo las secuencias presentes en el árbol.
-
-### Comentarios
-
-1. Por ejemplo, utilizando `cromationITOL.py` en el archivo de anotación para cgchm el error que nos da ITOL es que no encuentra nodos, varios de ellos. En total conte 146 nodos, pero son más secuencias (1527/1800), no se si es porque ITOl no enumera TODOS los nodos o que.
-
