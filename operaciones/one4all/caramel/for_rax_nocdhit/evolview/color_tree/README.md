@@ -123,6 +123,31 @@ Luego:
 
 [Nuevo archivo] es procesado por `chromationITOL.py` para nuestro archivo de anotación para ITOL con sólo las secuencias presentes en el árbol.
 
+### Actualización para anotación en ITOL (Enero 2024)
+`referenceXuniques.py` es el script que toma como primer argumento el archivo de secuencias unicas y utilizadas en el árbol hecho con IQTREE (wawa.uniques.phy) y segundo el archivo "temporalmente" llamado itol_annotation.txt obtenido de `pos_tree.py` para tener una lista de COD:Clade que pasarás por `chromationITOL.py`para tener tus archivos de anotación/coloreado. 
+
+Usa el segundo archivo de referencia para filtrar sólo aquellas secuencias que si están en el árbol, y después de pasarlo por `chromation` obtenemos 2 archivos: primero uno "completo" con COD:Clade:color_annotation y un segundo que ya está formateado para sólo ser arrastrado a ITOL y colorear. Los nombres los tengo aún que cambiar pero reconocerás el archivo correcto porque tiene el formato de archivos de anotación de ITOL.
+
+Mi primera idea era utilizar el archivo de [_color_styles_](https://itol.embl.de/help/colors_styles_template.txt) para colorear porque **en teoría** es el que necesito para colorear cada rama con un color específico. PERO por alguna razón que no he descubierto mi archivo de anotación aunque no da errores tampoco colorea, ni siquiera manda mensaje de error por lo que pase a la segunda mejor opción: [_data_set_colorstrip_](https://itol.embl.de/help/dataset_color_strip_template.txt) que es esencialmente lo mismo pero con pequeños detalles. Uno de ellos es que puedo poner una "etiqueta" a cada _dataset_ que necesitemos, pero por las breves pruebas que hice, puedo asignar varios colores a la vez, pero las etiquetas solo puedo poner una por cada archivo de _datasets_.
+
+El formato de _data_sets_ es algo así:
+
+|DATASET_COLORSTRIP||
+|---|---|
+|#SEPARATOR|TAB|
+|#SEPARATOR|SPACE|
+|SEPARATOR |COMMA|
+|DATASET_LABEL,Banana|
+|COLOR,#FF0000|
+|DATA|
+|dmeC1,#FF8533|
+|dmeN2,#FF8533|
+|hsaH4,#FF5733|
+
+**Ignora el formato de tabla, es sólo para que en el MD no se vea sólo como una línea.
+
+La parte de "DATASET_LABEL" y "COLOR" son las cosas que mencionaba son sólo para un dataset, aún si pones otro nombre con las mismas líneas sólo toma en cuenta la primera, por lo que 
+
 ### Comentarios
 
 1. Por ejemplo, utilizando `cromationITOL.py` en el archivo de anotación para cgchm el error que nos da ITOL es que no encuentra nodos, varios de ellos. En total conte 146 nodos, pero son más secuencias (1527/1800), no se si es porque ITOl no enumera TODOS los nodos o que.
