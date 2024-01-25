@@ -11,6 +11,7 @@
 import pandas as pd
 import re
 import io
+import sys
 
 # Convertimos el archivo "uniques" a un formato más fácil de trabajar, bajo el mismo principio de whtspc4tab
 file_name = sys.argv[1]
@@ -28,7 +29,7 @@ temp_df=io.StringIO(pretty_tab)
 uniques = pd.read_csv(temp_df, skiprows=1, sep="\t", names=["COD","Sequence"] )
 
 # Cargamos la lista de referencia que tiene codigos y clados que pasaron y no pasaron el filtro de iqtree
-reference = sys.arg[2]
+reference = pd.read_csv(sys.argv[2], sep="\t",names=["COD","Clade"])
 #reference = pd.read_csv("cgchm_pretree/itool_annotation.txt", sep="\t", names=["COD","Clade"])
 
 # Combina los archivos sólo en los archivos que coincidan en la columna "COD"

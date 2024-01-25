@@ -146,9 +146,12 @@ El formato de _data_sets_ es algo así:
 
 **Ignora el formato de tabla, es sólo para que en el MD no se vea sólo como una línea.
 
-La parte de "DATASET_LABEL" y "COLOR" son las cosas que mencionaba son sólo para un dataset, aún si pones otro nombre con las mismas líneas sólo toma en cuenta la primera, por lo que 
+La parte de "DATASET_LABEL" y "COLOR" son las cosas que mencionaba son sólo para un dataset, aún si pones otro nombre con las mismas líneas sólo toma en cuenta la etiqueta por lo que no sirve de mucho armar el arbol con este formato. Pero si funciona para al menos sacar las imagenes.
+
 
 ### Comentarios
 
 1. Por ejemplo, utilizando `cromationITOL.py` en el archivo de anotación para cgchm el error que nos da ITOL es que no encuentra nodos, varios de ellos. En total conte 146 nodos, pero son más secuencias (1527/1800), no se si es porque ITOl no enumera TODOS los nodos o que.
+2. Parece que **no importa para nada que no encuentre nodos**, ITOl igual puede hacer el coloreado sin problemas pero entonces porque no coloreaba desde el inicio? Probablemente porque o hice mal el primer archivo de anotacion o porque simplemente el COLOR_TREE no funciona por alguna razon ajena a mi.
+3. El archivo de anotacion por DATASETS funciona bien, de hecho aunque da los errores de "X node not found" no importa, aun puede colorear las ramas. Pero ya que podemos cargar mas de un dataset podemos visualizar mas de un clado por separado y bien distinguidos.
 
