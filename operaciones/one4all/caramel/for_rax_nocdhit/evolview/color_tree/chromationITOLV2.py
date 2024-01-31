@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # Argumentos
-# Primero el archivo uniques que sale de chromationITOLV2.py
+# Primero el archivo uniques que sale de referenceXuniques.py
 
 # Important imports
 import sys
@@ -45,12 +45,10 @@ column_mapping = {
 
 #Open the input and output files
 with open(input_file, "r") as infile, open(output_file, "w") as outfile:
-#    outfile.write(header_groulabel+"\n")
-#    outfile.write(header_op+"\n")
     for line in infile:
         # Split the line into columns based on whitespace (adjust as needed)
         columns = line.strip().split()
-        
+
         # Check if there are at least two columns
         if len(columns) >= 2:
             value_in_second_column = columns[1]
@@ -66,22 +64,22 @@ with open(input_file, "r") as infile, open(output_file, "w") as outfile:
 
 print("Procesado completo. Salida escrita a:", output_file)
 
-#Headers to identify as grouplabel. There's a total of 5 styles, choose whatever
+#Headers to identify as grouplabel. Here we use the headers that correspond to the DATASETS annotation files, be sure to use the correct one for your use
+
+#DATASET_COLORSTRIP STYLE, to add a strip outside the branches
 header_identifier="DATASET_COLORSTRIP\nSEPARATOR COMMA\nDATASET_LABEL,Clades\nCOLOR,#FF5733\nDATA\n"
 
-#second_output= "/home/raulrosas/Documentos/IFC/lab/color_tree/cgchm_pretree/second_color_ann.txt"
-#second_output = output_dir + "/second_colorann.txt"
+#DATASET_STYLE STYLE (heh), to change color and style of the branch inside the tree
+#header_identifier="DATASET_STYLE\nSEPARATOR COMMA\nDATASET_LABEL,CATZ\nCOLOR,#ffff00\nDATA\n"
+
 second_output = "ITOL_color_dataset.txt"
 with open(output_file, "r") as annotation, open(second_output,"w") as second_annotation:
     second_annotation.write(header_identifier)
-#    second_annotation.write(header_op+"\n")
-    
     for line in annotation:
         columns = line.strip().split()
         if len(columns) >=3:
             col1=columns[0]
             col3=columns[2]
             second_annotation.write(f"{col1},{col3}\n")
-            
 
 print("Segundo procesado completo. Salida escrita a:", second_output)
