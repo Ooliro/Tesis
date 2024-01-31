@@ -1,0 +1,24 @@
+Mammalia	Chordata
+Actinopteri	Chordata
+Amphibia	Chordata
+Anthozoa	Cnidaria
+Arachnida	Arthropoda
+Ascidiacea	Chordata
+Aves	Chordata
+Bivalvia	Mollusca
+Branchiopoda	Arthropoda
+Cephalopoda	Mollusca
+Ceratodontiformes	Chordata
+Chondrichthyes	Chordata
+Chromadorea	Nematoda
+Cladistia	Chordata
+Gastropoda	Mollusca
+Hexanauplia	Arthropoda
+Hydrozoa	Cnidaria
+Hyperoartia	Chordata
+Insecta	Arthropoda
+Lepidosauria	Chordata
+Leptocardii	Chordata
+Malacostraca	Arthropoda
+Testudines	Chordata
+
