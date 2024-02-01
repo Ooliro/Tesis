@@ -207,3 +207,13 @@ with open(simple_output_file, "r") as infile, open(simplified_output_file,"w") a
             outfile.write(f"{cod}\t{color}\t{sim_clade}\n")
 
 print("Archivos de clados simplificados escrita a:", simplified_output_file)
+
+
+import pandas as pd
+input = "ITOL_color_reference.txt"
+color_reference_file = pd.read_csv(input, sep = "\t", header = None)
+chitin_search = color_reference_file[color_reference_file[0].str.contains("C")]
+chitin_search.to_csv("chitin_list.txt", index = False, sep = "\t", header = ["COD","part_clade","part_color"])
+chitin_file = pd.read_csv("chitin_list.txt", sep = "\t")
+chitin_file["C_Color"]= "#b545e"
+chitin_file[["COD","C_color"]].to_csv("chitin_coloring.txt", index = False, sep ="\t")
