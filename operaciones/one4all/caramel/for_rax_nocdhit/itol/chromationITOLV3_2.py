@@ -120,11 +120,11 @@ long_extended_clades = "extended_clades.txt" # Reference file with 4 columns, fr
 
 # This is so you can color the simpler clades!
 third_column_mapping = {
-    "Arthropoda":"#fcba03",
-    "Chordata":"#fc2c03",
-    "Cnidaria":"#03d7fc",
-    "Mollusca":"#017d0e",
-    "Nematoda":"#7d0173"
+    "Arthropoda":"#F7C1BB",
+    "Chordata":"#885A5A",
+    "Cnidaria":"#353A47",
+    "Mollusca":"#84B082",
+    "Nematoda":"#DC136C"
 }
 
 with open(long_extended_clades,"r") as infile, open(simple_output_file,"w") as outfile:
@@ -157,13 +157,13 @@ elements_count = len(unique_labels)
 # Content for the ds_legend_colors, assuming the main clades are the one in the third_column_mapping
 # Arthtopoda, Chordata, Cnidaria, Mollusca & Nematoda (5 total)
 color_mapping = {
-    1:["#fcba03"],
-    2:["#fcba03","#fc2c03"],
-    3:["#fcba03","#fc2c03","#03d7fc"],
-    4:["#fcba03","#fc2c03","#03d7fc","#017d0e"],
-    5:["#fcba03","#fc2c03","#03d7fc","#017d0e","#7d0173"],
-    6:["#fcba03","#fc2c03","#03d7fc","#017d0e","#7d0173", "#0c34fa"],
-    7:["#fcba03","#fc2c03","#03d7fc","#017d0e","#7d0173", "#0c34fa","#d60cfa"],
+    1:["#F7C1BB"],
+    2:["#F7C1BB","#885A5A"],
+    3:["#F7C1BB","#885A5A","#353A47"],
+    4:["#F7C1BB","#885A5A","#353A47","#84B082"],
+    5:["#F7C1BB","#885A5A","#353A47","#84B082","#DC136C"],
+    6:["#F7C1BB","#885A5A","#353A47","#84B082","#DC136C", "#0c34fa"],
+    7:["#F7C1BB","#885A5A","#353A47","#84B082","#DC136C", "#0c34fa","#d60cfa"],
 }
 
 label_hex_col = color_mapping.get(elements_count,['#000000']*elements_count)
@@ -178,10 +178,10 @@ scale_line = '\t'.join(['1']*elements_count) # USABLE VAR
 # File headers for DATASET_COLORSTRIP format, outside the branches
 
 # First: Obligatory stuff, you HAVE to change the separator according to your data. Then LABEL, COLOR can be whatever you want.
-ds_colors_header = "DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tCLADES\nCOLOR\t#ffff00\n"
+ds_colors_header = "DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tSimplified_Clades\nCOLOR\t#ffff00\n"
 
 #Second: This will affect the legend atop your tree, particulary it's position and name/title
-ds_legend_header = "LEGEND_TITLE\tCOLORED_CLADES\nLEGEND_POSITION_X\t250\nLEGEND_POSITION_Y\t100\nLEGEND_HORIZONTAL\t0\n"
+ds_legend_header = "LEGEND_TITLE\tCOLORED_CLADES\nLEGEND_POSITION_X\t100\nLEGEND_POSITION_Y\t100\nLEGEND_HORIZONTAL\t0\n"
 
 # Third: Shapes for your legend's figures. You can use either one from 1-5, or use just one type, up to you.
 ds_legend_shapes = "LEGEND_SHAPES\t"+ shape_line + "\n"
@@ -199,7 +199,7 @@ ds_legend_shape_scales = "LEGEND_SHAPE_SCALES\t" + scale_line + "\n"
 ds_data_delimiter_head = "DATA\n"
 
 # Actual DATA writing
-simplified_output_file = "ITOL_simplified_clades.txt" # New file
+simplified_output_file = "ITOL_simplified_color_dataset.txt" # New file
 
 with open(simple_output_file, "r") as infile, open(simplified_output_file,"w") as outfile:
     outfile.write(ds_colors_header)
@@ -221,23 +221,37 @@ print("Archivos de clados simplificados escrita a:", simplified_output_file)
 
 # Creating CHN colored datasets
 
-# Chitin
-input = "ITOL_color_reference.txt"
-color_reference_file = pd.read_csv(input, sep = "\t", header = None)
-chitin_search = color_reference_file[color_reference_file[0].str.contains("C")]
-chitin_search.to_csv("chitin_list.txt", index = False, sep = "\t", header = ["COD","part_clade","part_color"])
-chitin_file = pd.read_csv("chitin_list.txt", sep = "\t")
-chitin_file["C_Color"]= "#ff4000" #orange
-chitin_file[["COD","C_color"]].to_csv("chitin_coloring.txt", index = False, sep ="\t")
-# Hyaluronan
-hyl_search = color_reference_file[color_reference_file[0].str.contains("H")]
-hyl_search.to_csv("hyl_list.txt", index = False, sep = "\t", header = ["COD","part_clade","part_color"])
-hyl_file = pd.read_csv("hyl_list.txt", sep = "\t")
-hyl_file["C_Color"]= "#46ff03" #green
-hyl_file[["COD","C_color"]].to_csv("hyl_coloring.txt", index = False, sep ="\t")
-# Unidentified
-unid_search = color_reference_file[color_reference_file[0].str.contains("C")]
-unid_search.to_csv("unidentified_list.txt", index = False, sep = "\t", header = ["COD","part_clade","part_color"])
-unid_file = pd.read_csv("unidentified_list.txt", sep = "\t")
-unid_file["C_Color"]= "#fff203" #yellow
-unid_file[["COD","C_color"]].to_csv("unidentified_coloring.txt", index = False, sep ="\t")
+second_input = "ITOL_simplified_color_dataset.txt"
+chn_dataframe = pd.read_csv(second_input, sep = "\t", header= None, skiprows=13,names = ["COD","HEX","Clade"])
+chn_dataframe["CEP"] = [""]*len(chn_dataframe)
+chn_dataframe.loc[chn_dataframe['COD'].str.contains('C'), 'CEP'] = "#B5D5C5" #light green
+chn_dataframe.loc[chn_dataframe['COD'].str.contains('H'), 'CEP'] = "#B08BBB" #pastel purple
+chn_dataframe.loc[chn_dataframe['COD'].str.contains('N'), 'CEP'] = "#ECA869" #pastel orange
+chn_dataframe.to_csv('CHN_noheader.txt', sep = '\t', header = None, index = None)
+
+# ITOL colored dataset header
+chn_header_info = "DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tC|H|N DISTRIBUTION\nCOLOR\t#F5F5DC\n"
+chn_header_legend = "LEGEND_TITLE\tCOLORED_PROTEINS\nLEGEND_POSITION_X\t100\nLEGEND_POSITION_Y\t170\nLEGEND_HORIZONTAL\t0\n"
+chn_header_shapes = "LEGEND_SHAPES\t2\t2\t2\n"
+chn_header_colors = "LEGEND_COLORS\t#B5D5C5\t#B08BBB\t#ECA869\n"
+chn_header_labels = "LEGEND_LABELS\tQuitina\tHialuronano\tS/N\n"
+chn_header_scales = "LEGEND_SHAPE_SCALES\t1\t1\t1\n"
+chn_header_data_delimiter = "DATA\n"
+
+# Actual data writing
+chn_in = "CHN_noheader.txt"
+chn_out = "CHN_with_header.txt"
+with open(chn_in,"r") as input, open(chn_out,"w") as output:
+    output.write(chn_header_info)
+    output.write(chn_header_legend)
+    output.write(chn_header_shapes)
+    output.write(chn_header_colors)
+    output.write(chn_header_labels)
+    output.write(chn_header_scales)
+    output.write(chn_header_data_delimiter)
+    for line in input:
+        columns = line.strip().split()
+        if len(columns)>= 4:
+            cod = columns[0]
+            color = columns[3]
+            output.write(f"{cod}\t{color}\n")

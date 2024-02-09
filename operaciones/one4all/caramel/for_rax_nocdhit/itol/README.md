@@ -37,3 +37,19 @@ Cosas extra:
 - Árboles de (colores) sólo quitina y hialuronano
 - Árboles con ramas principales coloreadas (se puede hacer desde ITOL, al igual que dar un intervalo de _bootstrap_ a mostrar)
 
+
+
+# Versión final `chromation3_2.py`
+
+USO:
+
+`$ ipython chromation3_2.py [itool_anotation.txt]`
+
+NOTAS: 
+- Recuerda que `itol_annotation.txt` es un nombre temporal... que no he cambiado porque asi sale de `pos_tree.py`. Ese es el archivo que utilizamos para generar nuestros archivos de anotación.
+	+ En todo caso también puede utilizar el archivo resultado de `referenceXuniques.py`, que utiliza el archivo _uniques.phy_ de IQTree.
+- Esta útlima versión agrega:
+	+ Encabezados para cargar directamente los archivos `ITOL_simplified_color_dataset.txt` y `CHN_with_header.txt`que contienen la clasificación simplificada de clados y la clasificación por tipo de proteína, respectivamente.
+	+ Posibilidad de cambiar los colores y etiquetas si así se desea de una manera relativamente fácil.
+	
+- Aún da el error de que algunas secuencias no las encuentra, y aunque lo pases por `referenceXuniques.py` terminas con coloreados incompletos. (Sigo sin saber porque :v)
