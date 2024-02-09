@@ -39,11 +39,11 @@ Cosas extra:
 
 
 
-# Versión final `chromation3_2.py`
+# Versión final `chromation4.py`
 
 USO:
 
-`$ ipython chromation3_2.py [itool_anotation.txt]`
+`$ ipython chromation4.py [itool_anotation.txt]`
 
 NOTAS: 
 - Recuerda que `itol_annotation.txt` es un nombre temporal... que no he cambiado porque asi sale de `pos_tree.py`. Ese es el archivo que utilizamos para generar nuestros archivos de anotación.
@@ -53,3 +53,14 @@ NOTAS:
 	+ Posibilidad de cambiar los colores y etiquetas si así se desea de una manera relativamente fácil.
 	
 - Aún da el error de que algunas secuencias no las encuentra, y aunque lo pases por `referenceXuniques.py` terminas con coloreados incompletos. (Sigo sin saber porque :v)
+
+### Lista clados clasificados como "Otros"
+- Cestoda - [Lophotrochozoa] Platyhelminthes
+- Clitellata - [Lophotrochozoa] Annelida
+- Crinoidea - [Echinodermata] Pelmatozoa
+- Demospongiae - Porifera
+- Echinoidea - [Echinodermata] Eleutherozoa
+- Enteropneusta - Hemichordata
+- Lingulata - [Lophotrochozoa] Brachiopoda
+- Priapulimorpha - Ecdysozoa
+- Trichoplacidae - Placozoa
