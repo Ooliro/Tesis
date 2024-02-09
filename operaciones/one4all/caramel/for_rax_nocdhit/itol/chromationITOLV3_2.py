@@ -6,6 +6,7 @@
 
 # Important imports
 import sys
+import pandas as pd
 
 # Input file name
 input_file = sys.argv[1]
@@ -143,7 +144,38 @@ with open(long_extended_clades,"r") as infile, open(simple_output_file,"w") as o
             # If there are less than 4 columns, write the line as is
             outfile.write(line)
 
-# Headers for DATASET_COLORSTRIP, outside the branches
+# Content for the ds_legend_label variable
+source_file = "extended_simple_clades.txt"
+pd_file = pd.read_csv(source_file, sep = "\t", header = None)
+interest_column = pd_file.iloc[:,3]
+unique_labels = sorted(interest_column.unique())
+result_labels = '\t'.join(unique_labels) # Usable VAR
+
+# Content count for colors, shapes and scales
+elements_count = len(unique_labels)
+
+# Content for the ds_legend_colors, assuming the main clades are the one in the third_column_mapping
+# Arthtopoda, Chordata, Cnidaria, Mollusca & Nematoda (5 total)
+color_mapping = {
+    1:["#fcba03"],
+    2:["#fcba03","#fc2c03"],
+    3:["#fcba03","#fc2c03","#03d7fc"],
+    4:["#fcba03","#fc2c03","#03d7fc","#017d0e"],
+    5:["#fcba03","#fc2c03","#03d7fc","#017d0e","#7d0173"],
+    6:["#fcba03","#fc2c03","#03d7fc","#017d0e","#7d0173", "#0c34fa"],
+    7:["#fcba03","#fc2c03","#03d7fc","#017d0e","#7d0173", "#0c34fa","#d60cfa"],
+}
+
+label_hex_col = color_mapping.get(elements_count,['#000000']*elements_count)
+hex_line = '\t'.join(label_hex_col) # USABLE VAR
+
+# Content for ds_legend_shapes
+shape_line = '\t'.join(['1']*elements_count) # USABLE VAR
+
+#Content for ds_legend_shape_scales
+scale_line = '\t'.join(['1']*elements_count) # USABLE VAR
+
+# File headers for DATASET_COLORSTRIP format, outside the branches
 
 # First: Obligatory stuff, you HAVE to change the separator according to your data. Then LABEL, COLOR can be whatever you want.
 ds_colors_header = "DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tCLADES\nCOLOR\t#ffff00\n"
@@ -152,16 +184,16 @@ ds_colors_header = "DATASET_COLORSTRIP\nSEPARATOR TAB\nDATASET_LABEL\tCLADES\nCO
 ds_legend_header = "LEGEND_TITLE\tCOLORED_CLADES\nLEGEND_POSITION_X\t250\nLEGEND_POSITION_Y\t100\nLEGEND_HORIZONTAL\t0\n"
 
 # Third: Shapes for your legend's figures. You can use either one from 1-5, or use just one type, up to you.
-ds_legend_shapes = "LEGEND_SHAPES\t1\t2\t3\t4\t5\n"
+ds_legend_shapes = "LEGEND_SHAPES\t"+ shape_line + "\n"
 
 # Fourth: Colors for your legend's figures. This HAVE to match the ones you use in your actual data so it is useful of something
-ds_legend_colors = "LEGEND_COLORS\t#fcba03\t#fc2c03\t#017d0e\t#7d0173\t#03d7fc\n"
+ds_legend_colors = "LEGEND_COLORS\t" + hex_line + "\n"
 
 #Fifth: Labels for your legend's figure. This HAVE to match your actual data so you can tell them apart
-ds_legend_lables = "LEGEND_LABELS\tArthropoda\tChordata\tMollusca\tNematoda\tCnidaria\n"
+ds_legend_lables = "LEGEND_LABELS\t" + result_labels + '\n'
 
 # Sixth: Scale/size of the shapes, keeping it in one is good enough.
-ds_legend_shape_scales = "LEGEND_SHAPE_SCALES\t1\t1\t1\t1\t1\n"
+ds_legend_shape_scales = "LEGEND_SHAPE_SCALES\t" + scale_line + "\n"
 
 # Final: Delimiter for actual data
 ds_data_delimiter_head = "DATA\n"
@@ -187,12 +219,25 @@ with open(simple_output_file, "r") as infile, open(simplified_output_file,"w") a
 
 print("Archivos de clados simplificados escrita a:", simplified_output_file)
 
+# Creating CHN colored datasets
 
-import pandas as pd
+# Chitin
 input = "ITOL_color_reference.txt"
 color_reference_file = pd.read_csv(input, sep = "\t", header = None)
 chitin_search = color_reference_file[color_reference_file[0].str.contains("C")]
 chitin_search.to_csv("chitin_list.txt", index = False, sep = "\t", header = ["COD","part_clade","part_color"])
 chitin_file = pd.read_csv("chitin_list.txt", sep = "\t")
-chitin_file["C_Color"]= "#b545e"
+chitin_file["C_Color"]= "#ff4000" #orange
 chitin_file[["COD","C_color"]].to_csv("chitin_coloring.txt", index = False, sep ="\t")
+# Hyaluronan
+hyl_search = color_reference_file[color_reference_file[0].str.contains("H")]
+hyl_search.to_csv("hyl_list.txt", index = False, sep = "\t", header = ["COD","part_clade","part_color"])
+hyl_file = pd.read_csv("hyl_list.txt", sep = "\t")
+hyl_file["C_Color"]= "#46ff03" #green
+hyl_file[["COD","C_color"]].to_csv("hyl_coloring.txt", index = False, sep ="\t")
+# Unidentified
+unid_search = color_reference_file[color_reference_file[0].str.contains("C")]
+unid_search.to_csv("unidentified_list.txt", index = False, sep = "\t", header = ["COD","part_clade","part_color"])
+unid_file = pd.read_csv("unidentified_list.txt", sep = "\t")
+unid_file["C_Color"]= "#fff203" #yellow
+unid_file[["COD","C_color"]].to_csv("unidentified_coloring.txt", index = False, sep ="\t")
