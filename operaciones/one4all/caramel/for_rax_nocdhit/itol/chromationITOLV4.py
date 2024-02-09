@@ -79,7 +79,7 @@ with open(input_file, "r") as infile, open(output_file, "w") as outfile:
             # If there are less than two columns, just write the line as is
             outfile.write(line)
 
-print("Procesado completo. Salida escrita a:", output_file)
+print("Primer procesado completo. Salida escrita a:", output_file)
 
 extended_clade_file = "extended_clades.txt" # New file
 extended_in_file = "ITOL_color_reference.txt" # Reference file from first mapping
@@ -175,6 +175,8 @@ with open(long_extended_clades,"r") as infile, open(simple_output_file,"w") as o
             # If there are less than 4 columns, write the line as is
             outfile.write(line)
 
+print("Segundo procesado completo. Salida escrita a:", simple_output_file)
+
 # Content for the ds_legend_label variable
 source_file = "extended_simple_clades.txt"
 pd_file = pd.read_csv(source_file, sep = "\t", header = None)
@@ -247,8 +249,7 @@ with open(simple_output_file, "r") as infile, open(simplified_output_file,"w") a
             color = columns[4]
             sim_clade = columns[3]
             outfile.write(f"{cod}\t{color}\t{sim_clade}\n")
-
-print("Archivos de clados simplificados escrita a:", simplified_output_file)
+print("Tercer procesado completo. Salida escrita a:", simplified_output_file)
 
 # Creating CHN colored datasets
 
@@ -286,3 +287,7 @@ with open(chn_in,"r") as input, open(chn_out,"w") as output:
             cod = columns[0]
             color = columns[3]
             output.write(f"{cod}\t{color}\n")
+
+print("Fin del procesado")
+print("Archivo para colorear por datasets de clados simplificados:", simplified_output_file)
+print("Archivo para colorear por datasets de proteínas C|H|NA:",chn_out)
